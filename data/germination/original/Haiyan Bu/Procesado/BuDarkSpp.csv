@@ -1,0 +1,634 @@
+ID,Family,Genus,Species,Life form,Longivity,dispersal mode,alditude (m)
+507,Apiaceae,Angelica L.,Angelica laxifoliata Diels,F,P,wind,2000
+505,Apiaceae,Angelica L.,Angelica wulsiniana Wolff,F,P,wind,3100
+30,Apiaceae,Anthriscus Hoffm.,Anthriscus sylvestris (L.) Hoffm.,F,B/P,wind,2700
+852,Apiaceae,Bupleurum Linn.,Bupleurum commelynoideum ,F,P,unassisted,3550
+353,Apiaceae,Bupleurum Linn.,Bupleurum commelynoideum Var. flaviflorum ,F,P,unassisted,2100
+520,Apiaceae,Bupleurum Linn.,Bupleurum pusillum,F,P,unassisted,3100
+592,Apiaceae,Bupleurum Linn.,Bupleurum smithii var. parvifolium,F,P,unassisted,3500
+24.02,Apiaceae,Carlesia Dunn,Carlesia sinensis Dunn,F,P,unassisted,2700
+24.03,Apiaceae,Carlesia Dunn,Carlesia sp.,F,P,unassisted,3456
+1282,Apiaceae,Carum L.,Carum buriaticum ,F,P,unassisted,2100
+24.04,Apiaceae,Carum L.,Carum buriaticum,F,P,unassisted,3500
+24.06,Apiaceae,Carum L.,Carum carvi L.,F,P,unassisted,3050
+24.07,Apiaceae,Daucus Linn.,Daucus carota,F,B,unassisted,3050
+812,Apiaceae,Heracleum linn.,Heracleum millefolium ,F,P,wind,3050
+395,Apiaceae,Heracleum linn.,Heracleum mollendorffii ,F,P,wind,2200
+351,Apiaceae,Heracleum linn.,Heracleum yungningense,F,P,wind,2100
+323,Apiaceae,Ligusticum Linn.,Ligusticum sp,F,P,wind,3000
+548,Apiaceae,Ligusticum Linn.,Ligusticum thomsonii C.B.Clarke,F,P,wind,3100
+486,Apiaceae,Notopterygium Boiss,Netoptergium forbesii de Boiss.,F,P,wind,2000
+51.13,Apiaceae,Notopterygium Boiss,Notopterygium incisum Ting(ex Chang),F,P,wind,3500
+201,Apiaceae,Peucedanum L.,Peucedanum praeruptorum Dunn,F,P,wind,2400
+1189,Apiaceae,Peucedanum L.,Peucedanum sp,F,P,wind,2500
+1308,Apiaceae,Pimpinella L?,Pimpinella smithii Wolff,F,P,unassisted,2300
+24.09,Apiaceae,Pleurospermum Hoffm.,Pleurospermum camtschatium Hoffm.,F,P,unassisted,3500
+89,Apiaceae,Pleurospermum Hoffm.,Pleurospermum crassicaule Woff,F,P,unassisted,3300
+709,Apiaceae,Pleurospermum Hoffm.,Pleurospermum prattii Woff,F,P,unassisted,3850
+24.05,Apiaceae,Saposhnikovia Schischk.,Saposhnikovia divaricata(Turcz.)Schischk.,F,P,wind,3300
+13.28,Apiaceae,Seseli L.,Seseli seseloides(Fisch.et Mey.),F,P,wind,2250
+60.09,Apiaceae,Seseli L.,Seseli squarrulosum,F,P,wind,2200
+26,Apiaceae,Sphallerocarpus Bess.ex DC.,Sphallerocarpus gracilis (Bess.) K.-Pol,F,P,unassisted,2700
+51.03,Apiaceae,Torilis Adans,Torilis scabra,F,A/P,wind,2400
+408,Apiaceae,,Apiaceae sp.,F,P,wind,2200
+,Araliaceae,Acanthopanax(Deche.et Planch.)Miq.,Acanthopanax senticosus,w,P,unassisted,3000
+,Araliaceae,Acanthopanax(Deche.et Planch.)Miq.,Acanthopanax setchuenensis,w,P,unassisted,3000
+287,Asteraceae,Achillea L.,Achillea acuminata(Ledeb.)Sch.-Bip.,F,P,wind,3000
+13.57,Asteraceae,Ajania Poljark.,Ajania fruticolosa(Ledeb.)Poljark.,w,P,wind,2600
+13.74,Asteraceae,Ajania Poljark.,Ajania sp.,w,P,wind,3100
+13.66,Asteraceae,Ajania Poljark.,Ajania tenuifolia (Jacq.) Tzvel.,F,P,wind,3050
+1286,Asteraceae,Anaphalis DC.,Anaphalis hancockii Maxim.,F,P,wind,2800
+666,Asteraceae,Anaphalis DC.,Anaphalis lactea Maxim.,F,P,wind,3500
+924,Asteraceae,Anaphalis DC.,Anaphalis margaritacea(Linn.)Benth.et Hook.f.,F,P,wind,2200
+13.24,Asteraceae,Artemisia Linn.,Artemisia desetorum Spreng.,F,P,wind,3100
+13.03,Asteraceae,Artemisia Linn.,Artemisia gmelinii Web.ex Stechm ,F,P,wind,2300
+13.27,Asteraceae,Artemisia Linn.,Artemisia hedinii Ostenf.,F,A,wind,3450
+13.21,Asteraceae,Artemisia Linn.,Artemisia siversiana Ehrhart ex Willd.,F,A/B,wind,2400
+1002,Asteraceae,Artemisia Linn.,Artemisia sp.,F,P,wind,3600
+13.71,Asteraceae,Aster Linn.,Aster alpinus Linn.,F,P,wind,4000
+13.11,Asteraceae,Aster Linn.,Aster sp1.,F,P,wind,3100
+13.43,Asteraceae,Aster Linn.,Aster sp2.,F,P,wind,3500
+13.07,Asteraceae,Aster Linn.,Aster sp3.,F,P,wind,2200
+60.02,Asteraceae,Aster Linn.,Aster sp4.,F,P,wind,2400
+1314,Asteraceae,Aster Linn.,Aster sp5.,F,P,wind,2300
+13.82,Asteraceae,Cacalia Linn.,Cacalia deltophylla(Maxim.)Mattf.,F,P,wind,3000
+13.8,Asteraceae,Cacalia Linn.,Cacalia roborowskii(Maxim.)Ling,F,P,wind,2300
+13.06,Asteraceae,Cacalia Linn.,Cacalia sp1,F,P,wind,2700
+13.68,Asteraceae,Cacalia Linn.,Cacalia sp2,F,P,wind,2000
+1064,Asteraceae,Cacalia Linn.,Cacalia tangutica ,F,P,wind,2600
+13.02,Asteraceae,Carduus Linn.,Carduus crispus ,F,A/B,wind,2400
+13.15,Asteraceae,Carduus Linn.,Carduus sp.,F,A/B,wind,3520
+13.38,Asteraceae,Carpesium Linn.,Carpesium cernuum Linn.,F,P,wind,2800
+360,Asteraceae,Carpesium Linn.,Carpesium lipskyi Winkl,F,P,wind,2100
+51.14,Asteraceae,Cephalanoplos Necker,Cephalanoplos segetum,F,P,wind,2950
+13.48,Asteraceae,Cirsium Mill.,Cirsium japonicum,F,P,wind,2900
+1007,Asteraceae,Cirsium Mill.,Cirsium leo Nakai et Kitag.,F,P,wind,3600
+257,Asteraceae,Cirsium Mill.,Cirsium shansiense Petrak,F,P,wind,2800
+13.52,Asteraceae,Cremanthodium Benth.,Cremanthodium brunneopilosum,F,P,wind,3450
+13.36,Asteraceae,Cremanthodium Benth.,Cremanthodium Lineare Maxim.,F,P,wind,3600
+13.39,Asteraceae,Erigeron Linn.,Erigeron acer Linn.,F,B,wind,3300
+13.72,Asteraceae,Erigeron Linn.,Erigeron sp,F,B,wind,2940
+51,Asteraceae,Heteropappus Less.,Heteropappus crenatifolius (Hand.-Mazz.) Griers,F,A/B,wind,2900
+13.55,Asteraceae,Heteropappus Less.,Heteropappus hispidus(Thunb.)Less.,F,A/B,wind,2800
+915,Asteraceae,Leibnitzia Cass.,Leibnitzia anandria(Linn.)Nakai,F,P,wind,3500
+13.85,Asteraceae,Leontopodium R.Br.,Leontopodium calocephalum,F,P,wind,4100
+1038,Asteraceae,Leontopodium R.Br.,Leontopodium chuii Hand.-Mazz.,F,P,wind,3600
+13.25,Asteraceae,Leontopodium R.Br.,Leontopodium franchetii Beauv.,F,P,wind,3050
+1039,Asteraceae,Leontopodium R.Br.,Leontopodium leonntopodicides (Willd.) Beauv.,F,P,wind,3600
+1031,Asteraceae,Leontopodium R.Br.,Leontopodium microphyllum Hayata,F,P,wind,3550
+13.12,Asteraceae,Leontopodium R.Br.,Leontopodium sp1.,F,P,wind,3600
+13.49,Asteraceae,Leontopodium R.Br.,Leontopodium sp2.,F,P,wind,2800
+13.9,Asteraceae,Leontopodium R.Br.,Leontopodium sp3.,F,P,wind,3101
+788,Asteraceae,Leontopodium R.Br.,Leontopodium sp4.,F,P,wind,4000
+13.31,Asteraceae,Ligularia Cass.,Ligularia przewalskii(Maxim.)Diels,F,P,wind,3050
+13.53,Asteraceae,Ligularia Cass.,Ligularia virgaurea(Maxim.)Mattf.,F,P,wind,3500
+13.34,Asteraceae,Onopordum L.,Cephalanoplos sagetum(Bunge)Kitam.,F,B,wind,3100
+13.5,Asteraceae,Picris Linn.,Picris hieracioides Linn.subsp.japonica Krylv.,F,B,wind,2700
+13.46,Asteraceae,Saussurea DC.,Saussurea bodinieri Levl,F,P,wind,2800
+13.63,Asteraceae,Saussurea DC.,Saussurea graminea Dunn,F,P,wind,4000
+13.7,Asteraceae,Saussurea DC.,Saussurea hieracioides Hook.f.,F,P,wind,3500
+13.62,Asteraceae,Saussurea DC.,Saussurea iodostegia Hance,F,P,wind,3500
+13.87,Asteraceae,Saussurea DC.,Saussurea neofranchetii Lipsch.,F,P,wind,3500
+13.58,Asteraceae,Saussurea DC.,Saussurea nigrescens Maxim.,F,P,wind,3050
+13.29,Asteraceae,Saussurea DC.,Saussurea salicifolia(Linn.)DC.,F,P,wind,3600
+13.54,Asteraceae,Saussurea DC.,Saussurea sp1.,F,P,wind,3050
+13.19,Asteraceae,Saussurea DC.,Saussurea sp2.,F,P,wind,4000
+13.6,Asteraceae,Saussurea DC.,Saussurea sp3.,F,P,wind,2800
+960,Asteraceae,Saussurea DC.,Saussurea sp4.,F,P,wind,2200
+13.51,Asteraceae,Saussurea DC.,Saussurea sp5.,F,P,wind,3100
+13.2,Asteraceae,Senecio Linn.,Senecio argunensis Turcz.,F,P,wind,2900
+13.75,Asteraceae,Senecio Linn.,Senecio diversipinnus ling,F,P,wind,3100
+50,Asteraceae,Senecio Linn.,Senecio sp.,F,P,wind,2900
+13.64,Asteraceae,Senecio Linn.,Senecio dubius Ledeb,F,A,wind,2940
+13.69,Asteraceae,Senecio Linn.,Senecio flammeus Turcz.ex DC,F,P,wind,3100
+13.84,Asteraceae,Senecio Linn.,Senecio sp.,F,P,wind,2350
+1164,Asteraceae,Senecio Linn.,Senecio thianshanicus ,F,P,wind,2800
+13.45,Asteraceae,Serratula Linn.,Serratula centauroides Linn.,F,P,wind,2800
+13.32,Asteraceae,Serratula Linn.,Serratula sp,F,P,wind,3000
+13.79,Asteraceae,Sonchus Linn.,Sonchus arvensis,F,A/B,wind,2940
+13.67,Asteraceae,Sonchus Linn.,Sonchus oleraceus Linn.,F,A,wind,2950
+13.13,Asteraceae,Taraxacum F.H.Wigg.,Taraxacum mongolicum Hand.-Mazz.,F,P,wind,3450
+13.23,Asteraceae,,Asteraceae sp1,F,P,wind,2200
+13.65,Asteraceae,,Asteraceae sp2,F,P,wind,2940
+13.73,Asteraceae,,Asteraceae sp3,F,P,wind,3500
+51.19,Balsaminaceae,Impatiens L.,Impatiens noli-tangere L.,F,A,unassisted,3500
+,Berberidaceae,Berberis Linn.,Berberis diapnana Maxim.,w,P,vertebrate,3000
+,Berberidaceae,Berberis Linn.,Berberis henryana Schneid,w,P,vertebrate,3000
+,Berberidaceae,Berberis Linn.,Berberis jamesiana Forrest et W.W.Smith,w,P,vertebrate,3150
+,Berberidaceae,Berberis Linn.,Berberis polyantha Hemsl.,w,P,vertebrate,3150
+,Berberidaceae,Berberis Linn.,Berberis silva-taroucana Schneid.,w,P,vertebrate,3150
+,Berberidaceae,Berberis Linn.,Berberis sp1,w,P,vertebrate,3100
+,Berberidaceae,Berberis Linn.,Berberis sp2,w,P,vertebrate,3100
+,Berberidaceae,Berberis Linn.,Berberis sp3,w,P,vertebrate,3100
+,Berberidaceae,Berberis Linn.,Berberis wilsonae Hemsl.,w,P,vertebrate,3100
+13.61,Bignoniaceae,Incarvillea A.Juss,Incarvillea arguta (Royle)Royle,F,P,unassisted,3300
+33.01,Boraginaceae,Lappula V.Wolf.,Lappula sp,F,A/B,unassisted,2000
+60.01,Boraginaceae,Lappula V.Wolf.,Lappula myosotis,F,A/B,unassisted,2700
+60.1,Boraginaceae,Trigonotis Stev,Trigonotis peduncularis(Trev.)Benth,F,A/B,unassisted,2400
+263,Boraginaceae,,Boraginaceae sp,F,P,unassisted,2800
+406,Brassicaceae,Arabis Linn.,Arabis hirsute (L.) Scop.,F,A,ant,2200
+26.11,Brassicaceae,Arabis Linn.,Arabis pendula Linn.,F,P,ant,3000
+26.08,Brassicaceae,Brassica L.,Brassica juncea(L.)Czern.et Coss,F,A,ant,3500
+26.19,Brassicaceae,Capsella Medic.,Capsella bursa-pastoris(Linn.)Medic.,F,A/B,ant,2901
+26.09,Brassicaceae,Cardamine Linn.,Cardamine hirsuta Linn.,F,A,ant,3000
+26.05,Brassicaceae,Chorispora R.Br.,Chorispora tenella(Pall.)DC,F,A,ant,3100
+26.01,Brassicaceae,Descurainia Webb et Berth.,Descurainia sophia,F,A,ant,2900
+60.06,Brassicaceae,Descurainia Webb et Berth.,Descurainia sophioides,F,A,ant,2200
+874,Brassicaceae,Draba Linn.,Draba ladyginii Pohle,F,P,ant,3500
+26.13,Brassicaceae,Draba Linn.,Draba sp1,F,P,ant,3500
+26.15,Brassicaceae,Draba Linn.,Draba sp2,F,P,ant,2350
+26.17,Brassicaceae,Draba Linn.,Draba sp3,F,P,ant,3100
+6.21,Brassicaceae,Eruca Mill,Eruca sativa Gars,F,A,ant,2800
+26.18,Brassicaceae,Lepidium Linn.,Lepidium apetalum Willd.,F,A/B,ant,2900
+1288,Brassicaceae,Lepidium Linn.,Lepidium capitatum,F,A/B,ant,2800
+177,Brassicaceae,Lepidium Linn.,Lepidium latifolium,F,A/B,ant,2800
+107,Brassicaceae,Malcolmia R.Br.,Malcolmia africana (L.) R.Br.,F,B,ant,3300
+26.04,Brassicaceae,Thlaspi Linn.,Thlaspi arvense Linn.,F,A,ant,3450
+26.14,Brassicaceae,Thlaspi Linn.,Thlaspi sp,F,A,ant,2940
+26.16,Brassicaceae,Torularia O.E.Schulz,Torularia humilis (C.A.Mey.) O.E.Schulz f. humilis,F,P,ant,3900
+115,Brassicaceae,Torularia O.E.Schulz,Torularia humilis f.grandiflora,F,P,ant,2700
+1230,Brassicaceae,Torularia O.E.Schulz,Torularia humilis f.hygrophila,F,P,ant,3000
+76,Brassicaceae,Torularia O.E.Schulz,Torularia humilis var piasezkii,F,P,ant,2940
+186,Brassicaceae,,Brassicaceae sp,F,P,ant,2200
+818,Campanulaceae ,Adenophora Fisch.,Adenophora himalayana Feer.,F,P,unassisted,3050
+12.05,Campanulaceae ,Adenophora Fisch.,Adenophora potaninii ,F,P,unassisted,2500
+12.01,Campanulaceae ,Adenophora Fisch.,Adenophora potaninii var bockiana ,F,P,unassisted,3000
+12.03,Campanulaceae ,Adenophora Fisch.,Adenophora potaninii var potaninii,F,P,unassisted,2200
+12.02,Campanulaceae ,Adenophora Fisch.,Adenophora stenanthina(Ledeb.)Kitag.,F,P,unassisted,3050
+12.06,Campanulaceae ,Campanula Linn. ,Campanula aristata Wall.,F,P,unassisted,3500
+866,Campanulaceae ,Codonopsis Wall.,Codonopsis bicolor Nannf.,F,P,unassisted,3500
+928,Campanulaceae ,Codonopsis Wall.,Codonopsis modesta Nannf.,F,P,unassisted,2200
+12.04,Campanulaceae ,Codonopsis Wall.,Codonopsis pilosula,F,P,unassisted,3050
+519,Campanulaceae ,Cyananathus Wall.ex Benth.,Cyananthus hookeri,F,A,unassisted,3100
+51.26,Caryophyllaceae,Arenaria Linn.,Arenaria edgeworthiana,F,P,unassisted,4200
+893,Caryophyllaceae,Arenaria Linn.,Arenaria przewalskii ,F,P,unassisted,4000
+27.09,Caryophyllaceae,Arenaria Linn.,Arenaria sp1.,F,P,unassisted,2900
+27.22,Caryophyllaceae,Arenaria Linn.,Arenaria sp2.,F,P,unassisted,3500
+27.2,Caryophyllaceae,Cerastium Linn.,Cerastium arvemse Linn ,F,P,unassisted,2900
+27.28,Caryophyllaceae,Cerastium Linn.,Cerastium sp1,F,P,unassisted,2400
+27.17,Caryophyllaceae,Cerastium Linn.,Cerastium sp2,F,P,unassisted,2940
+588,Caryophyllaceae,Cerastium Linn.,Cerastium caespitosum Gilib.,F,A,unassisted,3100
+27.16,Caryophyllaceae,Dianthus Linn.,Dianthus superbus Linn.,F,P,unassisted,2200
+27.27,Caryophyllaceae,Dianthus Linn.,Dianthus sp,F,P,unassisted,2700
+27.25,Caryophyllaceae,Malachium Fries,Malachium aquaticum,F,P,unassisted,2300
+13,Caryophyllaceae,Melandrium Roehl.,Melandrium sp1.,F,A,unassisted,2000
+399,Caryophyllaceae,Melandrium Roehl.,Melandrium sp2.,F,A,unassisted,2200
+763,Caryophyllaceae,Melandrium Roehl.,Melandrium sp3.,F,A,unassisted,3900
+978,Caryophyllaceae,Melandrium Roehl.,Melandrium sp4.,F,A,unassisted,2200
+1208,Caryophyllaceae,Melandrium Roehl.,Melandrium sp5.,F,A,unassisted,2500
+867,Caryophyllaceae,Melandrium Roehl.,Melandrium himalayense (Rohrb.) Y. Z. Zhao,F,P,unassisted,3500
+27.02,Caryophyllaceae,Melandrium Roehl.,Melandrium sp6.,F,A,unassisted,3100
+27.05,Caryophyllaceae,Melandrium Roehl.,Melandrium sp7.,F,A,unassisted,2300
+27.06,Caryophyllaceae,Melandrium Roehl.,Melandrium sp8.,F,A,unassisted,2800
+27.1,Caryophyllaceae,Melandrium Roehl.,Melandrium sp9.,F,A,unassisted,2900
+27.14,Caryophyllaceae,Melandrium Roehl.,Melandrium sp10.,F,A,unassisted,2400
+27.18,Caryophyllaceae,Melandrium Roehl.,Melandrium sp11.,F,A,unassisted,2700
+27.19,Caryophyllaceae,Melandrium Roehl.,Melandrium sp12.,F,A,unassisted,2940
+27.23,Caryophyllaceae,Melandrium Roehl.,Melandrium sp13.,F,A,unassisted,2940
+27.24,Caryophyllaceae,Melandrium Roehl.,Melandrium sp14.,F,A,unassisted,3450
+231,Caryophyllaceae,Silene Linn.,Silene conoidea L.,F,A,unassisted,2700
+27.03,Caryophyllaceae,Silene Linn.,Silene sp1,F,A,unassisted,2900
+27.04,Caryophyllaceae,Silene Linn.,Silene sp2,F,A,unassisted,2900
+27.13,Caryophyllaceae,Stellaria Linn.,Stellaria decumbens,F,A,unassisted,2900
+27.08,Caryophyllaceae,Stellaria Linn.,Stellaria decumbens var.acicularis,F,A,unassisted,2940
+27.26,Caryophyllaceae,Stellaria Linn.,Stellaria decumbens var.polyantha,F,A,unassisted,3100
+27.15,Caryophyllaceae,Stellaria Linn.,Stellaria decumbens var.pulvinata,F,A,unassisted,2700
+27.12,Caryophyllaceae,Stellaria Linn.,Stellaria graminea ,F,P,unassisted,3300
+27.01,Caryophyllaceae,Stellaria Linn.,Stellaria graminea var.linearis,F,P,unassisted,3800
+104,Caryophyllaceae,Stellaria Linn.,Stellaria palustris Ehrh. ex Retz.,F,P,unassisted,3300
+1120,Caryophyllaceae,,Caryophyllaceae sp,F,P,unassisted,3300
+,Celastraceae,Euonymus Linn.,Euonymus linearifolius,w,P,vertebrate,2950
+,Celastraceae,Euonymus Linn.,Euonymus nanaides Loes.,w,P,vertebrate,2950
+,Celastraceae,Euonymus Linn.,Euonymus porphyreus Loes.,w,P,vertebrate,2950
+14.04,Chenopodiaceae ,Axyris Linn,Axyris amaranthoides L.,F,A,unassisted,2400
+14.01,Chenopodiaceae ,Chenopodium Linn ,Chenopodium aristatum Linn. ,F,A,unassisted,2500
+1206,Chenopodiaceae ,Chenopodium Linn ,Chenopodium hybridum L.,F,A,unassisted,2500
+14.09,Chenopodiaceae ,Chenopodium Linn ,Chenopodium iljinii Golosk. ,F,A,unassisted,2950
+14.05,Chenopodiaceae ,Chenopodium Linn ,Chenopodium foetidum,F,A,unassisted,2400
+14.1,Chenopodiaceae ,Kochia Roth,Kochia scoparia(Linn.)Schrad.,F,A,unassisted,2200
+38.02,Clusiaceae,Hypericum L.,Hypericum ascyron,F,P,unassisted,2300
+498,Clusiaceae,Hypericum L.,Hypericum attenuatum Choisy,F,P,unassisted,2000
+38.03,Clusiaceae,Hypericum L.,Hypericum chinense,W,P,unassisted,2700
+38.01,Clusiaceae,Hypericum L.,Hypericum przewalskii,F,p,unassisted,2400
+44.01,Convolvulaceae,Cuscuta Linn.,Cuscuta chinensis Lam.,F,A,adhesive,2300
+39.04,Crassulaceae,Rhodiola Linn.,Rhodiola kirilowii(Regel)Regel ex Maxim,F,P,unassisted,4100
+39.01,Crassulaceae,Rhodiola Linn.,Rhodiola rosea Linn.,F,P,unassisted,4000
+679,Crassulaceae,Rhodiola Linn.,Rhodiola sp.,F,P,unassisted,4000
+1261,Crassulaceae,Sedum Linn.,Sedum sarmentosum Bunge,F,A,unassisted,2900
+1021,Crassulaceae,Sedum Linn.,Sedum sp1.,F,A/B,unassisted,3500
+39.03,Crassulaceae,Sedum Linn.,Sedum sp2.,F,A,unassisted,2200
+197,Crassulaceae,Sedum Linn.,Sedum sp3.,F,A,unassisted,2400
+986,Crassulaceae,Sedum Linn.,Sedum sp4.,F,A,unassisted,2200
+1205,Crassulaceae,Sedum Linn.,Sedum sp5.,F,A,unassisted,2500
+13.33,Crassulaceae,Sedum Linn.,Sedum Stellarifolium Franch.,F,A/B,unassisted,3500
+25.08,Cyperaceae,Blysmocarex Y.C.Cang,Blysmocarex nudicarpa Y.C.Cang,G,P,unassisted,3500
+25.28,Cyperaceae,Blysmus Panz.,Blysmus sinocompressus Tang et Wang+H189,G,P,unassisted,3300
+25.19,Cyperaceae,Carex Linn.,Carex crebra V.Krecz.,G,P,unassisted,2800
+848,Cyperaceae,Carex Linn.,Carex sp.,G,P,unassisted,3550
+25.2,Cyperaceae,Carex Linn.,Carex stipitinux Clarke,G,P,unassisted,3500
+538,Cyperaceae,Kobresia Willd.,Kobresia bellardii(All.)Degl.,G,P,unassisted,3100
+25.32,Cyperaceae,Kobresia Willd.,Kobresia capillifolia(Decne.)Clarke,G,P,unassisted,3800
+25.18,Cyperaceae,Kobresia Willd.,Kobresia humilis(C.A.Mey.)Serg.,G,P,unassisted,3200
+25.02,Cyperaceae,Kobresia Willd.,Kobresia kansuensis Kükenth,G,P,unassisted,3800
+515,Cyperaceae,Kobresia Willd.,Kobresia macrantha Böcklr,G,P,unassisted,3100
+25.3,Cyperaceae,Kobresia Willd.,Kobresia pygmaea C.B.Clarke,G,P,unassisted,3500
+25.07,Cyperaceae,Kobresia Willd.,Kobresia sp1,G,P,unassisted,3100
+25.15,Cyperaceae,Kobresia Willd.,Kobresia sp2,G,P,unassisted,3600
+25.17,Cyperaceae,Kobresia Willd.,Kobresia sp3,G,P,unassisted,4100
+25.21,Cyperaceae,Kobresia Willd.,Kobresia sp4,G,P,unassisted,3100
+25.24,Cyperaceae,Kobresia Willd.,Kobresia sp5,G,P,unassisted,3500
+25.31,Cyperaceae,Kobresia Willd.,Kobresia sp6,G,P,unassisted,2800
+60.08,Cyperaceae,Kobresia Willd.,Kobresia sp7,G,P,unassisted,3100
+713,Cyperaceae,Kobresia Willd.,Kobresia sp8,G,P,unassisted,4000
+25.26,Cyperaceae,Kobresia Willd.,Kobresia tibetica Maxim,G,P,unassisted,2900
+138,Cyperaceae,Scirpus Linn.,Scirpus pumilus Vahl,G,P,unassisted,2900
+25.03,Cyperaceae,Scirpus Linn.,Scirpus setaceus Linn.,G,P,unassisted,3100
+5.01,Dipsacaceae ,Dipsacus ,Dipsacus asperoides C.Y.Cheng et T.M.Ai ,F,P,unassisted,2200
+5.05,Dipsacaceae ,Dipsacus ,Dipsacus japonicus Miq. ,F,P,unassisted,3500
+5.06,Dipsacaceae ,Morina Linn.,Morina parviflora Kar.et Kir,F,P,unassisted,3800
+,Elaeagnaceae,Hippolytia Linn.,Hippolytia rhamnoides Linn.,w,P,vertebrate,3000
+,Elaeagnaceae,Hippolytia Linn.,Hippolytia salicifolia,w,P,vertebrate,3000
+,Elaeagnaceae,Hippolytia Linn.,Hippolytia sp,w,P,vertebrate,3000
+,Elaeagnaceae,Hippolytia Linn.,Hippolytia thibetana Schlecht.,w,P,vertebrate,3000
+892,Ericaceae,Rhododendron Linn.,Rhododendron anthoogonoides Maxim.,W,P,unassisted,4000
+7.02,Euphorbiaceae ,Euphorbia Linn.,Euphorbia esula Linn.,F,P,unassisted,2900
+60.04,Euphorbiaceae ,Euphorbia Linn.,Euphorbia helioscopia Linn.,F,A,unassisted,2400
+7.04,Euphorbiaceae ,Euphorbia Linn.,Euphorbia tibetica L..,F,P,unassisted,3500
+100,Fabaceae,Astragalus Linn.,Astragalus adsurgens ,F,P,unassisted,3300
+314,Fabaceae,Astragalus Linn.,Astragalus sp.,F,P,unassisted,3000
+51.18,Fabaceae,Astragalus Linn.,Astragalus bhotanensis Baker,F,P,unassisted,2800
+551,Fabaceae,Astragalus Linn.,Astragalus floridus Benth. ex Bunge.,F,P,unassisted,3300
+9.4,Fabaceae,Astragalus Linn.,Astragalus mahoschanicus,F,P,unassisted,3500
+9.22,Fabaceae,Astragalus Linn.,Astragalus melilotoides Pall.,F,P,unassisted,2800
+1109,Fabaceae,Astragalus Linn.,Astragalus monadelphus Bunge. ex Maxim.,F,P,unassisted,3300
+9.37,Fabaceae,Astragalus Linn.,Astragalus polycladus Bur.et Franch.,F,P,unassisted,2700
+756,Fabaceae,Astragalus Linn.,Astragalus przewalskii Bunge ex Maxim.,F,P,unassisted,3500
+6.1,Fabaceae,Astragalus Linn.,Astragalus sp1.,F,P,unassisted,2200
+6.13,Fabaceae,Astragalus Linn.,Astragalus sp2.,F,P,unassisted,3520
+9.29,Fabaceae,Astragalus Linn.,Astragalus sp3.,F,P,unassisted,3100
+9.6,Fabaceae,Astragalus Linn.,Astragalus sp4.,F,P,unassisted,3050
+9.51,Fabaceae,Astragalus Linn.,Astragalus tanguticus Batalin,F,P,unassisted,2800
+9.61,Fabaceae,Astragalus Linn.,Astragalus tongolensis var glaber,F,P,unassisted,3450
+843,Fabaceae,Astragalus Linn.,Astragalus weigoldianus Hand.-Mazz.,F,P,unassisted,3500
+1108,Fabaceae,Caragana Fabr.,Caragana brevifolia Kom.,W,P,unassisted,3300
+313,Fabaceae,Caragana Fabr.,Caragana erinacea Kom.,W,P,unassisted,3000
+9.59,Fabaceae,Caragana Fabr.,Caragana jubata(Pall.)Bess.,W,P,unassisted,4100
+9.23,Fabaceae,Gueldenstaedtia Fisch.,Gueldenstaedtia multiflora ,F,P,unassisted,3500
+9.67,Fabaceae,Gueldenstaedtia Fisch.,Gueldenstaedtia sp,F,P,unassisted,2940
+9.25,Fabaceae,Hedysarum Linn.,Hedysarum multijugum Maxim.,W,P,unassisted,2000
+564,Fabaceae,Hedysarum Linn.,Hedysarum sikkimense Benth.ex Baker.,F,P,unassisted,3100
+9.32,Fabaceae,Hedysarum Linn.,Hedysarum sp.,F,P,unassisted,2900
+9.49,Fabaceae,Hedysarum Linn.,Hedysarum tanguticum B.Fedtsch.,F,P,unassisted,3200
+9.24,Fabaceae,Lathyrus Linn.,Lathyrus pratensis Linn.,F,P,unassisted,2200
+942,Fabaceae,Lespedeza Michx,Lespedeza dehurica Schindl.,F,P,unassisted,2200
+365,Fabaceae,Medicago Linn.,Medicago lupulina L.,F,P,unassisted,2100
+9.13,Fabaceae,Medicago Linn.,Medicago minima(Linn.)Grufb.,F,A,unassisted,2900
+9.28,Fabaceae,Medicago Linn.,Medicago ruthenica(Linn.)Trautv.,F,P,unassisted,2900
+9.18,Fabaceae,Medicago Linn.,Medicago sp.,F,P,unassisted,2400
+9.06,Fabaceae,Melilotus Miller,Melilotus albus Desr.,F,A,unassisted,2200
+9.2,Fabaceae,Melilotus Miller,Melilotus officinalis(L.)Desr.,F,B,unassisted,2900
+9.36,Fabaceae,Melilotus Miller,Melilotus suaveolens Ledeb,F,B,unassisted,2900
+9.43,Fabaceae,Oxytropis DC.,Oxytropis coerulea(Pall.)DC,F,P,unassisted,2700
+769,Fabaceae,Oxytropis DC.,Oxytropis falcata Bge,F,P,unassisted,3450
+9.01,Fabaceae,Oxytropis DC.,Oxytropis kansuensis Bunge,F,P,unassisted,3500
+821,Fabaceae,Oxytropis DC.,Oxytropis ochrocephala Bunge,F,P,unassisted,3050
+9.04,Fabaceae,Oxytropis DC.,Oxytropis sp1.,F,P,unassisted,2200
+9.52,Fabaceae,Oxytropis DC.,Oxytropis sp2.,F,P,unassisted,2400
+9.56,Fabaceae,Oxytropis DC.,Oxytropis sp3.,F,P,unassisted,2200
+9.65,Fabaceae,Oxytropis DC.,Oxytropis sp4.,F,P,unassisted,3500
+9.53,Fabaceae,Thermopsis R.Br.,Thermopsis lanceolata R.Br.,F,P,unassisted,3000
+84,Fabaceae,Tibetia(Ali)H.P.Tsui,Tibetia himalaica Tsui.,F,P,unassisted,3300
+9.33,Fabaceae,Trigonella Linn.,Trigonella tibetana  ,F,A,unassisted,2700
+9.09,Fabaceae,Vicia Linn.,Vicia angustifolia Linn.ex Reichard,F,A/B,unassisted,2900
+281,Fabaceae,Vicia Linn.,Vicia cracca L.,F,P,unassisted,2700
+31,Fabaceae,Vicia Linn.,Vicia sativa L.,F,A,unassisted,2700
+9.03,Fabaceae,Vicia Linn.,Vicia sp.,F,A,unassisted,3100
+9.11,Fabaceae,Vicia Linn.,Vicia tetrasperma(Linn.)Schreber,F,A,unassisted,2200
+9.12,Fabaceae,Vicia Linn.,Vicia unijuga A.Br.,F,P,unassisted,2400
+605,Gentianaceae ,Comastoma(Wettst.)Toyokuni,Comastoma falcatum (Turcz..) Toyokuni,F,A,unassisted,3500
+826,Gentianaceae ,Comastoma(Wettst.)Toyokuni,Comastoma sp1,F,A,unassisted,3050
+17.09,Gentianaceae ,Comastoma(Wettst.)Toyokuni,Comastoma sp2,F,A,unassisted,3100
+17.2,Gentianaceae ,Comastoma(Wettst.)Toyokuni,Comastoma sp3,F,A,unassisted,3000
+17.25,Gentianaceae ,Comastoma(Wettst.)Toyokuni,Comastoma sp4,F,A,unassisted,3900
+17.22,Gentianaceae ,Gentiana Linn. ,Gentiana aristata Maxim,F,A,unassisted,3000
+17.02,Gentianaceae ,Gentiana Linn. ,Gentiana burkillii H.Smith in Hand-Mazz,F,A,unassisted,2800
+1185,Gentianaceae ,Gentiana Linn. ,Gentiana dahurica Fisch.,F,P,unassisted,2500
+17.29,Gentianaceae ,Gentiana Linn. ,Gentiana decumbens L.F.,F,P,unassisted,3300
+17.05,Gentianaceae ,Gentiana Linn. ,Gentiana macrophylla Pall,F,P,unassisted,3500
+1155,Gentianaceae ,Gentiana Linn. ,Gentiana pseudo-aquatica Kusnez,F,A,unassisted,4000
+833,Gentianaceae ,Gentiana Linn. ,Gentiana purdomii Marq.,F,P,unassisted,3500
+17.24,Gentianaceae ,Gentiana Linn. ,Gentiana sino-ornata Balf.f.   ,F,P,unassisted,2940
+17.13,Gentianaceae ,Gentiana Linn. ,Gentiana sp1,F,P,unassisted,2400
+993,Gentianaceae ,Gentiana Linn. ,Gentiana sp2,F,P,unassisted,2400
+772,Gentianaceae ,Gentiana Linn. ,Gentiana squarrosa Ledeb.,F,A,unassisted,3450
+17.03,Gentianaceae ,Gentiana Linn. ,Gentiana straminea Marxim.    ,F,P,unassisted,3500
+809,Gentianaceae ,Gentiana Linn. ,Gentiana striata Maxim,F,A,unassisted,3050
+17.21,Gentianaceae ,Gentiana Linn. ,Gentiana szechenyii Kanitz ,F,P,unassisted,2800
+1227,Gentianaceae ,Gentianopsis Ma  ,Gentianopsis barbata (FrÖel.) Ma,F,A,unassisted,3500
+1160,Gentianaceae ,Gentianopsis Ma  ,Gentianopsis contorta (Royle) Ma,F,A,unassisted,4000
+808,Gentianaceae ,Gentianopsis Ma  ,Gentianopsis paludosa (Hook. f.) Ma,F,A,unassisted,3050
+409,Gentianaceae ,Gentianopsis Ma  ,Gentianopsis paludosa (Hook. f.) Ma var. ovato-deltoidea (Burk.) Ma ex T.N.Ho.,F,A,unassisted,2200
+17.07,Gentianaceae ,Gentianopsis Ma  ,Gentianopsis sp1,F,A,unassisted,3000
+17.12,Gentianaceae ,Gentianopsis Ma  ,Gentianopsis sp2,F,A,unassisted,2300
+17.19,Gentianaceae ,Gentianopsis Ma  ,Gentianopsis sp3,F,A,unassisted,2800
+17.23,Gentianaceae ,Gentianopsis Ma  ,Gentianopsis sp4,F,A,unassisted,2200
+17.27,Gentianaceae ,Gentianopsis Ma  ,Gentianopsis sp5,F,A,unassisted,3100
+17.28,Gentianaceae ,Gentianopsis Ma  ,Gentianopsis sp6,F,A,unassisted,3500
+17.1,Gentianaceae ,Halenia Borkh.,Halenia corniculata,F,A,unassisted,3100
+17.01,Gentianaceae ,Halenia Borkh.,Halenia sp.,F,A,unassisted,2350
+701,Gentianaceae ,Halenia Borkh.,Halenia elliptica,F,A,unassisted,3500
+51.34,Gentianaceae ,Lomatogonium A.Br,Lomatogonium carinthiacum (Wulf.) Reichb.,F,A,unassisted,2940
+51.08,Gentianaceae ,Lomatogonium A.Br,Lomatogonium sp,F,A,unassisted,2350
+1163,Gentianaceae ,Swertia Linn.,Swertia franchetiana H.smith,F,A,unassisted,2200
+17.11,Gentianaceae ,Swertia Linn.,Swertia sp1,F,A,unassisted,2900
+17.17,Gentianaceae ,Swertia Linn.,Swertia sp2,F,A,unassisted,4000
+75,Gentianaceae ,Swertia Linn.,Swertia tetraptera Maxim.,F,A ,unassisted,2940
+18.04,Geraniaceae ,Biebersteinia Steph.ex Fisch.,Biebersteinia heterostemon,F,A,adhesive,2800
+18.01,Geraniaceae ,Geranium ,Geranium sibiricum L.,F,A/P,unassisted,2940
+18.03,Geraniaceae ,Geranium ,Geranium sp1,F,P,unassisted,3300
+18.06,Geraniaceae ,Geranium ,Geranium sp2,F,P,unassisted,2900
+18.02,Geraniaceae ,Geranium ,Geranium wilfordii Maxim. ,F,P,unassisted,2700
+51.16,Iridaceae,Iris Linn.,Iris lactea var.chinensis Koidz.,F,P,unassisted,2700
+51.31,Iridaceae,Iris Linn.,Iris tenuifolia Pall,F,P,unassisted,2400
+458,Juncaceae ,Juncus Linn.,Juncus allioides Franch.,G,P,unassisted,2350
+8.06,Juncaceae ,Juncus Linn.,Juncus bufonius L.,G,A,unassisted,2700
+8.01,Juncaceae ,Juncus Linn.,Juncus effusus Linn.,G,P,unassisted,3500
+1047,Juncaceae ,Juncus Linn.,Juncus giganteus G. Sam.,G,P,unassisted,3500
+1041,Juncaceae ,Juncus Linn.,Juncus himalensis ,G,P,unassisted,3600
+8.05,Juncaceae ,Juncus Linn.,Juncus leucanthus ,G,P,unassisted,3500
+8.07,Juncaceae ,Juncus Linn.,Juncus sphacelatus Decne,G,P,unassisted,3500
+8.08,Juncaceae ,Juncus Linn.,Juncus thomsonii Buchen.,G,P,unassisted,3900
+6.02,Lamiaceae,Ajuga L.,Ajuga ciliata Bunge,F,P,unassisted,3050
+975,Lamiaceae,Amythystea L.,Amethystea caerulea L.,F,A,unassisted,2200
+6.11,Lamiaceae,Dracocephalum Linn.,Dracocephalum heterophyllum,F,P,unassisted,2800
+1074,Lamiaceae,Dracocephalum Linn.,Dracocephalum tangutica ,F,P,unassisted,3100
+6.2,Lamiaceae,Dracocephalum Linn.,Dracocephalum sp.,F,P,unassisted,2800
+669,Lamiaceae,Elsholtzia Willd.,Elsholtzia densa Benth.,F,A,unassisted,3500
+668,Lamiaceae,Elsholtzia Willd.,Elsholtzia densa var. calycocarpa,F,A,unassisted,3500
+625,Lamiaceae,Elsholtzia Willd.,Elsholtzia densa var. ianthina,F,A,unassisted,3500
+6.18,Lamiaceae,Elsholtzia Willd.,Elsholtzia saxatilis,F,A,unassisted,2800
+6.03,Lamiaceae,Galeopsis Linn.,Galeopsis bifida Boenn.,F,A,unassisted,2940
+1295,Lamiaceae,Isodon Schrader ex Benth,Isodon henryi,F,P,unassisted,2300
+6.24,Lamiaceae,Lamiophlomis Kudo,Lamiophlomis rotata,F,P,unassisted,3800
+6.06,Lamiaceae,Lamium Linn.,Lamium amplexicaule,F,A,unassisted,2900
+447,Lamiaceae,Nepeta Linn.,Nepeta coerulescens ,F,P,unassisted,2350
+6.19,Lamiaceae,Nepeta Linn.,Nepeta densiflora Kar.et Kir.H130,F,P,unassisted,3100
+6.09,Lamiaceae,Nepeta Linn.,Nepeta sp,F,P,unassisted,2900
+1298,Lamiaceae,Phlomis L.,Phlomis kansuensis,F,P,unassisted,2300
+1297,Lamiaceae,Phlomis L.,Phlomis umbrosa Turcz.,F,P,unassisted,2300
+6.25,Lamiaceae,Salvia Linn.,Salvia flava ,F,P,unassisted,2200
+6.08,Lamiaceae,Salvia Linn.,Salvia przewalskii,F,P,unassisted,3000
+6.15,Lamiaceae,Salvia Linn.,Salvia sp.,F,P,unassisted,2200
+356,Lamiaceae,Salvia Linn.,Salvia roborowskii ,F,A/B,unassisted,2800
+1197,Lamiaceae,Schizpnepeta Briq,Schizonepeta tenuifolia ,F,P,unassisted,2300
+236,Lamiaceae,Scutellaria Linn.,Scutellaria rehderiana ,F,P,unassisted,2700
+6.23,Lamiaceae,Stachys L.,Stachys aspera ,F,P,unassisted,2900
+6.26,Lamiaceae,Thymus Linn.,Thymus mongolicus,W,P,unassisted,2940
+1.08,Liliaceae ,Allium Linn.,Allium beesianum ,F,P,ant,3500
+1.04,Liliaceae ,Allium Linn.,Allium chrysanthum ,F,P,ant,3500
+1.05,Liliaceae ,Allium Linn.,Allium cyaneum ,F,P,ant,3600
+992,Liliaceae ,Allium Linn.,Allium macranthum ,F,P,ant,2200
+1.02,Liliaceae ,Allium Linn.,Allium polyrhizum ,F,P,ant,2500
+510,Liliaceae ,Allium Linn.,Allium prattii ,F,A,ant,2000
+1098,Liliaceae ,Allium Linn.,Allium przewalskianum ,F,P,ant,3300
+1.09,Liliaceae ,Allium Linn.,Allium ramosum ,F,P,ant,2400
+1.12,Liliaceae ,Allium Linn.,Allium sikkimense ,F,P,ant,3300
+1.03,Liliaceae ,Allium Linn.,Allium sp,F,P,ant,2200
+1.01,Liliaceae ,Lilium Linn.,Lilium callosum,F,P,unassisted,2200
+1188,Liliaceae ,Lilium Linn.,Lilium pumilum DC.,F,P,unassisted,2500
+19.53,Linaceae,Linum L.,Linum usitatissimum,F,A,unassisted,3050
+643,Malvaceae,Malva Linn.,Malva sp.,F,B,unassisted,3450
+37.02,Malvaceae,Malva Linn.,Malva verticillata L.,F,B,unassisted,2950
+37.01,Malvaceae,Malva Linn.,Malva verticillata var.chinensis(Miller)S.Y.Hu,F,B,unassisted,2700
+16.02,Onagraceae ,Chamaenerion Seguier,Chamaenerion angustifolium(L.)Scop,F,P,wind,2350
+16.03,Onagraceae ,Epilobium Linn. ,Epilobium hirsutum Linn. ,F,P,wind,2350
+16.04,Onagraceae ,Epilobium Linn. ,Epilobium paluster Linn. ,F,P,wind,3500
+16.01,Onagraceae ,Epilobium Linn. ,Epilobium sp,F,P,wind,2940
+27,Papaveraceae,Corydalis Vent,Corydalis edulis Maxim,F,A,unassisted,2700
+51.25,Papaveraceae,Corydalis Vent,Corydalis edulis Maxim,F,A,unassisted,2400
+51.28,Papaveraceae,Corydalis Vent,Corydalis melanochlora Maxim,F,P,unassisted,2600
+60.07,Papaveraceae,Dicranostigma Kook.f.et Thoms.,Dicranostigma lactucoides Hook.f.et Thoms.,F,A,unassisted,3000
+31.01,Papaveraceae,Dicranostigma Kook.f.et Thoms.,Dicranostigma sp.,F,A,unassisted,2800
+31.04,Papaveraceae,Meconopsis Vig.,Meconopsis integrifolia(Maxim.)Franch.,F,A,unassisted,3150
+4.06,Plantaginaceae  ,Plantago Linn .,Plantago asiatica linn .,F,P,unassisted,3000
+4.04,Plantaginaceae  ,Plantago Linn .,Plantago depressa Willd,F,P,unassisted,2900
+4.01,Plantaginaceae  ,Plantago Linn .,Plantago major L.,F,P,unassisted,2400
+46.01,Plumbaginaceae,Plumbagela Spach,Plumbagela micrantha(Ledeb.)Spach,F,A,adhesive,2950
+10.02,Poaceae,Achnatherum Beauv.,Achnatherum sp1,G,P,unassisted,2800
+10.04,Poaceae,Achnatherum Beauv.,Achnatherum sp2,G,P,unassisted,2200
+10.01,Poaceae,Achnatherum Beauv.,Achnatherum splendens(Trin.)Nevski,G,P,unassisted,2300
+10.34,Poaceae,Agrostis Linn.,Agrostis sp1.,G,P,unassisted,2200
+10.37,Poaceae,Agrostis Linn.,Agrostis sp2.,G,P,unassisted,2200
+10.49,Poaceae,Agrostis Linn.,Agrostis stolonifera Linn,G,P,unassisted,3100
+10.13,Poaceae,Agrostis Linn.,Agrostis trinii Turcz.,G,P,unassisted,3500
+10.16,Poaceae,avena L.,avena fatua L.,G,A,unassisted,3100
+10.62,Poaceae,avena L.,avena sativa L.,G,A,unassisted,2350
+10.19,Poaceae,Beckmannia Host,Beckmannia syzigachne,G,A,unassisted,2940
+10.14,Poaceae,Brachypodium Beauv.,Brachypodium sylvaticum(Huds.)Beauv.,G,P,unassisted,2800
+10.41,Poaceae,Brachypodium Beauv.,Brachypodium sylvaticum(Huds.)Beauv.,G,P,unassisted,2300
+10.53,Poaceae,Bromus Linn.,Bromus japonicus Thunb,G,A,unassisted,2700
+10.56,Poaceae,Bromus Linn.,Bromus magnus Keng,G,P,unassisted,3500
+10.55,Poaceae,Bromus Linn.,Bromus sinensis Keng+H146,G,P,unassisted,3100
+10.35,Poaceae,Deschampsia Beauv.,Deschampsia littoralis(Gaud.)Reuter,G,P,unassisted,3100
+10.11,Poaceae,Deyeuxia Clarion,Deyeuxia arundinacea(Linn.)Beauv,G,P,unassisted,3520
+51.32,Poaceae,Digitaria Scop,Digitaria sanguinalis(L.)Scop,G,A,unassisted,2400
+10.38,Poaceae,Elymus Linn.,Elymus atrattus(Nevski)Hand.-Mazz.,G,P,unassisted,4250
+10.05,Poaceae,Elymus Linn.,Elymus excelsus Turcz.,G,P,unassisted,2700
+10.31,Poaceae,Elymus Linn.,Elymus sibiricus L. ,G,P,unassisted,2940
+10.22,Poaceae,Eragrostis Beauv.,Eragrostis nigra Nees.,G,P,unassisted,2800
+10.27,Poaceae,Festuca Linn.,Festuca ovina Linn.,G,P,unassisted,4000
+10.07,Poaceae,Festuca Linn.,Festuca sinensis Keng,G,P,unassisted,2800
+10.6,Poaceae,Festuca Linn.,Festuca sp,G,P,unassisted,3100
+10.08,Poaceae,Lolium L.,Lolium persicum Boiss.et Hohen,G,P,unassisted,2000
+10.1,Poaceae,Oryzopsis Michx.,Oryzopsis munroi Stapf ex Hook.f.Michx.,G,P,unassisted,2940
+10.09,Poaceae,Poa Linn.,Poa micrandra,G,P,unassisted,2900
+10.48,Poaceae,Poa Linn.,Poa poophagorum Bor,G,P,unassisted,2950
+10.33,Poaceae,Poa Linn.,Poa pratensis Linn.,G,P,unassisted,3150
+10.47,Poaceae,Poa Linn.,Poa sp1,G,P,unassisted,2700
+348,Poaceae,Poa Linn.,Poa sp2,G,P,unassisted,2100
+10.15,Poaceae,Ptilagrostis Griseb.,Ptilagrostis dichotoma Keng.ex Tzvel.,G,P,wind,4200
+10.32,Poaceae,Ptilagrostis Griseb.,Ptilagrostis sp,G,P,wind,3150
+10.36,Poaceae,Roegneria C.Koch,Roegneria nutans(Keng)Keng,G,P,unassisted,3100
+10.61,Poaceae,Roegneria C.Koch,Roegneria sp1.,G,P,unassisted,3500
+373,Poaceae,Roegneria C.Koch,Roegneria sp2.,G,P,unassisted,2100
+10.26,Poaceae,"Setaria Beauv.,","Setaria viridis(L.)Beauv.,",G,A,unassisted,2200
+10.5,Poaceae,Stipa Linn.,Stipa aliena Keng,G,P,adhesive,3800
+10.51,Poaceae,Stipa Linn.,Stipa capillacea Keng,G,P,adhesive,3500
+10.24,Poaceae,Stipa Linn.,Stipa przewalskyi Roshev,G,P,adhesive,2800
+347,Poaceae,,Poaceae sp1,G,P,adhesive,2100
+370,Poaceae,,Poaceae sp2,G,P,adhesive,2100
+1.07,Polemoniaceae,Allium Linn.,Allium victorialia L.,F,P,unassisted,2400
+1.13,Polemoniaceae,Allium Linn.,Allium victorialia var listera,F,P,unassisted,2350
+15.08,Polygonaceae ,Fagopyrum Gaertn,Fagopyrum esculentum Moench,F,A,unassisted,2500
+15.15,Polygonaceae ,Polygonum Linn. ,Polygonum amphibium L,F,P,unassisted,2940
+17.3,Polygonaceae ,Polygonum Linn. ,Polygonum aviculare Linn. ,F,A,unassisted,3100
+15.1,Polygonaceae ,Polygonum Linn. ,Polygonum convolvulus L. ,F,A,unassisted,3050
+15.17,Polygonaceae ,Polygonum Linn. ,Polygonum dissitiflorum,F,A,unassisted,2350
+15.09,Polygonaceae ,Polygonum Linn. ,Polygonum macrophyllum D.Don ,F,P,unassisted,2200
+15.13,Polygonaceae ,Polygonum Linn. ,Polygonum sibiricum Laxm,F,P,unassisted,2940
+968,Polygonaceae ,Polygonum Linn. ,Polygonum sp. ,F,A,unassisted,2200
+15.03,Polygonaceae ,Polygonum Linn. ,Polygonum thunbergii,F,A,unassisted,2800
+15.07,Polygonaceae ,Polygonum Linn. ,Polygonum viviparum Linn. ,F,P,unassisted,3900
+15.16,Polygonaceae ,Polygonum Linn. ,Polygonum viviparum Linn. ,F,P,unassisted,3500
+15.01,Polygonaceae ,Rumex Linn.,Rumex acetosa Linn.,F,P,wind,3500
+15.02,Polygonaceae ,Rumex Linn.,Rumex sp1.,F,P,wind,2400
+15.12,Polygonaceae ,Rumex Linn.,Rumex sp2.,F,P,wind,2800
+15.18,Polygonaceae ,Rumex Linn.,Rumex sp3.,F,P,wind,3000
+1175,Primulaceae ,Androsace Linn.,Androsace erecta Maxim.,F,A/B,unassisted,2600
+3.02,Primulaceae ,Androsace Linn.,Androsace gmelinii(Gaertn.)Roem.et Schult.,F,A,unassisted,3100
+3.14,Primulaceae ,Androsace Linn.,Androsace mariae Kanitz.,F,P,unassisted,3300
+3.03,Primulaceae ,Androsace Linn.,Androsace sp.,F,A,unassisted,2700
+3.08,Primulaceae ,Pomatosace Maxim,Pomatosace filicula.,F,A/B,unassisted,2700
+3.04,Primulaceae ,Primula Linn.,Primula agleniana,F,P,unassisted,4200
+1046,Primulaceae ,Primula Linn.,Primula gemmifera Batal.,F,P,unassisted,3600
+444,Primulaceae ,Primula Linn.,Primula polyneura Franch.,F,P,unassisted,2350
+1042,Primulaceae ,Primula Linn.,Primula secundiflora Franch.,F,P,unassisted,3600
+3.15,Primulaceae ,Primula Linn.,Primula sibirica Jacq,F,P,unassisted,3100
+3.11,Primulaceae ,Primula Linn.,Primula sp.,F,P,unassisted,3100
+700,Primulaceae ,Primula Linn.,Primula stenocalyx Maxim.,F,P,unassisted,4000
+1094,Ranunculaceae,Aconitum Linn.,Aconitum brunneum Hand.-Mazz.,F,P,unassisted,3300
+1307,Ranunculaceae,Aconitum Linn.,Aconitum flavum Hand.-Mazz.,F,P,unassisted,2300
+19.01,Ranunculaceae,Aconitum Linn.,Aconitum gymnandrum Maxim,F,A,unassisted,3000
+19.59,Ranunculaceae,Aconitum Linn.,Aconitum gymnandrum Maxim,F,A,unassisted,2100
+19.69,Ranunculaceae,Aconitum Linn.,Aconitum sinomontanum Nakai,F,P,unassisted,2200
+19.56,Ranunculaceae,Aconitum Linn.,Aconitum sungpanense Hand.-Mazz.,F,P,unassisted,2300
+712,Ranunculaceae,Aconitum Linn.,Aconitum tanguticum (Maxim.) Stapf,F,P,unassisted,3900
+19.36,Ranunculaceae,Adonis L.,Adonis amurensis Regel et Radde.,F,P,wind,3800
+19.03,Ranunculaceae,Anemone Linn.,Anemone obtusiloba D.Don,F,P,adhesive,3000
+19.58,Ranunculaceae,Anemone Linn.,Anemone rivularis Buch.-Ham.,F,P,adhesive,3300
+19.6,Ranunculaceae,Anemone Linn.,Anemone rivularis var.barbulata Turcz,F,P,adhesive,3700
+961,Ranunculaceae,Aquilegia Linn.,Aquilegia oxysepala var. kansuensis Brühl,F,P,unassisted,2400
+19.28,Ranunculaceae,Batrachium J.Dray,Batrachium buhgei(Steud.)L.Liou,F,P,unassisted,3100
+19.22,Ranunculaceae,Cificifuga L.,Cificifuga foetida L.,F,P,unassisted,2300
+19.21,Ranunculaceae,Cimicifuga Linn.,Cimicifuga foetida Linn.,F,P,unassisted,2300
+19.57,Ranunculaceae,Cimicifuga Linn.,Cimicifuga foetida Linn.,F,P,unassisted,3500
+19.62,Ranunculaceae,Cimicifuga Linn.,Cimicifuga foetida Linn.,F,P,unassisted,2300
+51.09,Ranunculaceae,Circaeaster Maxim,Circaeaster agrestis Maxim,F,A,unassisted,3500
+51.33,Ranunculaceae,Circaeaster Maxim,Circaeaster agrestis Maxim,F,A,unassisted,4000
+955,Ranunculaceae,Clematis Linn.,Clematis glauca Willd.,L,P,wind,2200
+19.24,Ranunculaceae,Clematis Linn.,Clematis nannophylla,L,P,wind,2800
+19.63,Ranunculaceae,Clematis Linn.,Clematis tangutica(Maxim.)Korsh,W,P,wind,2600
+726,Ranunculaceae,Delphinium Linn.,Delphinium camphylocentrum Maxim.,F,P,unassisted,3900
+1001,Ranunculaceae,Delphinium Linn.,Delphinium kamaoense var. glabrescens W.T.Wang,F,P,unassisted,3550
+19.35,Ranunculaceae,Delphinium Linn.,Delphinium sp1.,F,P,unassisted,2800
+19.39,Ranunculaceae,Delphinium Linn.,Delphinium sp2.,F,P,unassisted,4000
+19.51,Ranunculaceae,Delphinium Linn.,Delphinium sp3.,F,P,unassisted,3150
+19.65,Ranunculaceae,Delphinium Linn.,Delphinium sp4.,F,P,unassisted,4000
+1029,Ranunculaceae,Delphinium Linn.,Delphinium sparsiflorum Maxim.,F,P,unassisted,3500
+19.27,Ranunculaceae,Paeonia Linn,Paeonia veitchii Lynch,F,P,unassisted,3550
+19.14,Ranunculaceae,Ranunculus Linn,Ranunculus affinis K.B,F,P,unassisted,3100
+19.05,Ranunculaceae,Ranunculus Linn,Ranunculus brotherusii Freyn,F,P,unassisted,3300
+941,Ranunculaceae,Ranunculus Linn,Ranunculus japonicus Thunb.,F,P,unassisted,2200
+19.42,Ranunculaceae,Ranunculus Linn,Ranunculus pulchelus C.A.Mey.var.sericeus Hook.f.et Thoms,F,P,unassisted,3000
+19.1,Ranunculaceae,Ranunculus Linn,Ranunculus sp.,F,P,unassisted,3100
+19.04,Ranunculaceae,Thalictrum Linn.,Thalictrum cultratum Wall,F,P,adhesive,3000
+205,Ranunculaceae,Thalictrum Linn.,Thalictrum minus L.,F,P,adhesive,2400
+321,Ranunculaceae,Thalictrum Linn.,Thalictrum minus L. var. hypoleucum Miq.,F,P,adhesive,2700
+19.46,Ranunculaceae,Thalictrum Linn.,Thalictrum petaloideum L.,F,P,adhesive,3500
+721,Ranunculaceae,Thalictrum Linn.,Thalictrum przewalskii Maxim.,F,P,adhesive,3800
+19.06,Ranunculaceae,Thalictrum Linn.,Thalictrum sp1.,F,P,adhesive,2200
+19.08,Ranunculaceae,Thalictrum Linn.,Thalictrum sp2.,F,P,adhesive,3100
+19.16,Ranunculaceae,Thalictrum Linn.,Thalictrum sp3.,F,P,adhesive,2900
+19.47,Ranunculaceae,Thalictrum Linn.,Thalictrum sp4.,F,P,adhesive,2400
+19.52,Ranunculaceae,Thalictrum Linn.,Thalictrum sp5.,F,P,adhesive,2900
+19.54,Ranunculaceae,Thalictrum Linn.,Thalictrum sp6.,F,P,adhesive,2200
+19.64,Ranunculaceae,Thalictrum Linn.,Thalictrum uncatum Maxim.,F,P,adhesive,3500
+19.13,Ranunculaceae,Trollius Linn.,Trollius farreri Stapf.,F,P,unassisted,3000
+21.04,Rosaceae,Agrimonia Linn.,Agrimonia pilosa Ledeb.,F,P,adhesive,2700
+,Rosaceae,Cotoneaster B.Ehrhart,Cotoneaster acutifolius ,W,P,vertebrate,2950
+,Rosaceae,Cotoneaster B.Ehrhart,Cotoneaster adpressus ,W,P,vertebrate,2950
+,Rosaceae,Cotoneaster B.Ehrhart,Cotoneaster ambiguus,W,P,vertebrate,2950
+,Rosaceae,Cotoneaster B.Ehrhart,Cotoneaster hebephyllus Diels,W,P,vertebrate,2950
+,Rosaceae,Cotoneaster B.Ehrhart,Cotoneaster multiflorus Bunge,W,P,vertebrate,2950
+,Rosaceae,Cotoneaster B.Ehrhart,Cotoneaster submultiflorus Popov,W,P,vertebrate,2950
+,Rosaceae,Cotoneaster B.Ehrhart,Cotoneaster tenuipes Rehd.et Wils.,W,P,vertebrate,2950
+21.1,Rosaceae,Geum Linn.,Geum aleppicum Jacq.,F,P,adhesive,2700
+976,Rosaceae,Potentilla Linn.,Cotoneaster foveolatus Rehd. Et Wils,F,P,unassisted,2200
+21.21,Rosaceae,Potentilla Linn.,Potentilla bifurca Linn.,F,P,unassisted,2800
+21.09,Rosaceae,Potentilla Linn.,Potentilla?chrysantha ,F,P,unassisted,3600
+21.06,Rosaceae,Potentilla Linn.,Potentilla potaninii Wolf,F,P,unassisted,3050
+21.05,Rosaceae,Potentilla Linn.,Potentilla sp.,F,P,unassisted,2940
+21.07,Rosaceae,Potentilla Linn.,Potentilla supina Linn.,F,A/B,unassisted,2200
+,Rosaceae,Rosa Linn.,Rosa centifolia f.albo-muscosa,W,P,vertebrate,2950
+,Rosaceae,Rosa Linn.,Rosa hbella,W,P,vertebrate,2950
+,Rosaceae,Rosa Linn.,Rosa hugonis Hemsl.,W,P,vertebrate,2950
+,Rosaceae,Rosa Linn.,Rosa omeiensis Rolfe,W,P,vertebrate,2950
+21.25,Rosaceae,Sanguisorba Linn.,Sanguisorba filiformis,F,P,unassisted,2700
+21.24,Rosaceae,Sibbaldia Linn.,Sibbaldia procumbens var.aphanopetala,F,P,unassisted,3100
+21.22,Rosaceae,Sibiraea Maxim.,Sibiraea angustata,W,P,unassisted,3400
+21.11,Rosaceae,Sorbaria(Ser.)A.Br.ex Aschers.,Sorbaria sp1,W,P,unassisted,2300
+21.17,Rosaceae,Sorbaria(Ser.)A.Br.ex Aschers.,Sorbaria sp2,W,P,unassisted,2200
+21.27,Rosaceae,Spiraea Linn.,Spiraea mongolica,W,P,unassisted,3500
+21.18,Rosaceae,Spiraea Linn.,Spiraea sp1.,W,P,unassisted,3000
+21.19,Rosaceae,Spiraea Linn.,Spiraea sp2.,W,P,unassisted,2300
+20.04,Rubiaceae,Galium Linn.,Galium sp1.,F,P,unassisted,3500
+20.05,Rubiaceae,Galium Linn.,Galium sp2.,F,P,unassisted,2700
+20.03,Rubiaceae,Galium Linn.,Galium verum,F,P,unassisted,2200
+20.01,Rubiaceae,Rubia Linn.,Rubia sp1.,F,P,unassisted,2400
+1260,Rubiaceae,Rubia Linn.,Rubia sp2.,F,P,unassisted,2900
+51.23,Saxifragaceae ,Chrysosplenium L.,Chrysosplenium uniflorum ,F,P,unassisted,4000
+86,Saxifragaceae ,Parnassia Linn.,Parnassia brevistyle ,F,P,unassisted,3300
+762,Saxifragaceae ,Parnassia Linn.,Parnassia oreophila ,F,P,unassisted,3850
+11.03,Saxifragaceae ,Parnassia Linn.,Parnassia sp1.,F,P,unassisted,2000
+11.06,Saxifragaceae ,Parnassia Linn.,Parnassia sp2.,F,P,unassisted,2350
+11.08,Saxifragaceae ,Parnassia Linn.,Parnassia sp3.,F,P,unassisted,3050
+11.07,Saxifragaceae ,Parnassia Linn.,Parnassia sp4.,F,P,unassisted,2350
+604,Saxifragaceae ,Parnassia Linn.,Parnassia sp5.,F,P,unassisted,3500
+11.04,Saxifragaceae ,Parnassia Linn.,Parnassia trinervis Drude,F,P,unassisted,2700
+11.1,Saxifragaceae ,Philadelphus Linn,Philadelphus incanus Koehne,W,P,unassisted,2300
+710,Saxifragaceae ,Saxifrage Tourn.ex Linn.,Saxifraga egregia Engl.,F,P,unassisted,3850
+11.05,Saxifragaceae ,Saxifrage Tourn.ex Linn.,Saxifraga montana H.Smith,F,P,unassisted,3600
+735,Saxifragaceae ,Saxifrage Tourn.ex Linn.,Saxifraga tangutica Engl.,F,P,unassisted,4100
+29.01,Scrophulariaceae,Euphrasia Linn.,Euphrasia pectinata,F,A,unassisted,2940
+29.24,Scrophulariaceae,Euphrasia Linn.,Euphrasia sp1,F,A,unassisted,3500
+29.26,Scrophulariaceae,Euphrasia Linn.,Euphrasia sp2,F,A,unassisted,2100
+970,Scrophulariaceae,Euphrasia Linn.,Euphrasia sp3,F,A,unassisted,2200
+29.31,Scrophulariaceae,Lancea Hook.f.et Thoms,Lancea sp,F,P,unassisted,2900
+29.34,Scrophulariaceae,Lancea Hook.f.et Thoms,Lancea tibetica Hook.f.et Thoms,F,P,unassisted,2940
+463,Scrophulariaceae,Mimulus Linn.,Mimulus szechuanensis Pai,F,P,unassisted,2350
+29.16,Scrophulariaceae,Pedicularis Linn.,Pedicularis alaschanica Maxim.,F,P,unassisted,3100
+29.11,Scrophulariaceae,Pedicularis Linn.,Pedicularis albiflora,F,A,unassisted,2940
+29.32,Scrophulariaceae,Pedicularis Linn.,Pedicularis cheilanthifolia Schrenk,F,P,unassisted,3000
+29.2,Scrophulariaceae,Pedicularis Linn.,Pedicularis cranolopha Maxim.var.longicornuta Prain,F,P,unassisted,2400
+1052,Scrophulariaceae,Pedicularis Linn.,Pedicularis ingens Maxim.,F,P,unassisted,3300
+29.19,Scrophulariaceae,Pedicularis Linn.,Pedicularis kansuensis Maxim.,F,A/B,unassisted,2400
+29.09,Scrophulariaceae,Pedicularis Linn.,Pedicularis labellata,F,P,unassisted,3630
+29.08,Scrophulariaceae,Pedicularis Linn.,Pedicularis lasiophrys Maxim.var.lasiophrys,F,P,unassisted,3600
+29.33,Scrophulariaceae,Pedicularis Linn.,Pedicularis longiflora Rudolph,F,A,unassisted,3050
+29.25,Scrophulariaceae,Pedicularis Linn.,Pedicularis longiflora var.tubiformis(Klotz.)Tsoong,F,A,unassisted,2940
+29.29,Scrophulariaceae,Pedicularis Linn.,Pedicularis longipes Maxim.,F,P,unassisted,3000
+1004,Scrophulariaceae,Pedicularis Linn.,Pedicularis polyodonta Li,F,A,unassisted,3300
+29.18,Scrophulariaceae,Pedicularis Linn.,Pedicularis pseudo-ingens,F,P,unassisted,2400
+29.28,Scrophulariaceae,Pedicularis Linn.,Pedicularis semitorta Maxim.,F,A,unassisted,3800
+29.36,Scrophulariaceae,Pedicularis Linn.,Pedicularis sp1.,F,P,unassisted,2940
+29.04,Scrophulariaceae,Pedicularis Linn.,Pedicularis sp2.,F,P,unassisted,2900
+1003,Scrophulariaceae,Pedicularis Linn.,Pedicularis sp3.,F,P,unassisted,3600
+1257,Scrophulariaceae,Pedicularis Linn.,Pedicularis sp4.,F,P,unassisted,3200
+29.17,Scrophulariaceae,Pedicularis Linn.,Pedicularis spicata Pall.,F,A,unassisted,3100
+29.02,Scrophulariaceae,Pedicularis Linn.,Pedicularis striata,F,P,unassisted,2400
+29.05,Scrophulariaceae,Pedicularis Linn.,Pedicularis torta Maxim.,F,P,unassisted,2940
+706,Scrophulariaceae,Pedicularis Linn.,Veronica eriogyne H.Winkl.,F,P,unassisted,4000
+29.1,Scrophulariaceae,Scrofella Maxim.,Scrofella chinensis Maxim.,F,P,unassisted,3100
+675,Scrophulariaceae,Veronica Linn.,Veronica rockii Li,F,P,unassisted,3500
+316,Scrophulariaceae,Veronica Linn.,Veronica sp1,F,P,unassisted,4000
+810,Scrophulariaceae,Veronica Linn.,Veronica sp2,F,P,unassisted,3050
+29.15,Scrophulariaceae,Veronica Linn.,Veronica sp3,F,P,unassisted,2800
+29.21,Scrophulariaceae,Veronica Linn.,Veronica sp4,F,P,unassisted,3500
+29.22,Scrophulariaceae,Veronica Linn.,Veronica sp5,F,P,unassisted,2700
+786,Scrophulariaceae,Veronica Linn.,Veronica sp6,F,P,unassisted,4000
+29.12,Scrophulariaceae,Veronica Linn.,Veronica vendellioides Maxim.,F,P,unassisted,3300
+22.01,Solanaceae,Hyoscyamus Linn.,Hyoscyamus niger Linn.,F,B,unassisted,2200
+51.21,Thymelaeaceae,Stellera L.,Stellera chamaejasme L.,F,P,unassisted,3000
+1089,Urticaceae,Parietaria Linn.,Parietaria micrantha Ledeb.,F,A,unassisted,3300
+1036,Urticaceae,Urtica Linn,Urtica Cannabina Linn.,F,P,unassisted,3600
+1267,Urticaceae,Urtica Linn,Urtica triangularis subsp.pinnatifida,F,P,unassisted,2900
+2.01,Valerianaceae ,Nardostachys DC.,Nardostachys chinensis Batal.,F,P,unassisted,3900
+2.02,Valerianaceae ,Nardostachys DC.,Nardostachys sp.,F,P,unassisted,3100
+2.04,Valerianaceae ,Patrinia Juss.,Patrinia heterophylla,F,P,unassisted,2200
+10.29,Valerianaceae ,Valeriana L.,Valeriana pseudofficinalis,F,P,unassisted,2400
+48,Valerianaceae ,Valeriana L.,Valeriana sp,F,P,unassisted,2900
+0.01,Verbenaceae,Caryopteris Bunge,Caryopteris divaricata,W,P,unassisted,2500
+0.02,Verbenaceae,Caryopteris Bunge,Caryopteris mongholica ,W,P,unassisted,2300
+51.04,Violaceae,Viola L.,Viola bulbosa,F,P,unassisted,3500
+13.77,Zygophyllaceae,Peganum L.,Peganum harmala,F,P,unassisted,2800
+51.17,Zygophyllaceae,Zygophyllum L.,Zygophyllum macranthum ,F,P,unassisted,2800
