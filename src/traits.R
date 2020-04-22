@@ -1,12 +1,22 @@
-library(tidyverse); library(here)
+library(tidyverse); library(here); library(openxlsx)
 
-# Read and prepare seed mass data
+# Read and prepare seed mass data from A Carta
 
-read.csv(here("data", "seed mass", "mass.alpine.csv")) %>%
+read.csv(here("data", "seeds", "original", "A Carta", "mass.alpine.csv")) %>%
   mutate(TPLName = paste(New.Genus, New.Species)) %>%
   select(TPLName, mass) %>%
   group_by(TPLName) %>%
   summarise(Seed.mass = mean(mass)) -> smass
+
+# Read and prepare seed mass data from Bu
+
+read.xlsx(here("data", "seed mass", "species information and seed mass.xlsx")) %>%
+  select(species, `seed.mass.(g,100seeds)-sample1`, 
+         `seed.mass.(g,100seeds)-sample2`, `seed.mass.(g,100seeds)-sample3`) %>%
+  gather(Trait, Value, -species) %>%
+  group_by(species) %>%  summarise(Seed.mass = mean(Value))
+
+# Read and prepare seed mass data from Liu
 
 # Prepare traits object
 
