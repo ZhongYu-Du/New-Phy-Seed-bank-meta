@@ -53,7 +53,8 @@ read_excel(here("data", "seeds", "original",
          Tmin = ifelse(is.na(Tmin), Tmax, Tmin),
          Tmean = (Tmax * Photoperiod + Tmin * (24 - Photoperiod)) / 24, 
          Tdif = Tmax - Tmin, 
-         Alternating = as.factor(ifelse(Tdif != 0, "Y", "N"))) %>%
+         Alternating = as.factor(ifelse(Tdif != 0, "Y", "N")),
+         Taxon = ifelse(Taxon == "Myosotis alpina", "Myosotis alpestris", Taxon)) %>%
   select(Taxon,
          Source, 
          Country, 
@@ -690,7 +691,7 @@ germination.raw %>%
   merge(read.csv(here("data", "taxonomy", "Names.csv")), by.x = "Taxon", by.y = "Original") %>%
   unique %>% # Remove duplicates (may remove non duplicates with same info)
   merge(read.csv(here("data", "elevations", "elevations.csv")), all.x = TRUE) %>%
-  filter(Alpine != "Lowland" | is.na(Alpine)) %>%
+  filter(! Alpine %in% c("Lowland", "Unknown")) %>%
   group_by(TPLName, Region, Source, Accession,
            Scarification, GA3, Stratification, Light, Alternating, Tmean, Temperature) %>%
   summarise(Germinated = sum(Germinated), Germinable = sum(Germinable), Sown = sum(Sown)) %>%

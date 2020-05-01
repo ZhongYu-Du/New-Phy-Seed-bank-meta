@@ -69,6 +69,16 @@ rbind(sppmerge, missingspp) %>%
   unique %>%
   rename(TPLName = Species) -> elevations
 
+# Enscobase spp
+
+read.csv(here("data", "elevations", "Enscobase elevations.csv")) %>%
+  select(TPLName, Alpine) -> enscobaseElev
+
+# Final merge
+
+rbind(elevations, enscobaseElev) -> elevationsFinal
+
+
 # Save
 
-write.csv(elevations, here("data", "elevations", "elevations.csv"), row.names = FALSE)
+write.csv(elevationsFinal, here("data", "elevations", "elevations.csv"), row.names = FALSE)
