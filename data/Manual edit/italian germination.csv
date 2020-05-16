@@ -1,0 +1,1505 @@
+Source,Taxon,Country,Accession,Latitude,Longitude,Elevation,Stratification_temperature,Stratification_days,Stratification,Scarification,GA3,Light,Dish,Tmax,Tmin,Photoperiod,Sown,Germinated,Normal
+Mondoni,Achillea atrata,Italy,37SO,,,2300,NA,0,N,N,Y,Y,1,25,15,12,30,25,25
+Mondoni,Achillea atrata,Italy,37SO,,,2300,NA,0,N,N,Y,Y,1,25,15,12,50,30,30
+Mondoni,Achillea clavenae,Italy,117 AQ,,,2142,NA,0,N,N,Y,Y,1,30,20,12,30,26,28
+Mondoni,Achillea clavenae,Italy,117 AQ,,,2142,NA,0,N,N,Y,Y,1,25,,12,30,17,20
+Mondoni,Achillea clavenae,Italy,117 AQ,,,2142,NA,0,N,N,N,Y,1,30,20,12,30,28,28
+Mondoni,Achillea clavenae,Italy,117 AQ,,,2142,NA,0,N,N,N,Y,1,25,,12,30,13,20
+Mondoni,Achillea clavenae,Italy,BG188,,,,NA,0,N,N,Y,Y,1,25,15,12,30,27,27
+Mondoni,Achillea clavenae,Italy,SO605,,,,0/5,56,Y,N,N,Y,1,20,20,12,50,27,27
+Mondoni,Achillea clavenae,Italy,BG344,,,,4,28,Y,N,N,Y,1,20,20,12,30,30,30
+Mondoni,Achillea millefolium,Italy,439SO,,,1941,NA,0,N,N,N,Y,1,20,20,12,46,41,42
+Mondoni,Achillea millefolium,Italy,211 AQ,,,2009,NA,0,N,N,N,Y,3,30,20,12,50,47,47
+Mondoni,Achillea millefolium,Italy,211 AQ,,,2009,NA,0,N,N,N,Y,3,30,20,12,30,22,23
+Mondoni,Achillea millefolium,Italy,211 AQ,,,2009,NA,0,N,N,N,Y,3,30,20,12,50,46,48
+Mondoni,Achillea millefolium,Italy,211 AQ,,,2009,NA,0,N,N,Y,Y,1,25,,12,30,25,29
+Mondoni,Achillea millefolium,Italy,211 AQ,,,2009,NA,0,N,N,N,Y,1,25,,12,30,25,26
+Mondoni,Achillea millefolium,Italy,211 AQ,,,2009,NA,0,N,N,Y,Y,1,30,20,12,30,21,28
+Mondoni,Achillea millefolium,Italy,428SO,,,2175,NA,0,N,N,N,Y,1,20,20,12,47,38,38
+Mondoni,Achillea millefolium,Italy,428SO,,,2175,NA,0,N,N,N,Y,1,20,20,12,50,40,41
+Mondoni,Achillea moschata,Italy,SO288,,,1960,NA,0,N,N,Y,Y,1,20,10,12,25,12,23
+Mondoni,Achillea moschata,Italy,SO231,,,2150,NA,0,N,N,N,Y,1,15,15,12,30,7,28
+Mondoni,Achillea moschata,Italy,SO231,,,2150,NA,0,N,N,N,Y,1,20,20,12,30,18,28
+Mondoni,Achillea moschata,Italy,SO231,,,2150,NA,0,N,N,N,Y,1,20,10,12,30,9,28
+Mondoni,Achillea moschata,Italy,SO231,,,2150,NA,0,N,N,N,Y,1,25,15,12,30,20,26
+Mondoni,Achillea moschata,Italy,SO231,,,2150,NA,0,N,N,N,Y,1,10,5,12,30,4,29
+Mondoni,Achillea moschata,Italy,SO231,,,2150,0,56,Y,N,N,Y,1,15,15,12,30,30,30
+Mondoni,Achillea moschata,Italy,SO231,,,2150,0,56,Y,N,N,Y,1,20,20,12,30,28,30
+Mondoni,Achillea moschata,Italy,SO231,,,2150,0,56,Y,N,N,Y,1,20,10,12,30,26,26
+Mondoni,Achillea moschata,Italy,SO231,,,2150,0,56,Y,N,N,Y,1,25,15,12,30,30,30
+Mondoni,Achillea moschata,Italy,SO231,,,2150,0,56,Y,N,N,Y,1,10,5,12,30,7,28
+Mondoni,Achillea moschata,Italy,SO231,,,2150,4,28,Y,N,N,Y,1,20,20,12,30,28,30
+Mondoni,Achillea moschata,Italy,70 AQ,,,2246,NA,0,N,N,N,Y,1,25,,12,30,11,24
+Mondoni,Achillea moschata,Italy,70 AQ,,,2246,NA,0,N,N,N,Y,1,30,20,12,30,20,29
+Mondoni,Achillea moschata,Italy,70 AQ,,,2246,NA,0,N,N,Y,Y,1,25,,12,30,21,22
+Mondoni,Achillea moschata,Italy,70 AQ,,,2246,NA,0,N,N,Y,Y,3,30,20,12,30,29,30
+Mondoni,Achillea moschata,Italy,70 AQ,,,2246,NA,0,N,N,Y,Y,3,30,20,12,50,45,48
+Mondoni,Achillea moschata,Italy,70 AQ,,,2246,NA,0,N,N,Y,Y,3,30,20,12,50,41,48
+Mondoni,Achillea moschata,Italy,SO286,,,2450,NA,0,N,N,Y,Y,1,25,15,12,30,22,22
+Mondoni,Achillea moschata,Italy,SO286,,,2450,0/5,56,Y,N,N,Y,1,20,20,12,50,44,47
+Mondoni,Achillea moschata,Italy,SO066,,,2598,4,28,Y,N,N,Y,1,20,20,12,30,29,29
+Mondoni,Achillea moschata,Italy,SO327,,,,NA,0,N,N,Y,Y,1,20,10,12,25,19,25
+Mondoni,Achillea roseoalba,Italy,ALP_047,,,1720,NA,0,N,N,Y,Y,3,20,,12,25,25,25
+Mondoni,Achillea roseoalba,Italy,ALP_047,,,1720,NA,0,N,N,Y,Y,3,20,,12,25,25,25
+Mondoni,Achillea roseoalba,Italy,ALP_047,,,1720,NA,0,N,N,Y,Y,3,20,,12,25,25,25
+Mondoni,Achillea roseoalba,Italy,ALP_047,,,1720,NA,0,N,N,N,Y,3,20,,12,25,24,24
+Mondoni,Achillea roseoalba,Italy,ALP_047,,,1720,NA,0,N,N,N,Y,3,20,,12,25,24,24
+Mondoni,Achillea roseoalba,Italy,ALP_047,,,1720,NA,0,N,N,N,Y,3,20,,12,25,22,22
+Mondoni,Aconitum napellus,Italy,178SO,,,1907,0/5,56,Y,N,Y,Y,1,20,20,12,50,42,45
+Mondoni,Allium insubricum,Italy,BG963,,,2050,NA,0,N,N,Y,Y,1,15,5,12,30,0,30
+Mondoni,Allium insubricum,Italy,BG335,,,,NA,0,N,N,Y,Y,1,20,20,12,20,0,20
+Mondoni,Allium victorialis,Italy,SO612,,,1987,NA,0,N,N,Y,Y,1,15,15,12,30,13,30
+Mondoni,Allium victorialis,Italy,SO612,,,1987,NA,0,N,N,Y,Y,1,20,20,12,30,8,30
+Mondoni,Allium victorialis,Italy,SO070,,,2010,NA,0,N,N,Y,Y,1,25,15,12,50,31,38
+Mondoni,Allium victorialis,Italy,SO376,,,,NA,0,N,N,Y,Y,1,25,15,12,30,12,30
+Mondoni,Androsace obtusifolia,Italy,SO232,,,2150,NA,0,N,N,Y,Y,1,25,15,12,30,2,30
+Mondoni,Anthoxanthum alpinum,Italy,345SO,,,2494,NA,0,N,N,Y,Y,1,25,15,12,30,17,26
+Mondoni,Anthoxanthum alpinum,Italy,345SO,,,2494,NA,0,N,N,Y,Y,1,25,25,12,30,20,29
+Mondoni,Anthyllis vulneraria,Italy,440SO,,,1941,NA,0,N,Y,Y,Y,1,20,20,12,50,50,50
+Mondoni,Anthyllis vulneraria,Italy,434SO,,,1945,NA,0,N,Y,Y,Y,1,20,20,12,50,49,49
+Mondoni,Anthyllis vulneraria,Italy,434SO,,,1945,NA,0,N,Y,N,Y,1,15,15,12,50,5,49
+Mondoni,Anthyllis vulneraria,Italy,432SO,,,2199,NA,0,N,Y,Y,Y,1,20,20,12,50,49,49
+Mondoni,Aquilegia einseleana,Italy,BG338,,,2000,NA,0,N,N,Y,Y,1,10,20,12,50,45,50
+Mondoni,Aquilegia einseleana,Italy,BG338,,,2000,NA,0,N,N,Y,Y,1,20,10,12,50,46,50
+Mondoni,Arabis alpina,Italy,85SO,,,2305,NA,0,N,N,N,Y,1,10,10,12,50,1,42
+Mondoni,Arabis alpina,Italy,85SO,,,2305,NA,0,N,N,N,Y,1,20,20,12,50,11,44
+Mondoni,Arabis alpina,Italy,85SO,,,2305,NA,0,N,N,Y,Y,1,20,10,12,50,36,41
+Mondoni,Arabis caerulea,Italy,108SO,,,2800,NA,0,N,N,Y,Y,1,25,15,12,30,30,30
+Mondoni,Arabis caerulea,Italy,208SO,,,2839,NA,0,N,N,Y,Y,1,25,15,12,50,49,49
+Mondoni,Arenaria biflora,Italy,Alp_175,,,2483,NA,0,N,N,N,Y,3,20,20,12,20,10,20
+Mondoni,Arenaria biflora,Italy,Alp_175,,,2483,NA,0,N,N,N,Y,3,20,20,12,21,17,21
+Mondoni,Arenaria biflora,Italy,Alp_175,,,2483,NA,0,N,N,N,Y,3,20,20,12,20,12,20
+Mondoni,Armeria alpina,Italy,SO579,,,2118,0/5,56,Y,N,N,Y,1,25,15,12,48,20,36
+Mondoni,Armeria alpina,Italy,SO846,,,2710,NA,0,N,N,N,Y,1,25,15,12,30,18,27
+Mondoni,Armeria alpina,Italy,SO846,,,2710,NA,0,N,N,Y,Y,1,20,20,12,30,18,30
+Mondoni,Armeria alpina,Italy,SO846,,,2710,NA,0,N,N,Y,Y,1,15,15,12,30,19,30
+Mondoni,Armeria alpina,Italy,SO846,,,2710,NA,0,N,N,Y,Y,1,25,15,12,40,32,40
+Mondoni,Armeria alpina,Italy,SO846,,,2710,0,21,Y,N,N,Y,1,25,15,12,40,32,39
+Mondoni,Arnica montana,Italy,BS308,,,2000,NA,0,N,N,N,Y,1,20,20,12,50,42,42
+Mondoni,Arnica montana,Italy,SO071,,,2193,NA,0,N,N,Y,Y,1,20,20,12,50,44,44
+Mondoni,Artemisia genipi,Italy,SO072,,,2673,NA,0,N,N,Y,Y,1,20,20,12,50,50,50
+Mondoni,Artemisia genipi,Italy,SO359,,,2800,NA,0,N,N,N,Y,1,20,20,12,50,46,46
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,NA,0,N,N,N,Y,1,20,20,12,30,30,30
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,NA,0,N,N,N,Y,1,20,10,12,30,30,30
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,NA,0,N,N,N,Y,1,10,5,12,30,0,29
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,NA,0,N,N,N,Y,1,25,15,12,30,29,29
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,NA,0,N,N,N,Y,1,30,20,12,30,30,30
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,NA,0,N,N,N,Y,1,15,15,12,30,29,30
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,0,56,Y,N,N,Y,1,15,15,12,30,22,28
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,0,56,Y,N,N,Y,1,20,20,12,30,30,30
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,0,56,Y,N,N,Y,1,20,10,12,30,28,28
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,0,56,Y,N,N,Y,1,10,5,12,30,5,27
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,0,56,Y,N,N,Y,1,25,15,12,30,26,26
+Mondoni,Artemisia genipi,Italy,SO597,,,2845,0,56,Y,N,N,Y,1,30,20,12,30,30,30
+Mondoni,Artemisia glacialis,Italy,210 AQ,,,2400,NA,0,N,N,N,Y,4,15,,12,50,43,43
+Mondoni,Artemisia glacialis,Italy,210 AQ,,,2400,NA,0,N,N,N,Y,1,25,,12,30,19,19
+Mondoni,Artemisia glacialis,Italy,210 AQ,,,2400,NA,0,N,N,N,Y,4,15,,12,30,20,23
+Mondoni,Artemisia glacialis,Italy,210 AQ,,,2400,NA,0,N,N,N,Y,4,15,,12,50,45,45
+Mondoni,Artemisia glacialis,Italy,210 AQ,,,2400,NA,0,N,N,N,Y,4,15,,12,50,48,49
+Mondoni,Artemisia umbelliformis,Italy,SO213,,,2200,NA,0,N,N,N,Y,1,15,15,12,2611,1055,1335
+Mondoni,Artemisia umbelliformis,Italy,28 AQ,,,2261,NA,0,N,N,N,Y,4,15,,12,50,42,42
+Mondoni,Artemisia umbelliformis,Italy,28 AQ,,,2261,NA,0,N,N,N,Y,1,25,,12,30,25,26
+Mondoni,Artemisia umbelliformis,Italy,28 AQ,,,2261,NA,0,N,N,N,Y,4,15,,12,30,29,29
+Mondoni,Artemisia umbelliformis,Italy,28 AQ,,,2261,NA,0,N,N,N,Y,4,15,,12,50,47,47
+Mondoni,Artemisia umbelliformis,Italy,28 AQ,,,2261,NA,0,N,N,N,Y,4,15,,12,50,38,38
+Mondoni,Artemisia umbelliformis,Italy,SO540,,,2620,NA,0,N,N,Y,Y,1,20,10,12,50,42,42
+Mondoni,Aster alpinus,Italy,223SO,,,2400,NA,0,N,N,Y,Y,1,15,15,12,30,27,27
+Mondoni,Biscutella laevigata,Italy,27SO,,,2229,NA,0,N,N,N,Y,1,10,10,12,20,13,20
+Mondoni,Biscutella laevigata,Italy,27SO,,,2229,NA,0,N,N,N,Y,1,20,20,12,20,16,16
+Mondoni,Biscutella laevigata,Italy,27SO,,,2229,NA,0,N,N,N,Y,1,20,20,12,50,19,50
+Mondoni,Campanula barbata,Italy,SO347,,,,NA,0,N,N,Y,Y,1,20,20,12,30,19,21
+Mondoni,Campanula barbata,Italy,ALP_026 ,,,1594,NA,0,N,N,N,Y,3,20,,12,25,23,23
+Mondoni,Campanula barbata,Italy,ALP_026 ,,,1594,NA,0,N,N,N,Y,3,10,,12,25,20,20
+Mondoni,Campanula barbata,Italy,ALP_026 ,,,1594,NA,0,N,N,N,Y,3,10,,12,25,20,20
+Mondoni,Campanula barbata,Italy,ALP_026 ,,,1594,NA,0,N,N,N,Y,3,10,,12,25,17,17
+Mondoni,Campanula barbata,Italy,ALP_026 ,,,1594,NA,0,N,N,N,Y,3,20,,12,25,23,23
+Mondoni,Campanula barbata,Italy,ALP_026 ,,,1594,NA,0,N,N,N,Y,3,20,,12,25,24,24
+Mondoni,Campanula barbata,Italy,SO623,,,1970,NA,0,N,N,Y,Y,1,20,20,12,50,42,42
+Mondoni,Campanula barbata,Italy,69 AQ,,,2169,NA,0,N,N,N,Y,1,20,,12,30,6,28
+Mondoni,Campanula barbata,Italy,69 AQ,,,2169,NA,0,N,N,Y,Y,3,20,,12,50,49,49
+Mondoni,Campanula barbata,Italy,69 AQ,,,2169,NA,0,N,N,Y,Y,3,20,,12,30,27,29
+Mondoni,Campanula barbata,Italy,69 AQ,,,2169,NA,0,N,N,Y,Y,3,20,,12,50,47,48
+Mondoni,Campanula cenisia,Italy,SO352,,,2850,NA,0,N,N,Y,Y,1,20,20,12,30,0,0
+Mondoni,Campanula cochleariifolia,Italy,135SO,,,,NA,0,N,N,N,Y,1,10,10,12,50,0,44
+Mondoni,Campanula cochleariifolia,Italy,135SO,,,,NA,0,N,N,N,Y,1,20,20,12,50,0,40
+Mondoni,Campanula cochleariifolia,Italy,SO589,,,2126,NA,0,N,N,Y,Y,1,20,20,12,30,14,15
+Mondoni,Campanula cochleariifolia,Italy,144SO,,,2730,NA,0,N,N,N,Y,1,10,10,12,50,0,45
+Mondoni,Campanula cochleariifolia,Italy,144SO,,,2730,NA,0,N,N,N,Y,1,20,20,12,50,0,35
+Mondoni,Campanula cochleariifolia,Italy,144SO,,,2730,NA,0,N,N,Y,Y,1,20,20,12,30,12,12
+Mondoni,Campanula macrorhiza,Italy,Alp_008,,,1650,NA,0,N,N,N,Y,3,15,15,12,20,13,19
+Mondoni,Campanula macrorhiza,Italy,Alp_008,,,1650,NA,0,N,N,N,Y,3,15,15,12,20,12,20
+Mondoni,Campanula macrorhiza,Italy,Alp_008,,,1650,NA,0,N,N,N,Y,3,15,15,12,20,12,19
+Mondoni,Campanula persicifolia,Italy,ALP_007 ,,,1050,NA,0,N,N,N,Y,3,20,,12,25,22,24
+Mondoni,Campanula persicifolia,Italy,ALP_007 ,,,1050,NA,0,N,N,N,Y,3,10,,12,25,23,24
+Mondoni,Campanula persicifolia,Italy,ALP_007 ,,,1050,NA,0,N,N,N,Y,3,10,,12,25,25,25
+Mondoni,Campanula persicifolia,Italy,ALP_007 ,,,1050,NA,0,N,N,N,Y,3,10,,12,25,21,25
+Mondoni,Campanula persicifolia,Italy,ALP_007 ,,,1050,NA,0,N,N,N,Y,3,20,,12,25,21,24
+Mondoni,Campanula persicifolia,Italy,ALP_007 ,,,1050,NA,0,N,N,N,Y,3,20,,12,25,24,25
+Mondoni,Campanula raineri,Italy,LC305,,,,NA,0,N,N,Y,Y,1,10,20,12,50,28,28
+Mondoni,Campanula raineri,Italy,CO363,,,1200,NA,0,N,N,Y,Y,1,10,20,12,50,47,48
+Mondoni,Campanula raineri,Italy,CO146,,,1200,NA,0,N,N,Y,Y,1,10,20,12,50,11,11
+Mondoni,Campanula raineri,Italy,CO146,,,1200,NA,0,N,N,Y,Y,1,20,20,12,30,13,17
+Mondoni,Campanula raineri,Italy,CO363,,,1200,NA,0,N,N,Y,Y,1,20,20,12,30,25,26
+Mondoni,Campanula raineri,Italy,CO372,,,1230,NA,0,N,N,Y,Y,1,20,20,12,20,14,14
+Mondoni,Campanula scheuchzeri,Italy,SO678,,,1400,NA,0,N,N,Y,Y,1,20,20,12,20,7,9
+Mondoni,Campanula scheuchzeri,Italy,198 AQ,,,2009,NA,0,N,N,Y,Y,3,20,,12,30,27,30
+Mondoni,Campanula scheuchzeri,Italy,198 AQ,,,2009,NA,0,N,N,N,Y,1,20,,12,30,0,28
+Mondoni,Campanula scheuchzeri,Italy,198 AQ,,,2009,NA,0,N,N,Y,Y,3,20,,12,50,47,47
+Mondoni,Campanula scheuchzeri,Italy,198 AQ,,,2009,NA,0,N,N,Y,Y,3,20,,12,50,44,44
+Mondoni,Campanula scheuchzeri,Italy,SO615,,,2066,NA,0,N,N,Y,Y,1,20,20,12,50,15,30
+Mondoni,Campanula spicata,Italy,Alp_107,,,1280,NA,0,N,N,N,Y,3,15,15,12,20,19,20
+Mondoni,Campanula spicata,Italy,Alp_107,,,1280,NA,0,N,N,N,Y,3,15,15,12,20,18,20
+Mondoni,Campanula spicata,Italy,Alp_107,,,1280,NA,0,N,N,N,Y,3,15,15,12,20,20,20
+Mondoni,Campanula thyrsoides,Italy,SO248,,,1950,NA,0,N,N,N,Y,1,15,15,12,30,0,0
+Mondoni,Campanula thyrsoides,Italy,SO536,,,1960,NA,0,N,N,Y,Y,1,20,20,12,30,19,19
+Mondoni,Campanula thyrsoides,Italy,SO536,,,1960,NA,0,N,N,Y,Y,1,20,10,12,49,44,44
+Mondoni,Carduus carduelis,Italy,Alp_143,,,1051,NA,0,N,N,N,Y,3,20,20,12,20,19,20
+Mondoni,Carduus carduelis,Italy,Alp_143,,,1051,NA,0,N,N,N,Y,3,20,20,12,20,15,15
+Mondoni,Carduus carduelis,Italy,Alp_143,,,1051,NA,0,N,N,N,Y,3,20,20,12,20,13,15
+Mondoni,Carex bicolor,Italy,SO075,,,2425,NA,0,N,N,Y,Y,1,20,20,12,50,1,50
+Mondoni,Carex foetida,Italy,RE957,,,,NA,0,N,N,Y,Y,1,20,10,12,30,1,27
+Mondoni,Carex foetida,Italy,RE958,,,,NA,0,N,N,Y,Y,1,20,10,12,29,2,29
+Mondoni,Carex foetida,Italy,Alp_091,,,2400,NA,0,N,N,N,Y,3,25,25,12,20,0,14
+Mondoni,Carex foetida,Italy,Alp_091,,,2400,NA,0,N,N,N,Y,3,25,25,12,20,0,14
+Mondoni,Carex foetida,Italy,Alp_091,,,2400,NA,0,N,N,N,Y,3,25,25,12,20,1,15
+Mondoni,Centaurea nervosa,Italy,107 AQ,,,2000,NA,0,N,N,Y,Y,3,30,20,12,50,42,45
+Mondoni,Centaurea nervosa,Italy,107 AQ,,,2000,NA,0,N,N,Y,Y,3,30,20,12,50,37,40
+Mondoni,Centaurea nervosa,Italy,107 AQ,,,2000,NA,0,N,N,Y,Y,3,30,20,12,30,25,27
+Mondoni,Centaurea nervosa,Italy,107 AQ,,,2000,NA,0,N,N,N,Y,1,30,20,12,30,14,19
+Mondoni,Centaurea nervosa,Italy,107 AQ,,,2000,NA,0,N,N,N,Y,1,25,,12,30,10,25
+Mondoni,Centaurea nervosa,Italy,59RE,,,2000,NA,0,N,N,Y,Y,1,30,20,12,30,25,27
+Mondoni,Centaurea scabiosa,Italy,43 AQ,,,1828,NA,0,N,N,N,Y,1,25,,12,30,20,25
+Mondoni,Centaurea scabiosa,Italy,43 AQ,,,1828,NA,0,N,N,N,Y,4,30,20,12,30,27,29
+Mondoni,Centaurea scabiosa,Italy,43 AQ,,,1828,NA,0,N,N,N,Y,4,30,20,12,50,43,47
+Mondoni,Centaurea scabiosa,Italy,43 AQ,,,1828,NA,0,N,N,N,Y,4,30,20,12,50,43,44
+Mondoni,Centaurea scabiosa,Italy,43 AQ,,,1828,NA,0,N,N,N,Y,4,30,20,12,50,42,44
+Mondoni,Cerastium arvense,Italy,14 AQ,,,1720,0,14,Y,N,Y,Y,2,25,15,12,50,42,43
+Mondoni,Cerastium arvense,Italy,14 AQ,,,1720,NA,0,N,N,Y,Y,1,25,15,12,30,27,28
+Mondoni,Cerastium arvense,Italy,14 AQ,,,1720,NA,0,N,N,N,Y,1,25,15,12,30,21,27
+Mondoni,Cerastium arvense,Italy,14 AQ,,,1720,NA,0,N,N,N,Y,1,20,,12,30,18,27
+Mondoni,Cerastium arvense,Italy,14 AQ,,,1720,0,14,Y,N,Y,Y,2,25,15,12,50,38,40
+Mondoni,Cerastium arvense,Italy,448PV,,,1720,NA,0,N,N,Y,Y,1,25,15,12,30,27,28
+Mondoni,Cerastium latifolium,Italy,62BG,,,2058,NA,0,N,N,Y,Y,1,20,20,12,30,7,28
+Mondoni,Cerastium latifolium,Italy,62BG,,,2058,NA,0,N,N,Y,Y,1,25,15,12,30,7,29
+Mondoni,Cerastium pedunculatum,Italy,251SO,,,2630,NA,0,N,N,Y,Y,1,20,20,12,30,3,27
+Mondoni,Cerastium pedunculatum,Italy,251SO,,,2630,NA,0,N,N,Y,Y,1,25,15,12,30,3,20
+Mondoni,Cerastium uniflorum,Italy,20BL,,,2500,NA,0,N,N,N,Y,1,15,15,12,30,6,27
+Mondoni,Cerastium uniflorum,Italy,20BL,,,2500,NA,0,N,N,N,Y,1,20,10,12,30,11,25
+Mondoni,Cerastium uniflorum,Italy,20BL,,,2500,NA,0,N,N,N,Y,1,10,5,12,30,0,21
+Mondoni,Cerastium uniflorum,Italy,20BL,,,2500,NA,0,N,N,N,Y,1,30,20,12,30,6,28
+Mondoni,Cerastium uniflorum,Italy,20BL,,,2500,NA,0,N,N,Y,Y,1,25,15,12,30,19,30
+Mondoni,Cerastium uniflorum,Italy,20BL,,,2500,0,56,Y,N,N,Y,1,15,15,12,30,10,29
+Mondoni,Cerastium uniflorum,Italy,20BL,,,2500,0,56,Y,N,N,Y,1,20,10,12,30,2,29
+Mondoni,Cerastium uniflorum,Italy,20BL,,,2500,0,56,Y,N,N,Y,1,10,5,12,30,0,29
+Mondoni,Cerastium uniflorum,Italy,20BL,,,2500,0,56,Y,N,N,Y,1,30,20,12,30,8,26
+Mondoni,Cirsium spinosissimum,Italy,212 AQ,,,2494,NA,0,N,N,Y,Y,4,25,15,12,30,13,18
+Mondoni,Cirsium spinosissimum,Italy,212 AQ,,,2494,NA,0,N,N,Y,Y,4,25,15,12,50,39,40
+Mondoni,Cirsium spinosissimum,Italy,212 AQ,,,2494,NA,0,N,N,Y,Y,4,25,15,12,50,42,42
+Mondoni,Cirsium spinosissimum,Italy,212 AQ,,,2494,NA,0,N,N,Y,Y,4,25,15,12,30,18,24
+Mondoni,Crepis albida,Italy,Alp_032,,,1670,NA,0,N,N,N,Y,3,10,10,12,20,16,16
+Mondoni,Crepis albida,Italy,Alp_032,,,1670,NA,0,N,N,N,Y,3,10,10,12,20,14,14
+Mondoni,Crepis albida,Italy,Alp_032,,,1670,NA,0,N,N,N,Y,3,10,10,12,20,17,17
+Mondoni,Dianthus carthusianorum,Italy,209 AQ,,,1882,NA,0,N,N,N,Y,3,15,,12,50,49,50
+Mondoni,Dianthus carthusianorum,Italy,209 AQ,,,1882,NA,0,N,N,N,Y,3,15,,12,30,30,30
+Mondoni,Dianthus carthusianorum,Italy,209 AQ,,,1882,NA,0,N,N,N,Y,3,15,,12,50,50,50
+Mondoni,Dianthus carthusianorum,Italy,209 AQ,,,1882,NA,0,N,N,N,Y,1,20,,12,30,30,30
+Mondoni,Dianthus deltoides,Italy,RE898,,,2000,NA,0,N,N,Y,Y,1,20,20,12,30,28,30
+Mondoni,Dianthus deltoides,Italy,RE898,,,2000,NA,0,N,N,N,Y,1,20,20,12,50,33,47
+Mondoni,Dianthus glacialis,Italy,SO379,,,2700,NA,0,N,N,Y,Y,1,10,20,12,50,50,50
+Mondoni,Dianthus glacialis,Italy,SO379,,,2700,NA,0,N,N,Y,Y,1,20,10,12,50,38,50
+Mondoni,Dianthus glacialis,Italy,78 AQ,,,2710,NA,0,N,N,Y,Y,1,20,,12,30,14,27
+Mondoni,Dianthus glacialis,Italy,78 AQ,,,2710,0,35,Y,N,N,Y,1,25,15,12,30,30,30
+Mondoni,Dianthus glacialis,Italy,78 AQ,,,2710,0,35,Y,N,N,Y,1,20,,12,30,26,26
+Mondoni,Dianthus glacialis,Italy,78 AQ,,,2710,0,14,Y,N,N,Y,2,25,15,12,50,44,50
+Mondoni,Dianthus glacialis,Italy,78 AQ,,,2710,0,14,Y,N,N,Y,2,25,15,12,50,46,50
+Mondoni,Dianthus glacialis,Italy,SO897,,,2710,NA,0,N,N,Y,Y,1,20,20,12,30,14,27
+Mondoni,Dianthus glacialis,Italy,SO897,,,2710,0,35,Y,N,N,Y,1,25,15,12,30,30,30
+Mondoni,Dianthus glacialis,Italy,SO897,,,2710,0,35,Y,N,N,Y,1,20,20,12,30,26,26
+Mondoni,Dianthus glacialis,Italy,SO897,,,2710,0,35,Y,N,N,Y,1,25,25,12,30,11,26
+Mondoni,Dianthus glacialis,Italy,SO897,,,2710,0,35,Y,N,Y,Y,1,25,15,12,30,30,30
+Mondoni,Dianthus glacialis,Italy,SO897,,,2710,0,35,Y,N,Y,Y,1,20,20,12,30,30,30
+Mondoni,Dianthus glacialis,Italy,SO897,,,2710,0,35,Y,N,Y,Y,1,25,25,12,30,17,29
+Mondoni,Dianthus glacialis,Italy,81 AQ,,,2731,0,35,Y,N,Y,Y,1,25,15,12,30,30,30
+Mondoni,Dianthus superbus,Italy,SO617,,,1975,NA,0,N,N,N,Y,1,20,20,12,30,18,23
+Mondoni,Dianthus superbus,Italy,SO617,,,1975,NA,0,N,N,N,Y,1,25,25,12,30,14,20
+Mondoni,Dianthus sylvestris,Italy,SO218,,,1800,NA,0,N,N,Y,Y,1,20,10,12,50,44,44
+Mondoni,Dianthus sylvestris,Italy,200 AQ,,,1882,NA,0,N,N,N,Y,4,15,,12,50,47,47
+Mondoni,Dianthus sylvestris,Italy,200 AQ,,,1882,NA,0,N,N,N,Y,4,15,,12,50,47,47
+Mondoni,Dianthus sylvestris,Italy,200 AQ,,,1882,NA,0,N,N,N,Y,4,15,,12,50,46,47
+Mondoni,Dianthus sylvestris,Italy,200 AQ,,,1882,NA,0,N,N,N,Y,1,20,,12,30,26,29
+Mondoni,Dianthus sylvestris,Italy,200 AQ,,,1882,NA,0,N,N,N,Y,4,15,,12,30,28,30
+Mondoni,Draba hoppeana,Italy,Alp_160,,,2746,NA,0,N,N,N,Y,3,20,20,12,20,13,20
+Mondoni,Draba hoppeana,Italy,Alp_160,,,2746,NA,0,N,N,N,Y,3,20,20,12,20,15,20
+Mondoni,Draba hoppeana,Italy,Alp_160,,,2746,NA,0,N,N,N,Y,3,20,20,12,20,18,20
+Mondoni,Draba stylaris,Italy,Alp_166,,,2652,NA,0,N,N,N,Y,3,20,20,12,20,14,20
+Mondoni,Draba stylaris,Italy,Alp_166,,,2652,NA,0,N,N,N,Y,3,20,20,12,20,16,20
+Mondoni,Draba stylaris,Italy,Alp_166,,,2652,NA,0,N,N,N,Y,3,20,20,12,20,13,20
+Mondoni,Dryas octopetala,Italy,BG951,,,1994,NA,0,N,N,N,Y,1,20,20,12,30,26,26
+Mondoni,Dryas octopetala,Italy,SO606,,,2210,NA,0,N,N,N,Y,1,20,20,12,50,17,23
+Mondoni,Dryas octopetala,Italy,BG954,,,2296,NA,0,N,N,N,Y,1,20,20,12,28,23,23
+Mondoni,Epilobium alpestre,Italy,121 AQ,,,2128,NA,0,N,N,Y,Y,1,25,,12,30,30,30
+Mondoni,Epilobium alpestre,Italy,121 AQ,,,2128,NA,0,N,N,Y,Y,3,25,,12,50,47,47
+Mondoni,Epilobium alpestre,Italy,121 AQ,,,2128,NA,0,N,N,N,Y,1,25,,12,30,23,30
+Mondoni,Epilobium alpestre,Italy,121 AQ,,,2128,NA,0,N,N,Y,Y,3,25,,12,50,43,43
+Mondoni,Epilobium alpestre,Italy,121 AQ,,,2128,NA,0,N,N,Y,Y,3,25,,12,50,44,44
+Mondoni,Epilobium alpestre,Italy,23BL,,,2128,NA,0,N,N,Y,Y,1,25,25,12,30,30,30
+Mondoni,Epilobium angustifolium,Italy,5BS,,,,NA,0,N,N,N,Y,1,20,20,12,50,29,31
+Mondoni,Eriophorum angustifolium,Italy,SO377,,,2233,NA,0,N,N,N,Y,1,30,20,12,47,33,33
+Mondoni,Eriophorum scheuchzeri,Italy,SO082,,,2685,NA,0,N,N,Y,Y,1,20,20,12,50,16,36
+Mondoni,Eriophorum vaginatum,Italy,Alp_165,,,2615,NA,0,N,N,N,Y,3,25,25,12,20,0,16
+Mondoni,Eriophorum vaginatum,Italy,Alp_165,,,2615,NA,0,N,N,N,Y,3,25,25,12,20,0,12
+Mondoni,Eriophorum vaginatum,Italy,Alp_165,,,2615,NA,0,N,N,N,Y,3,25,25,12,20,1,11
+Mondoni,Euphrasia alpina,Italy,Alp_086,,,2013,NA,0,N,N,N,Y,3,10,10,12,20,0,18
+Mondoni,Euphrasia alpina,Italy,Alp_086,,,2013,NA,0,N,N,N,Y,3,10,10,12,20,0,18
+Mondoni,Euphrasia alpina,Italy,Alp_086,,,2013,NA,0,N,N,N,Y,3,10,10,12,20,0,20
+Mondoni,Festuca alpina,Italy,131 AQ,,,2142,NA,0,N,N,N,Y,4,15,,12,50,39,49
+Mondoni,Festuca alpina,Italy,131 AQ,,,2142,NA,0,N,N,N,Y,1,20,,12,30,28,28
+Mondoni,Festuca alpina,Italy,131 AQ,,,2142,NA,0,N,N,N,Y,4,15,,12,30,28,28
+Mondoni,Festuca alpina,Italy,131 AQ,,,2142,NA,0,N,N,N,Y,4,15,,12,50,48,48
+Mondoni,Festuca alpina,Italy,131 AQ,,,2142,NA,0,N,N,N,Y,4,15,,12,50,46,50
+Mondoni,Festuca luedii,Italy,Alp_164,,,2260,NA,0,N,N,N,Y,3,15,15,12,20,0,7
+Mondoni,Festuca luedii,Italy,Alp_164,,,2260,NA,0,N,N,N,Y,3,15,15,12,20,2,6
+Mondoni,Festuca luedii,Italy,Alp_164,,,2260,NA,0,N,N,N,Y,3,15,15,12,20,0,6
+Mondoni,Festuca melanopsis,Italy,401SO,,,2200,NA,0,N,N,N,Y,1,15,15,12,30,13,21
+Mondoni,Festuca melanopsis,Italy,401SO,,,2200,NA,0,N,N,N,Y,1,20,20,12,30,20,28
+Mondoni,Festuca nigrescens,Italy,436SO,,,2145,NA,0,N,N,N,Y,1,20,20,12,45,14,37
+Mondoni,Festuca nigrescens,Italy,436SO,,,2145,NA,0,N,N,Y,Y,1,20,20,12,50,48,48
+Mondoni,Festuca norica,Italy,Alp_168,,,2445,NA,0,N,N,N,Y,3,15,15,12,20,3,10
+Mondoni,Festuca norica,Italy,Alp_168,,,2445,NA,0,N,N,N,Y,3,15,15,12,20,7,14
+Mondoni,Festuca norica,Italy,Alp_168,,,2445,NA,0,N,N,N,Y,3,15,15,12,20,7,13
+Mondoni,Festuca spectabilis,Italy,Alp_170,,,1635,NA,0,N,N,N,Y,3,15,15,12,20,8,13
+Mondoni,Festuca spectabilis,Italy,Alp_170,,,1635,NA,0,N,N,N,Y,3,15,15,12,20,9,15
+Mondoni,Festuca spectabilis,Italy,Alp_170,,,1635,NA,0,N,N,N,Y,3,15,15,12,20,9,16
+Mondoni,Festuca violacea,Italy,55RE,,,,NA,0,N,N,N,Y,1,15,15,12,30,21,26
+Mondoni,Festuca violacea,Italy,55RE,,,,NA,0,N,N,N,Y,1,20,20,12,30,24,24
+Mondoni,Festuca violacea,Italy,97 AQ,,,2000,NA,0,N,N,N,Y,1,15,,12,30,21,26
+Mondoni,Festuca violacea,Italy,97 AQ,,,2000,NA,0,N,N,N,Y,1,20,,12,30,24,24
+Mondoni,Galium centroniae,Italy,Alp_151,,,1289,NA,0,N,N,N,Y,3,20,20,12,25,2,2
+Mondoni,Galium centroniae,Italy,Alp_151,,,1289,NA,0,N,N,N,Y,3,20,20,12,21,2,2
+Mondoni,Galium centroniae,Italy,Alp_151,,,1289,NA,0,N,N,N,Y,3,20,20,12,21,0,1
+Mondoni,Galium montis-arerae,Italy,BG965,,,,NA,0,N,N,N,Y,1,15,5,12,30,0,30
+Mondoni,Galium montis-arerae,Italy,BG339,,,,4,28,Y,N,N,Y,1,20,20,12,30,0,28
+Mondoni,Gentiana acaulis,Italy,SO159 ,,,,4,28,Y,N,N,Y,1,20,20,12,30,0,28
+Mondoni,Gentiana acaulis,Italy,SO175,,,,4,28,Y,N,N,Y,1,20,20,12,30,1,30
+Mondoni,Gentiana acaulis,Italy,SO403,,,1690,NA,0,N,N,Y,Y,1,25,15,12,30,25,28
+Mondoni,Gentiana acaulis,Italy,SO141 ,,,1995,NA,0,N,N,Y,Y,1,25,15,12,30,27,30
+Mondoni,Gentiana acaulis,Italy,SO573,,,2240,NA,0,N,N,Y,Y,1,25,15,12,50,46,46
+Mondoni,Gentiana acaulis,Italy,SO280,,,2305,4,28,Y,N,N,Y,1,20,20,12,30,0,30
+Mondoni,Gentiana brachyphylla,Italy,Alp_051,,,2500,NA,0,N,N,N,Y,3,15,15,12,20,0,17
+Mondoni,Gentiana brachyphylla,Italy,Alp_051,,,2500,NA,0,N,N,N,Y,3,15,15,12,20,0,19
+Mondoni,Gentiana brachyphylla,Italy,Alp_051,,,2500,NA,0,N,N,N,Y,3,15,15,12,20,0,19
+Mondoni,Gentiana clusii,Italy,BG195 ,,,2015,NA,0,N,N,Y,Y,1,20,20,12,20,7,7
+Mondoni,Gentiana lutea,Italy,SO084,,,1940,0/5,28,Y,N,Y,Y,1,20,20,12,50,11,11
+Mondoni,Gentiana nivalis,Italy,Alp_088,,,2400,NA,0,N,N,N,Y,3,20,20,12,20,0,19
+Mondoni,Gentiana nivalis,Italy,Alp_088,,,2400,NA,0,N,N,N,Y,3,20,20,12,20,0,20
+Mondoni,Gentiana nivalis,Italy,Alp_088,,,2400,NA,0,N,N,N,Y,3,20,20,12,20,0,8
+Mondoni,Gentiana punctata,Italy,SO201,,,,NA,0,N,N,Y,Y,1,25,15,12,30,17,30
+Mondoni,Gentiana punctata,Italy,BS406,,,2100,4,28,Y,N,N,Y,1,20,20,12,30,1,28
+Mondoni,Gentiana punctata,Italy,BG969,,,2399,NA,0,N,N,Y,Y,1,15,5,12,30,12,22
+Mondoni,Gentiana tenella,Italy,Alp_095,,,2671,NA,0,N,N,N,Y,3,15,15,12,20,0,20
+Mondoni,Gentiana tenella,Italy,Alp_095,,,2671,NA,0,N,N,N,Y,3,15,15,12,20,0,20
+Mondoni,Gentiana tenella,Italy,Alp_095,,,2671,NA,0,N,N,N,Y,3,15,15,12,20,0,19
+Mondoni,Gentiana verna,Italy,Alp_177,,,1880,NA,0,N,N,N,Y,3,15,15,12,20,0,19
+Mondoni,Gentiana verna,Italy,Alp_177,,,1880,NA,0,N,N,N,Y,3,15,15,12,20,1,19
+Mondoni,Gentiana verna,Italy,Alp_177,,,1880,NA,0,N,N,N,Y,3,15,15,12,20,0,18
+Mondoni,Gentiana verna,Italy,SO583,,,2234,0/5,56,Y,N,Y,Y,1,20,10,12,50,37,42
+Mondoni,Gnaphalium supinum,Italy,Alp_124,,,2671,NA,0,N,N,N,Y,3,25,25,12,20,19,20
+Mondoni,Gnaphalium supinum,Italy,Alp_124,,,2671,NA,0,N,N,N,Y,3,25,25,12,20,19,19
+Mondoni,Gnaphalium supinum,Italy,Alp_124,,,2671,NA,0,N,N,N,Y,3,25,25,12,20,19,20
+Mondoni,Helictotrichon versicolor,Italy,Alp_092,,,2400,NA,0,N,N,N,Y,3,10,10,12,20,3,16
+Mondoni,Helictotrichon versicolor,Italy,Alp_092,,,2400,NA,0,N,N,N,Y,3,10,10,12,20,4,18
+Mondoni,Helictotrichon versicolor,Italy,Alp_092,,,2400,NA,0,N,N,N,Y,3,10,10,12,20,2,18
+Mondoni,Hypericum maculatum,Italy,139 AQ,,,1384,NA,0,N,N,Y,Y,4,20,,12,50,46,49
+Mondoni,Hornungia pauciflora,Italy,Alp_154,,,1690,NA,0,N,N,N,Y,3,15,15,12,20,0,20
+Mondoni,Hornungia pauciflora,Italy,Alp_154,,,1690,NA,0,N,N,N,Y,3,15,15,12,20,0,19
+Mondoni,Hornungia pauciflora,Italy,Alp_154,,,1690,NA,0,N,N,N,Y,3,15,15,12,20,0,20
+Mondoni,Hypericum maculatum,Italy,139 AQ,,,1384,NA,0,N,N,Y,Y,4,20,,12,50,45,45
+Mondoni,Hypericum maculatum,Italy,139 AQ,,,1384,NA,0,N,N,Y,Y,4,20,,12,50,42,49
+Mondoni,Hypericum maculatum,Italy,139 AQ,,,1384,NA,0,N,N,Y,Y,4,20,,12,30,27,29
+Mondoni,Hypericum maculatum,Italy,139 AQ,,,1384,NA,0,N,N,N,Y,1,20,,12,30,8,14
+Mondoni,Hypericum richeeri,Italy,89 AQ,,,1724,0,14,Y,N,N,Y,2,20,,12,50,33,49
+Mondoni,Hypericum richeeri,Italy,89 AQ,,,1724,0,14,Y,N,N,Y,2,20,,12,50,40,49
+Mondoni,Hypericum richeeri,Italy,89 AQ,,,1724,NA,0,N,N,N,Y,1,20,,12,30,24,27
+Mondoni,Hypericum richeeri,Italy,89 AQ,,,1724,NA,0,N,N,Y,Y,1,20,,12,30,26,30
+Mondoni,Juncus trifidus,Italy,Alp_176,,,2483,NA,0,N,N,N,Y,3,20,20,12,21,1,20
+Mondoni,Juncus trifidus,Italy,Alp_176,,,2483,NA,0,N,N,N,Y,3,20,20,12,20,0,19
+Mondoni,Juncus trifidus,Italy,Alp_176,,,2483,NA,0,N,N,N,Y,3,20,20,12,20,0,19
+Mondoni,Kobresia myosuroides,Italy,Alp_050,,,2500,NA,0,N,N,N,Y,3,30,30,12,20,0,19
+Mondoni,Kobresia myosuroides,Italy,Alp_050,,,2500,NA,0,N,N,N,Y,3,30,30,12,20,0,19
+Mondoni,Kobresia myosuroides,Italy,Alp_050,,,2500,NA,0,N,N,N,Y,3,30,30,12,20,0,20
+Mondoni,Laserpitium nitidum,Italy,Alp_060,,,1520,NA,0,N,N,N,Y,3,10,10,12,20,0,16
+Mondoni,Laserpitium nitidum,Italy,Alp_060,,,1520,NA,0,N,N,N,Y,3,10,10,12,20,0,19
+Mondoni,Laserpitium nitidum,Italy,Alp_060,,,1520,NA,0,N,N,N,Y,3,10,10,12,20,0,19
+Mondoni,Laserpitium peucedanoides,Italy,ALP_015 ,,,1694,NA,0,N,N,Y,Y,3,20,,12,12,0,12
+Mondoni,Laserpitium peucedanoides,Italy,ALP_015 ,,,1694,NA,0,N,N,N,Y,3,20,,12,12,0,12
+Mondoni,Laserpitium peucedanoides,Italy,ALP_015 ,,,1694,NA,0,N,N,N,Y,3,20,,12,12,0,12
+Mondoni,Laserpitium peucedanoides,Italy,ALP_015 ,,,1694,NA,0,N,N,Y,Y,3,20,,12,12,0,12
+Mondoni,Laserpitium peucedanoides,Italy,ALP_015 ,,,1694,NA,0,N,N,Y,Y,3,20,,12,12,0,12
+Mondoni,Laserpitium peucedanoides,Italy,ALP_015 ,,,1694,NA,0,N,N,N,Y,3,20,,12,12,0,12
+Mondoni,Leucanthemopsis alpina,Italy,157SO,,,2400,NA,0,N,N,Y,Y,1,20,10,12,50,28,50
+Mondoni,Leucanthemum vulgare,Italy,195 AQ,,,2009,NA,0,N,N,Y,Y,4,20,,12,50,45,45
+Mondoni,Leucanthemum vulgare,Italy,195 AQ,,,2009,NA,0,N,N,Y,Y,4,20,,12,50,47,47
+Mondoni,Leucanthemum vulgare,Italy,195 AQ,,,2009,NA,0,N,N,Y,Y,4,20,,12,50,46,46
+Mondoni,Leucanthemum vulgare,Italy,195 AQ,,,2009,NA,0,N,N,N,Y,1,20,,12,30,23,30
+Mondoni,Leucanthemum vulgare,Italy,195 AQ,,,2009,NA,0,N,N,N,Y,1,25,,12,30,21,25
+Mondoni,Leucanthemum vulgare,Italy,195 AQ,,,2009,NA,0,N,N,Y,Y,4,20,,12,30,28,30
+Mondoni,Linaria alpina,Italy,220SO,,,,NA,0,N,N,N,Y,1,10,5,12,30,0,30
+Mondoni,Linaria alpina,Italy,220SO,,,,NA,0,N,N,N,Y,1,10,5,12,30,0,28
+Mondoni,Linaria alpina,Italy,220SO,,,,NA,0,N,N,N,Y,1,15,15,12,30,0,27
+Mondoni,Linaria alpina,Italy,220SO,,,,NA,0,N,N,N,Y,1,20,20,12,30,0,30
+Mondoni,Linaria alpina,Italy,220SO,,,,NA,0,N,N,N,Y,1,20,20,12,30,0,28
+Mondoni,Linaria alpina,Italy,220SO,,,,NA,0,N,N,N,Y,1,25,25,12,30,0,28
+Mondoni,Linaria alpina,Italy,220SO,,,,NA,0,N,N,N,Y,1,20,10,12,30,0,27
+Mondoni,Linaria alpina,Italy,220SO,,,,NA,0,N,N,N,Y,1,25,15,12,30,0,26
+Mondoni,Linaria alpina,Italy,220SO,,,,NA,0,N,N,N,Y,1,30,20,12,30,0,29
+Mondoni,Linaria alpina,Italy,220SO,,,,0,56,Y,N,N,Y,1,10,5,12,30,0,28
+Mondoni,Linaria alpina,Italy,220SO,,,,0,56,Y,N,N,Y,1,15,15,12,30,0,30
+Mondoni,Linaria alpina,Italy,220SO,,,,0,56,Y,N,N,Y,1,20,20,12,30,0,29
+Mondoni,Linaria alpina,Italy,220SO,,,,0,56,Y,N,N,Y,1,25,25,12,30,0,29
+Mondoni,Linaria alpina,Italy,220SO,,,,0,56,Y,N,N,Y,1,20,10,12,30,1,30
+Mondoni,Linaria alpina,Italy,220SO,,,,0,56,Y,N,N,Y,1,25,15,12,30,0,27
+Mondoni,Linaria alpina,Italy,220SO,,,,0,56,Y,N,N,Y,1,30,20,12,30,0,28
+Mondoni,Linaria alpina,Italy,362SO,,,2519,NA,0,N,N,Y,Y,1,20,20,12,30,21,28
+Mondoni,Linaria alpina,Italy,362SO,,,2519,NA,0,N,N,Y,Y,1,25,15,12,30,24,30
+Mondoni,Linaria tonzigii,Italy,BG684,,,1969,NA,0,N,N,Y,Y,3,25,15,12,20,12,18
+Mondoni,Linaria tonzigii,Italy,BG684,,,1969,NA,0,N,N,Y,Y,3,25,15,12,20,14,19
+Mondoni,Linaria tonzigii,Italy,BG684,,,1969,NA,0,N,N,Y,Y,3,25,15,12,20,15,19
+Mondoni,Linaria tonzigii,Italy,BG193 ,,,2000,NA,0,N,N,Y,Y,1,20,20,12,20,16,20
+Mondoni,Linaria tonzigii,Italy,BG345,,,2000,NA,0,N,N,Y,Y,1,20,20,12,50,42,42
+Mondoni,Luzula alpinopilosa,Italy,Alp_090,,,2350,NA,0,N,N,N,Y,3,20,20,12,20,19,20
+Mondoni,Luzula alpinopilosa,Italy,Alp_090,,,2350,NA,0,N,N,N,Y,3,20,20,12,20,20,20
+Mondoni,Luzula alpinopilosa,Italy,Alp_090,,,2350,NA,0,N,N,N,Y,3,20,20,12,20,19,20
+Mondoni,Luzula campestris,Italy,Alp_115,,,2369,NA,0,N,N,N,Y,3,15,15,12,20,20,20
+Mondoni,Luzula campestris,Italy,Alp_115,,,2369,NA,0,N,N,N,Y,3,15,15,12,20,20,20
+Mondoni,Luzula campestris,Italy,Alp_115,,,2369,NA,0,N,N,N,Y,3,15,15,12,20,20,20
+Mondoni,Menyanthes trifoliata,Italy,SO404,,,1570,NA,0,N,N,Y,Y,1,25,15,12,30,15,30
+Mondoni,Minuartia graminifolia,Italy,ALP_018 ,,,1764,NA,0,N,N,N,Y,3,20,,12,25,1,24
+Mondoni,Minuartia graminifolia,Italy,ALP_018 ,,,1764,NA,0,N,N,Y,Y,3,20,,12,25,2,25
+Mondoni,Minuartia graminifolia,Italy,ALP_018 ,,,1764,NA,0,N,N,Y,Y,3,20,,12,25,1,25
+Mondoni,Minuartia graminifolia,Italy,ALP_018 ,,,1764,NA,0,N,N,N,Y,3,20,,12,25,0,24
+Mondoni,Minuartia graminifolia,Italy,ALP_018 ,,,1764,NA,0,N,N,N,Y,3,20,,12,25,0,25
+Mondoni,Minuartia graminifolia,Italy,ALP_018 ,,,1764,NA,0,N,N,Y,Y,3,20,,12,25,3,25
+Mondoni,Moehringia glaucovirens,Italy,Alp_155,,,1690,NA,0,N,N,N,Y,3,20,20,12,20,0,16
+Mondoni,Moehringia glaucovirens,Italy,Alp_155,,,1690,NA,0,N,N,N,Y,3,20,20,12,20,0,17
+Mondoni,Moehringia glaucovirens,Italy,Alp_155,,,1690,NA,0,N,N,N,Y,3,20,20,12,20,0,19
+Mondoni,Myosotis alpestris,Italy,334SO,,,2220,NA,0,N,N,Y,Y,1,15,15,12,30,11,30
+Mondoni,Myosotis alpestris,Italy,334SO,,,2220,NA,0,N,N,Y,Y,1,20,10,12,30,16,30
+Mondoni,Myricaria germanica,Italy,SO591,,,1923,NA,0,N,N,N,Y,1,20,20,12,49,7,10
+Mondoni,Odontarrhena argentea,Italy,Alp_057,,,1510,NA,0,N,N,N,Y,3,20,20,12,18,12,14
+Mondoni,Odontarrhena argentea,Italy,Alp_057,,,1510,NA,0,N,N,N,Y,3,20,20,12,16,5,9
+Mondoni,Odontarrhena argentea,Italy,Alp_057,,,1510,NA,0,N,N,N,Y,3,20,20,12,17,11,13
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,15,15,12,30,16,16
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,20,20,12,30,21,25
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,20,10,12,30,23,27
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,10,5,12,30,0,22
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,25,15,12,30,22,26
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,30,20,12,30,19,23
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,15,15,12,30,22,24
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,20,20,12,30,25,28
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,20,10,12,30,20,29
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,10,5,12,30,4,30
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,25,15,12,30,26,26
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,N,Y,1,30,20,12,30,17,20
+Mondoni,Oxyria digyna,Italy,104SO,,,2800,NA,0,N,N,Y,Y,1,20,20,12,30,23,24
+Mondoni,Papaver rhaeticum,Italy,SO277,,,,NA,0,N,N,Y,Y,1,10,20,12,50,46,46
+Mondoni,Papaver rhaeticum,Italy,BG187,,,2030,NA,0,N,N,Y,Y,1,20,20,12,20,20,20
+Mondoni,Papaver rhaeticum,Italy,BG187,,,2030,NA,0,N,N,Y,Y,1,20,20,12,50,47,48
+Mondoni,Papaver rhaeticum,Italy,BG950,,,2030,NA,0,N,N,Y,Y,1,20,20,12,29,17,18
+Mondoni,Pedicularis palustris,Italy,SO267,,,1735,0/5,56,Y,N,N,Y,1,20,20,12,50,0,0
+Mondoni,Pedicularis palustris,Italy,SO092,,,1749,0/5,28,Y,N,Y,Y,1,20,20,12,50,0,0
+Mondoni,Phleum rhaeticum,Italy,445SO,,,1650,NA,0,N,N,N,Y,1,20,20,12,49,29,32
+Mondoni,Phleum rhaeticum,Italy,437SO,,,1964,NA,0,N,N,N,Y,1,20,20,12,50,41,44
+Mondoni,Phleum rhaeticum,Italy,433SO,,,2181,NA,0,N,N,N,Y,1,20,20,12,50,43,43
+Mondoni,Phleum rhaeticum,Italy,433SO,,,2181,NA,0,N,N,N,Y,1,20,20,12,50,42,43
+Mondoni,Phleum rhaeticum,Italy,443SO,,,2231,NA,0,N,N,N,Y,1,20,20,12,50,49,49
+Mondoni,Phyteuma scheuchzeri,Italy,Alp_081,,,2013,NA,0,N,N,N,Y,3,15,15,12,20,1,20
+Mondoni,Phyteuma scheuchzeri,Italy,Alp_081,,,2013,NA,0,N,N,N,Y,3,15,15,12,20,0,19
+Mondoni,Phyteuma scheuchzeri,Italy,Alp_081,,,2013,NA,0,N,N,N,Y,3,15,15,12,20,0,20
+Mondoni,Phyteuma sieberi,Italy,Alp_105,,,2749,NA,0,N,N,N,Y,3,15,15,12,20,0,20
+Mondoni,Phyteuma sieberi,Italy,Alp_105,,,2749,NA,0,N,N,N,Y,3,15,15,12,20,1,18
+Mondoni,Phyteuma sieberi,Italy,Alp_105,,,2749,NA,0,N,N,N,Y,3,15,15,12,20,0,17
+Mondoni,Pinguicula leptoceras,Italy,ALP_034 ,,,1500,NA,0,N,N,Y,Y,3,20,,12,25,15,19
+Mondoni,Pinguicula leptoceras,Italy,ALP_034 ,,,1500,NA,0,N,N,Y,Y,3,20,,12,25,17,18
+Mondoni,Pinguicula leptoceras,Italy,ALP_034 ,,,1500,NA,0,N,N,N,Y,3,20,,12,25,15,20
+Mondoni,Pinguicula leptoceras,Italy,ALP_034 ,,,1500,NA,0,N,N,N,Y,3,20,,12,25,18,22
+Mondoni,Pinguicula leptoceras,Italy,ALP_034 ,,,1500,NA,0,N,N,N,Y,3,20,,12,25,12,19
+Mondoni,Pinguicula leptoceras,Italy,ALP_034 ,,,1500,NA,0,N,N,Y,Y,3,20,,12,25,18,22
+Mondoni,Pinguicula poldinii,Italy,Alp_134,,,1017,NA,0,N,N,N,Y,3,20,20,12,20,0,15
+Mondoni,Pinguicula poldinii,Italy,Alp_134,,,1017,NA,0,N,N,N,Y,3,20,20,12,20,0,17
+Mondoni,Pinguicula poldinii,Italy,Alp_134,,,1017,NA,0,N,N,N,Y,3,20,20,12,20,0,18
+Mondoni,Plantago alpina,Italy,111 AQ,,,2000,NA,0,N,N,Y,Y,1,15,,12,30,30,30
+Mondoni,Plantago alpina,Italy,111 AQ,,,2000,NA,0,N,N,N,Y,1,25,,12,30,18,20
+Mondoni,Plantago alpina,Italy,111 AQ,,,2000,NA,0,N,N,Y,Y,1,25,,12,30,24,24
+Mondoni,Plantago alpina,Italy,56RE,,,2000,NA,0,N,N,Y,Y,1,15,15,12,30,30,30
+Mondoni,Plantago atrata,Italy,49RE,,,1800,NA,0,N,N,Y,Y,1,15,15,12,30,20,27
+Mondoni,Plantago atrata,Italy,49RE,,,1800,NA,0,N,N,Y,Y,1,20,10,12,30,23,25
+Mondoni,Plantago lanceolata,Italy,38 AQ,,,1720,NA,0,N,N,Y,Y,1,25,,12,30,29,30
+Mondoni,Plantago lanceolata,Italy,38 AQ,,,1720,NA,0,N,N,N,Y,1,25,,12,30,3,26
+Mondoni,Plantago serpentina,Italy,430SO,,,1941,NA,0,N,N,Y,Y,1,20,20,12,50,49,49
+Mondoni,Plantago serpentina,Italy,430SO,,,1941,NA,0,N,N,Y,Y,1,20,20,12,50,44,50
+Mondoni,Plantago serpentina,Italy,424SO,,,1945,NA,0,N,N,Y,Y,1,20,20,12,50,49,49
+Mondoni,Plantago serpentina,Italy,444SO,,,2085,NA,0,N,N,Y,Y,1,20,20,12,50,50,50
+Mondoni,Plantago serpentina,Italy,425SO,,,2158,NA,0,N,N,Y,Y,1,20,20,12,50,40,45
+Mondoni,Poa alpina,Italy,132SO,,,,NA,0,N,N,N,Y,1,20,20,12,50,47,47
+Mondoni,Poa alpina,Italy,216SO,,,,NA,0,N,N,N,Y,1,20,20,12,50,15,43
+Mondoni,Poa alpina,Italy,438SO,,,2145,NA,0,N,N,N,Y,1,20,20,12,50,45,45
+Mondoni,Poa alpina,Italy,423SO,,,2158,NA,0,N,N,N,Y,1,20,20,12,50,49,49
+Mondoni,Poa alpina,Italy,442SO,,,2231,NA,0,N,N,N,Y,1,20,20,12,49,48,48
+Mondoni,Poa alpina,Italy,435SO,,,2327,NA,0,N,N,N,Y,1,20,20,12,49,46,46
+Mondoni,Poa alpina,Italy,441SO,,,2412,NA,0,N,N,N,Y,1,20,20,12,50,49,49
+Mondoni,Poa alpina,Italy,429SO,,,2425,NA,0,N,N,N,Y,1,20,20,12,49,47,47
+Mondoni,Poa alpina,Italy,429SO,,,2425,NA,0,N,N,N,Y,1,20,20,12,50,42,42
+Mondoni,Poa alpina,Italy,134SO,,,2690,NA,0,N,N,N,Y,1,20,20,12,50,40,40
+Mondoni,Polemonium caeruleum,Italy,SO493,,,1850,NA,0,N,N,N,Y,1,20,10,12,50,22,46
+Mondoni,Potentilla grammopetala,Italy,ALP_027 ,,,2195,NA,0,N,N,N,Y,3,25,15,12,25,0,22
+Mondoni,Potentilla grammopetala,Italy,ALP_027 ,,,2195,NA,0,N,N,N,Y,3,25,15,12,25,0,23
+Mondoni,Potentilla grammopetala,Italy,ALP_027 ,,,2195,NA,0,N,N,N,Y,3,20,,12,25,0,23
+Mondoni,Potentilla grammopetala,Italy,ALP_027 ,,,2195,NA,0,N,N,N,Y,3,20,,12,25,0,22
+Mondoni,Potentilla grammopetala,Italy,ALP_027 ,,,2195,NA,0,N,N,N,Y,3,20,,12,25,0,20
+Mondoni,Potentilla grammopetala,Italy,ALP_027 ,,,2195,NA,0,N,N,N,Y,3,25,15,12,25,0,20
+Mondoni,Primula auricula,Italy,BG964,,,2024,NA,0,N,N,Y,Y,1,20,20,12,29,17,19
+Mondoni,Primula farinosa,Italy,SO229,,,2150,NA,0,N,N,Y,Y,1,30,20,12,50,47,49
+Mondoni,Primula glaucescens,Italy,BS321,,,,NA,0,N,N,Y,Y,1,10,20,12,50,47,47
+Mondoni,Primula glaucescens,Italy,LC304,,,,NA,0,N,N,Y,Y,1,25,15,12,30,30,30
+Mondoni,Primula glaucescens,Italy,BG190 ,,,,NA,0,N,N,Y,Y,1,25,15,12,30,30,30
+Mondoni,Primula glaucescens,Italy,BG947,,,1994,NA,0,N,N,N,Y,1,20,20,12,29,23,26
+Mondoni,Primula glaucescens,Italy,BG434,,,2000,NA,0,N,N,Y,Y,1,25,15,12,50,49,49
+Mondoni,Primula glaucescens,Italy,BG962,,,2049,NA,0,N,N,N,Y,1,20,20,12,30,26,26
+Mondoni,Primula integrifolia,Italy,Alp_084,,,2350,NA,0,N,N,N,Y,3,20,20,12,20,6,19
+Mondoni,Primula integrifolia,Italy,Alp_084,,,2350,NA,0,N,N,N,Y,3,20,20,12,20,6,20
+Mondoni,Primula integrifolia,Italy,Alp_084,,,2350,NA,0,N,N,N,Y,3,20,20,12,20,5,17
+Mondoni,Primula matthioli,Italy,ALP_041 ,,,1866,NA,0,N,N,N,Y,3,20,,12,25,25,25
+Mondoni,Primula matthioli,Italy,ALP_041 ,,,1866,NA,0,N,N,N,Y,3,20,,12,25,25,25
+Mondoni,Primula matthioli,Italy,ALP_041 ,,,1866,NA,0,N,N,N,Y,3,20,,12,25,24,24
+Mondoni,Primula matthioli,Italy,ALP_041 ,,,1866,NA,0,N,N,Y,Y,3,20,,12,25,22,23
+Mondoni,Primula matthioli,Italy,ALP_041 ,,,1866,NA,0,N,N,Y,Y,3,20,,12,25,24,24
+Mondoni,Primula matthioli,Italy,ALP_041 ,,,1866,NA,0,N,N,Y,Y,3,20,,12,25,25,25
+Mondoni,Pulsatilla alpina,Italy,BG956,,,2060,NA,0,N,N,Y,Y,1,20,20,12,29,13,13
+Mondoni,Rhaponticum bicknellii,Italy,ALP_045 ,,,1720,NA,0,N,N,N,Y,3,20,,12,12,4,9
+Mondoni,Rhaponticum bicknellii,Italy,ALP_045 ,,,1720,NA,0,N,N,N,Y,3,20,,12,12,6,6
+Mondoni,Rhaponticum bicknellii,Italy,ALP_045 ,,,1720,NA,0,N,N,N,Y,3,20,,12,12,6,9
+Mondoni,Rhaponticum bicknellii,Italy,ALP_045 ,,,1720,NA,0,N,N,N,Y,3,10,,12,12,2,9
+Mondoni,Rhaponticum bicknellii,Italy,ALP_045 ,,,1720,NA,0,N,N,N,Y,3,10,,12,12,3,9
+Mondoni,Rhaponticum bicknellii,Italy,ALP_045 ,,,1720,NA,0,N,N,N,Y,3,10,,12,12,3,8
+Mondoni,Rhododendron ferrugineum,Italy,SO543,,,1929,NA,0,N,N,Y,Y,1,30,20,12,40,22,28
+Mondoni,Ribes alpinum,Italy,SO355,,,2060,NA,0,N,N,N,Y,1,20,20,12,20,0,20
+Mondoni,Ribes alpinum,Italy,SO355,,,2060,NA,0,N,N,Y,Y,1,20,10,12,50,41,50
+Mondoni,Rumex alpestris,Italy,400SO,,,,NA,0,N,N,Y,Y,1,20,10,12,30,23,26
+Mondoni,Rumex alpestris,Italy,62 AQ,,,,NA,0,N,N,N,Y,1,25,15,12,30,22,28
+Mondoni,Rumex alpestris,Italy,62 AQ,,,,NA,0,N,N,Y,Y,1,25,15,12,30,22,29
+Mondoni,Rumex alpestris,Italy,62 AQ,,,,NA,0,N,N,Y,Y,1,20,10,12,30,23,26
+Mondoni,Rumex alpinus,Italy,65 AQ,,,2169,NA,0,N,N,Y,Y,3,20,,12,50,46,46
+Mondoni,Rumex alpinus,Italy,65 AQ,,,2169,NA,0,N,N,Y,Y,3,20,,12,30,29,29
+Mondoni,Rumex alpinus,Italy,65 AQ,,,2169,NA,0,N,N,N,Y,1,25,15,12,30,28,30
+Mondoni,Rumex alpinus,Italy,65 AQ,,,2169,NA,0,N,N,N,Y,1,20,,12,30,26,28
+Mondoni,Rumex alpinus,Italy,65 AQ,,,2169,NA,0,N,N,Y,Y,1,25,15,12,30,27,29
+Mondoni,Rumex alpinus,Italy,65 AQ,,,2169,NA,0,N,N,Y,Y,3,20,,12,50,49,50
+Mondoni,Sanguisorba dodecandra,Italy,SO513,,,1100,NA,0,N,N,N,Y,1,20,20,12,20,7,20
+Mondoni,Sanguisorba dodecandra,Italy,SO296,,,1231,5,112,Y,N,N,Y,1,5,5,12,25,10,25
+Mondoni,Sanguisorba dodecandra,Italy,SO296,,,1231,5,112,Y,N,N,Y,1,20,20,12,25,8,25
+Mondoni,Sanguisorba dodecandra,Italy,SO401,,,1500,5,112,Y,N,N,Y,1,5,5,12,25,9,25
+Mondoni,Sanguisorba dodecandra,Italy,SO401,,,1500,5,112,Y,N,N,Y,1,5,5,12,25,25,25
+Mondoni,Sanguisorba dodecandra,Italy,BG346,,,1731,5,112,Y,N,N,Y,1,5,5,12,25,11,11
+Mondoni,Sanguisorba dodecandra,Italy,BG346,,,1731,5,112,Y,N,N,Y,1,5,5,12,25,14,14
+Mondoni,Sanguisorba dodecandra,Italy,SO469,,,1850,0/5,56,Y,N,N,Y,1,20,20,12,50,12,35
+Mondoni,Sanguisorba officinalis,Italy,154SO,,,1800,NA,0,N,N,N,Y,1,20,20,12,30,17,27
+Mondoni,Sanguisorba officinalis,Italy,155SO,,,1858,NA,0,N,N,N,Y,1,20,20,12,50,6,42
+Mondoni,Saponaria lutea,Italy,8AO,,,2291,NA,0,N,N,Y,Y,1,30,20,12,30,4,27
+Mondoni,Saponaria lutea,Italy,8AO,,,2291,0,21,Y,N,N,Y,1,25,15,12,30,0,30
+Mondoni,Saponaria lutea,Italy,8AO,,,2291,0,28,Y,N,N,Y,1,25,15,12,30,1,30
+Mondoni,Saxifraga aizoides,Italy,BG340,,,,4,28,Y,N,N,Y,1,20,20,12,30,28,30
+Mondoni,Saxifraga aizoides,Italy,ALP_024 ,,,1657,NA,0,N,N,Y,Y,3,20,,12,25,15,18
+Mondoni,Saxifraga aizoides,Italy,ALP_024 ,,,1657,NA,0,N,N,Y,Y,3,20,,12,25,17,20
+Mondoni,Saxifraga aizoides,Italy,ALP_024 ,,,1657,NA,0,N,N,N,Y,3,20,,12,25,15,17
+Mondoni,Saxifraga aizoides,Italy,ALP_024 ,,,1657,NA,0,N,N,N,Y,3,20,,12,25,14,21
+Mondoni,Saxifraga aizoides,Italy,ALP_024 ,,,1657,NA,0,N,N,N,Y,3,20,,12,25,18,20
+Mondoni,Saxifraga aizoides,Italy,ALP_024 ,,,1657,NA,0,N,N,Y,Y,3,20,,12,25,9,15
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,NA,0,N,N,N,Y,1,15,15,12,30,5,22
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,NA,0,N,N,N,Y,1,20,20,12,30,14,19
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,NA,0,N,N,N,Y,1,20,10,12,30,0,19
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,NA,0,N,N,N,Y,1,10,5,12,30,0,24
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,NA,0,N,N,N,Y,1,25,15,12,30,6,20
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,NA,0,N,N,N,Y,1,30,20,12,30,0,22
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,0,56,Y,N,N,Y,1,15,15,12,30,24,26
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,0,56,Y,N,N,Y,1,20,20,12,30,24,25
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,0,56,Y,N,N,Y,1,20,10,12,30,18,20
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,0,56,Y,N,N,Y,1,10,5,12,30,20,26
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,0,56,Y,N,N,Y,1,25,15,12,30,18,21
+Mondoni,Saxifraga aizoides,Italy,BG718,,,1881,0,56,Y,N,N,Y,1,30,20,12,30,3,27
+Mondoni,Saxifraga aizoides,Italy,BG961,,,1985,5,56,Y,N,Y,Y,1,10,10,12,30,1,1
+Mondoni,Saxifraga aizoides,Italy,SO616,,,2128,0/5,56,Y,N,N,Y,1,20,20,12,44,27,41
+Mondoni,Saxifraga bryoides,Italy,SO282,,,2200,NA,0,N,N,Y,Y,1,25,15,12,30,0,28
+Mondoni,Saxifraga caesia,Italy,BG342,,,,4,28,Y,N,N,Y,1,20,20,12,30,17,30
+Mondoni,Saxifraga caesia,Italy,BS284,,,,4,28,Y,N,N,Y,1,20,20,12,30,18,30
+Mondoni,Saxifraga caesia,Italy,SO276,,,2320,0/5,56,Y,N,N,Y,1,20,20,12,50,29,41
+Mondoni,Saxifraga caesia,Italy,SO276,,,2320,4,28,Y,N,N,Y,1,20,20,12,30,25,25
+Mondoni,Saxifraga exarata,Italy,SO349,,,2800,4,28,Y,N,N,Y,1,20,20,12,30,5,28
+Mondoni,Saxifraga hostii,Italy,BG341,,,,NA,0,N,N,Y,Y,1,10,20,12,50,10,50
+Mondoni,Saxifraga hostii,Italy,BG948,,,1772,NA,0,N,N,Y,Y,1,15,5,12,28,2,28
+Mondoni,Saxifraga hostii,Italy,BG966,,,1994,NA,0,N,N,Y,Y,1,20,10,12,30,0,30
+Mondoni,Saxifraga hostii,Italy,BG967,,,2000,NA,0,N,N,Y,Y,1,5,5,12,29,0,29
+Mondoni,Saxifraga hostii,Italy,BG199,,,2015,NA,0,N,N,Y,Y,1,10,20,12,50,7,37
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,NA,0,N,N,N,Y,1,15,15,12,30,6,18
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,NA,0,N,N,N,Y,1,20,20,12,30,0,20
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,NA,0,N,N,N,Y,1,20,10,12,30,0,18
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,NA,0,N,N,N,Y,1,10,5,12,30,1,20
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,NA,0,N,N,N,Y,1,25,15,12,30,0,19
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,NA,0,N,N,N,Y,1,30,20,12,30,0,16
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,0,56,Y,N,N,Y,1,15,15,12,30,18,27
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,0,56,Y,N,N,Y,1,20,20,12,30,7,24
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,0,56,Y,N,N,Y,1,20,10,12,30,4,23
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,0,56,Y,N,N,Y,1,10,5,12,30,12,23
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,0,56,Y,N,N,Y,1,25,15,12,30,3,25
+Mondoni,Saxifraga oppositifolia,Italy,SO595,,,2214,0,56,Y,N,N,Y,1,30,20,12,30,0,21
+Mondoni,Saxifraga oppositifolia,Italy,SO474,,,2780,NA,0,N,N,Y,Y,1,20,10,12,50,10,44
+Mondoni,Saxifraga paniculata,Italy,SO204,,,,NA,0,N,N,Y,Y,1,20,20,12,30,19,19
+Mondoni,Saxifraga stellaris,Italy,SO261,,,1690,NA,0,N,N,Y,Y,1,10,20,12,50,50,50
+Mondoni,Saxifraga stellaris,Italy,ALP_030 ,,,2167,NA,0,N,N,N,Y,3,20,,12,25,15,18
+Mondoni,Saxifraga stellaris,Italy,ALP_030 ,,,2167,NA,0,N,N,N,Y,3,10,,12,25,11,24
+Mondoni,Saxifraga stellaris,Italy,ALP_030 ,,,2167,NA,0,N,N,N,Y,3,20,,12,25,20,23
+Mondoni,Saxifraga stellaris,Italy,ALP_030 ,,,2167,NA,0,N,N,N,Y,3,10,,12,25,7,23
+Mondoni,Saxifraga stellaris,Italy,ALP_030 ,,,2167,NA,0,N,N,N,Y,3,20,,12,25,14,17
+Mondoni,Saxifraga stellaris,Italy,ALP_030 ,,,2167,NA,0,N,N,N,Y,3,10,,12,25,5,22
+Mondoni,Saxifraga stellaris,Italy,SO523,,,2221,NA,0,N,N,Y,Y,1,20,10,12,50,39,39
+Mondoni,Saxifraga tombeanensis,Italy,BS688,,,1160,NA,0,N,N,N,Y,1,4,4,12,20,16,20
+Mondoni,Saxifraga vandellii,Italy,BS137,,,2070,NA,0,N,N,Y,Y,1,10,20,12,50,4,43
+Mondoni,Senecio cordatus,Italy,64BG,,,1717,NA,0,N,N,Y,Y,1,20,10,12,30,23,25
+Mondoni,Senecio incanus,Italy,177SO,,,2223,NA,0,N,N,Y,Y,1,25,15,12,50,44,46
+Mondoni,Senecio incanus ,Italy,86 AQ,,,2561,NA,0,N,N,N,Y,1,15,,12,30,23,27
+Mondoni,Senecio incanus ,Italy,86 AQ,,,2561,NA,0,N,N,Y,Y,1,20,,12,30,26,28
+Mondoni,Senecio incanus ,Italy,86 AQ,,,2561,NA,0,N,N,Y,Y,1,15,,12,30,29,29
+Mondoni,Senecio incanus ,Italy,86 AQ,,,2561,NA,0,N,N,N,Y,1,25,15,12,30,25,29
+Mondoni,Senecio incanus ,Italy,86 AQ,,,2561,NA,0,N,N,N,Y,1,20,,12,30,25,28
+Mondoni,Senecio incanus ,Italy,86 AQ,,,2561,NA,0,N,N,Y,Y,4,25,15,12,30,29,29
+Mondoni,Senecio incanus ,Italy,86 AQ,,,2561,NA,0,N,N,Y,Y,4,25,15,12,50,43,44
+Mondoni,Senecio incanus ,Italy,86 AQ,,,2561,NA,0,N,N,Y,Y,4,25,15,12,50,44,44
+Mondoni,Senecio incanus ,Italy,86 AQ,,,2561,NA,0,N,N,Y,Y,4,25,15,12,50,41,44
+Mondoni,Senecio squalidus,Italy,2CT,,,1900,NA,0,N,N,N,Y,1,15,15,12,30,15,15
+Mondoni,Senecio squalidus,Italy,2CT,,,1900,NA,0,N,N,N,Y,1,20,20,12,30,13,13
+Mondoni,Senecio squalidus,Italy,2CT,,,1900,NA,0,N,N,N,Y,1,25,15,12,30,13,22
+Mondoni,Senecio squalidus,Italy,2CT,,,1900,NA,0,N,N,Y,Y,1,15,15,12,30,12,12
+Mondoni,Senecio squalidus,Italy,2CT,,,1900,NA,0,N,N,Y,Y,1,20,20,12,30,12,22
+Mondoni,Senecio squalidus,Italy,2CT,,,1900,NA,0,N,N,Y,Y,1,25,15,12,30,16,16
+Mondoni,Sesleria sphaerocephala,Italy,10BL,,,2142,NA,0,N,N,N,Y,1,15,15,12,30,13,14
+Mondoni,Sesleria sphaerocephala,Italy,10BL,,,2142,NA,0,N,N,N,Y,1,20,20,12,30,10,16
+Mondoni,Sesleria sphaerocephala,Italy,10BL,,,2142,NA,0,N,N,Y,Y,1,15,15,12,30,18,25
+Mondoni,Sesleria sphaerocephala,Italy,10BL,,,2142,NA,0,N,N,Y,Y,1,20,20,12,30,17,27
+Mondoni,Sesleria varia,Italy,130 AQ,,,2142,NA,0,N,N,Y,Y,1,15,,12,30,24,25
+Mondoni,Sesleria varia,Italy,130 AQ,,,2142,NA,0,N,N,N,Y,3,15,,12,30,25,26
+Mondoni,Sesleria varia,Italy,130 AQ,,,2142,NA,0,N,N,N,Y,3,15,,12,50,46,46
+Mondoni,Sesleria varia,Italy,130 AQ,,,2142,NA,0,N,N,N,Y,1,20,,12,30,22,27
+Mondoni,Sesleria varia,Italy,130 AQ,,,2142,NA,0,N,N,Y,Y,1,20,,12,30,29,29
+Mondoni,Sesleria varia,Italy,130 AQ,,,2142,NA,0,N,N,N,Y,3,15,,12,50,40,42
+Mondoni,Sesleria varia,Italy,24BL,,,2142,NA,0,N,N,N,Y,1,15,15,12,30,25,26
+Mondoni,Sesleria varia,Italy,24BL,,,2142,NA,0,N,N,N,Y,1,20,20,12,30,22,27
+Mondoni,Sesleria varia,Italy,24BL,,,2142,NA,0,N,N,Y,Y,1,15,15,12,30,24,25
+Mondoni,Sesleria varia,Italy,24BL,,,2142,NA,0,N,N,Y,Y,1,20,20,12,30,29,29
+Mondoni,Sesleria varia,Italy,66SO,,,2400,NA,0,N,N,Y,Y,1,20,20,12,50,27,27
+Mondoni,Sibbaldia procumbens,Italy,212SO,,,2819,NA,0,N,N,Y,Y,1,20,10,12,50,26,50
+Mondoni,Silene acaulis,Italy,76SO,,,2350,NA,0,N,N,N,Y,1,20,20,12,50,42,50
+Mondoni,Silene acaulis,Italy,46 AQ,,,2400,NA,0,N,N,N,Y,1,20,,12,30,23,30
+Mondoni,Silene acaulis,Italy,46 AQ,,,2400,NA,0,N,N,N,Y,1,15,,12,30,6,28
+Mondoni,Silene acaulis,Italy,46 AQ,,,2400,NA,0,N,N,N,Y,1,25,,12,30,20,30
+Mondoni,Silene acaulis,Italy,46 AQ,,,2400,NA,0,N,N,Y,Y,1,25,,12,30,28,30
+Mondoni,Silene acaulis,Italy,340SO,,,2494,NA,0,N,N,N,Y,1,20,20,12,30,19,29
+Mondoni,Silene acaulis,Italy,340SO,,,2494,NA,0,N,N,Y,Y,1,20,20,12,30,30,30
+Mondoni,Silene dioica,Italy,270SO,,,,NA,0,N,N,N,Y,1,25,25,12,30,13,20
+Mondoni,Silene dioica,Italy,72 AQ,,,2150,NA,0,N,N,Y,Y,1,25,,12,30,25,28
+Mondoni,Silene dioica,Italy,72 AQ,,,2150,NA,0,N,N,N,Y,1,15,,12,30,13,30
+Mondoni,Silene dioica,Italy,72 AQ,,,2150,NA,0,N,N,N,Y,1,20,,12,30,30,30
+Mondoni,Silene dioica,Italy,72 AQ,,,2150,NA,0,N,N,N,Y,1,25,,12,30,17,30
+Mondoni,Silene elisabethae,Italy,BS445,,,1619,NA,0,N,N,N,Y,1,20,20,12,25,1,25
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,25,15,12,20,11,19
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,25,15,12,20,11,20
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,25,15,12,20,8,19
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,N,3,25,15,0,50,1,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,N,3,25,15,0,50,4,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,N,3,25,15,0,50,3,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,N,3,20,10,0,50,0,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,N,3,20,10,0,50,0,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,N,3,20,10,0,50,1,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,N,3,15,5,0,50,1,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,N,3,15,5,0,50,0,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,N,3,15,5,0,50,0,48
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,N,3,25,15,0,50,4,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,N,3,25,15,0,50,5,48
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,N,3,25,15,0,50,9,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,N,3,20,10,0,50,1,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,N,3,20,10,0,50,1,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,N,3,20,10,0,50,1,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,N,3,15,5,0,50,0,48
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,N,3,15,5,0,50,0,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,N,3,15,5,0,50,0,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,15,5,12,50,1,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,15,5,12,50,3,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,15,5,12,50,3,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,20,10,12,50,5,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,20,10,12,50,6,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,20,10,12,50,5,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,25,15,12,50,18,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,25,15,12,50,19,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,25,15,12,50,14,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,N,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,N,3,25,15,0,50,49,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,N,3,25,15,0,50,48,48
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,N,3,25,15,0,50,49,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,N,3,20,10,0,50,43,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,N,3,20,10,0,50,46,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,N,3,20,10,0,50,44,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,N,3,15,5,0,50,32,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,N,3,15,5,0,50,25,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,N,3,15,5,0,50,33,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,15,5,12,50,48,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,15,5,12,50,48,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,15,5,12,50,50,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,20,10,12,50,50,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,20,10,12,50,50,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,20,10,12,50,50,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,25,15,12,50,50,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,25,15,12,50,50,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,25,15,12,50,48,48
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,4,4,12,50,3,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,NA,0,N,N,Y,Y,3,4,4,12,50,2,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,28,Y,N,N,Y,3,15,5,12,50,6,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,28,Y,N,N,Y,3,15,5,12,50,4,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,28,Y,N,N,Y,3,15,5,12,50,3,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,28,Y,N,N,Y,3,20,10,12,50,23,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,28,Y,N,N,Y,3,20,10,12,50,20,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,28,Y,N,N,Y,3,20,10,12,50,11,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,28,Y,N,N,Y,3,25,15,12,50,30,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,28,Y,N,N,Y,3,25,15,12,50,42,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,28,Y,N,N,Y,3,25,15,12,50,36,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,Y,3,15,5,12,50,2,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,Y,3,15,5,12,50,3,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,Y,3,15,5,12,50,6,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,Y,3,20,10,12,50,13,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,Y,3,20,10,12,50,13,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,56,Y,N,N,Y,3,20,10,12,50,17,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,119,Y,N,N,Y,3,15,5,12,50,16,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,119,Y,N,N,Y,3,15,5,12,50,10,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,119,Y,N,N,Y,3,15,5,12,50,14,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,119,Y,N,N,Y,3,20,10,12,50,26,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,119,Y,N,N,Y,3,20,10,12,50,26,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,119,Y,N,N,Y,3,20,10,12,50,19,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,119,Y,N,N,Y,3,25,15,12,50,42,49
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,119,Y,N,N,Y,3,25,15,12,50,43,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,119,Y,N,N,Y,3,25,15,12,50,44,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,147,Y,N,N,Y,3,15,5,12,50,9,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,147,Y,N,N,Y,3,15,5,12,50,11,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,147,Y,N,N,Y,3,15,5,12,50,12,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,147,Y,N,N,Y,3,20,10,12,50,21,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,147,Y,N,N,Y,3,20,10,12,50,18,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,147,Y,N,N,Y,3,20,10,12,50,17,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,147,Y,N,N,Y,3,25,15,12,50,44,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,147,Y,N,N,Y,3,25,15,12,50,45,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,147,Y,N,N,Y,3,25,15,12,50,43,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,182,Y,N,N,Y,3,15,5,12,50,16,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,182,Y,N,N,Y,3,15,5,12,50,6,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,182,Y,N,N,Y,3,15,5,12,50,9,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,182,Y,N,N,Y,3,25,15,12,50,41,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,182,Y,N,N,Y,3,25,15,12,50,43,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,182,Y,N,N,Y,3,25,15,12,50,43,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,210,Y,N,N,Y,3,15,5,12,50,11,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,210,Y,N,N,Y,3,15,5,12,50,10,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,210,Y,N,N,Y,3,15,5,12,50,7,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,210,Y,N,N,Y,3,20,10,12,50,32,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,210,Y,N,N,Y,3,20,10,12,50,27,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,210,Y,N,N,Y,3,20,10,12,50,36,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,210,Y,N,N,Y,3,25,15,12,50,40,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,210,Y,N,N,Y,3,25,15,12,50,44,50
+Mondoni,Silene elisabethae,Italy,BS686,,,1619,4,210,Y,N,N,Y,3,25,15,12,50,45,50
+Mondoni,Silene elisabethae,Italy,TR531,,,1800,NA,0,N,N,N,Y,1,20,20,12,25,6,25
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,25,15,12,20,11,20
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,25,15,12,20,7,19
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,25,15,12,20,6,20
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,N,3,25,15,0,50,5,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,N,3,25,15,0,50,2,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,N,3,25,15,0,50,0,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,N,3,20,10,0,50,1,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,N,3,20,10,0,50,2,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,N,3,20,10,0,50,3,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,N,3,15,5,0,50,1,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,N,3,15,5,0,50,0,48
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,N,3,15,5,0,50,1,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,N,3,25,15,0,50,2,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,N,3,25,15,0,50,1,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,N,3,25,15,0,50,3,48
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,N,3,20,10,0,50,0,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,N,3,20,10,0,50,1,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,N,3,20,10,0,50,2,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,N,3,15,5,0,50,0,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,N,3,15,5,0,50,2,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,N,3,15,5,0,50,4,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,15,5,12,50,2,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,15,5,12,50,2,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,15,5,12,50,0,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,20,10,12,50,11,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,20,10,12,50,7,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,20,10,12,50,5,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,25,15,12,50,14,48
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,25,15,12,50,12,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,25,15,12,50,9,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,N,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,TR531,,,1800,NA,0,N,N,Y,Y,1,25,15,12,50,49,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,N,3,25,15,0,50,49,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,N,3,25,15,0,50,50,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,N,3,25,15,0,50,49,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,N,3,20,10,0,50,49,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,N,3,20,10,0,50,45,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,N,3,20,10,0,50,48,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,N,3,15,5,0,50,46,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,N,3,15,5,0,50,47,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,N,3,15,5,0,50,50,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,15,5,12,50,48,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,15,5,12,50,50,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,15,5,12,50,49,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,20,10,12,50,50,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,20,10,12,50,49,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,20,10,12,50,50,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,25,15,12,50,50,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,25,15,12,50,50,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,25,15,12,50,50,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,4,4,12,50,8,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,4,4,12,50,4,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,NA,0,N,N,Y,Y,3,4,4,12,50,2,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,28,Y,N,N,Y,3,15,5,12,50,7,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,28,Y,N,N,Y,3,15,5,12,50,8,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,28,Y,N,N,Y,3,15,5,12,50,7,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,28,Y,N,N,Y,3,20,10,12,50,12,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,28,Y,N,N,Y,3,20,10,12,50,15,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,28,Y,N,N,Y,3,20,10,12,50,16,47
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,28,Y,N,N,Y,3,25,15,12,50,33,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,28,Y,N,N,Y,3,25,15,12,50,39,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,28,Y,N,N,Y,3,25,15,12,50,38,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,Y,3,15,5,12,50,6,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,Y,3,15,5,12,50,10,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,Y,3,15,5,12,50,6,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,Y,3,20,10,12,50,15,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,Y,3,20,10,12,50,26,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,Y,3,20,10,12,50,21,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,Y,3,25,15,12,50,39,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,Y,3,25,15,12,50,41,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,56,Y,N,N,Y,3,25,15,12,50,40,49
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,119,Y,N,N,Y,3,15,5,12,50,4,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,119,Y,N,N,Y,3,15,5,12,50,6,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,119,Y,N,N,Y,3,15,5,12,50,8,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,119,Y,N,N,Y,3,20,10,12,50,28,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,119,Y,N,N,Y,3,20,10,12,50,16,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,119,Y,N,N,Y,3,20,10,12,50,14,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,119,Y,N,N,Y,3,25,15,12,50,40,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,119,Y,N,N,Y,3,25,15,12,50,40,47
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,119,Y,N,N,Y,3,25,15,12,50,42,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,147,Y,N,N,Y,3,15,5,12,50,4,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,147,Y,N,N,Y,3,15,5,12,50,10,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,147,Y,N,N,Y,3,15,5,12,50,11,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,147,Y,N,N,Y,3,20,10,12,50,24,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,147,Y,N,N,Y,3,20,10,12,50,24,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,147,Y,N,N,Y,3,20,10,12,50,23,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,147,Y,N,N,Y,3,25,15,12,50,41,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,147,Y,N,N,Y,3,25,15,12,50,40,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,147,Y,N,N,Y,3,25,15,12,50,37,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,182,Y,N,N,Y,3,15,5,12,50,9,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,182,Y,N,N,Y,3,15,5,12,50,13,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,182,Y,N,N,Y,3,15,5,12,50,15,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,182,Y,N,N,Y,3,20,10,12,50,26,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,182,Y,N,N,Y,3,20,10,12,50,24,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,182,Y,N,N,Y,3,20,10,12,50,25,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,182,Y,N,N,Y,3,25,15,12,50,43,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,182,Y,N,N,Y,3,25,15,12,50,47,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,182,Y,N,N,Y,3,25,15,12,50,42,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,210,Y,N,N,Y,3,15,5,12,50,5,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,210,Y,N,N,Y,3,15,5,12,50,2,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,210,Y,N,N,Y,3,15,5,12,50,10,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,210,Y,N,N,Y,3,20,10,12,50,27,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,210,Y,N,N,Y,3,20,10,12,50,17,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,210,Y,N,N,Y,3,20,10,12,50,16,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,210,Y,N,N,Y,3,25,15,12,50,26,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,210,Y,N,N,Y,3,25,15,12,50,33,50
+Mondoni,Silene elisabethae,Italy,TN685,,,1800,4,210,Y,N,N,Y,3,25,15,12,50,42,50
+Mondoni,Silene elisabethae,Italy,BG507,,,2053,NA,0,N,N,N,Y,1,20,20,12,25,4,25
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,25,15,12,20,11,18
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,25,15,12,20,7,20
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,25,15,12,20,7,18
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,N,3,25,15,0,50,6,43
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,N,3,25,15,0,50,9,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,N,3,25,15,0,50,5,46
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,N,3,20,10,0,50,4,44
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,N,3,20,10,0,50,6,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,N,3,20,10,0,50,16,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,N,3,15,5,0,50,2,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,N,3,15,5,0,50,3,42
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,N,3,15,5,0,50,3,39
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,N,3,25,15,0,50,6,41
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,N,3,25,15,0,50,7,41
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,N,3,25,15,0,50,4,37
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,N,3,20,10,0,50,1,44
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,N,3,20,10,0,50,2,43
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,N,3,20,10,0,50,3,44
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,N,3,15,5,0,50,0,42
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,N,3,15,5,0,50,4,39
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,N,3,15,5,0,50,1,43
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,15,5,12,50,1,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,15,5,12,50,4,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,15,5,12,50,3,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,20,10,12,50,9,48
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,20,10,12,50,8,48
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,20,10,12,50,5,44
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,25,15,12,50,20,48
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,25,15,12,50,15,49
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,25,15,12,50,18,47
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,N,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,1,25,15,12,30,28,28
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,N,3,25,15,0,50,45,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,N,3,25,15,0,50,40,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,N,3,25,15,0,50,37,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,N,3,20,10,0,50,37,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,N,3,20,10,0,50,31,44
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,N,3,20,10,0,50,41,46
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,N,3,15,5,0,50,21,39
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,N,3,15,5,0,50,29,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,N,3,15,5,0,50,32,46
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,15,5,12,50,46,47
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,15,5,12,50,45,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,15,5,12,50,48,49
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,20,10,12,50,50,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,20,10,12,50,48,48
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,20,10,12,50,45,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,25,15,12,50,41,41
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,25,15,12,50,47,47
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,25,15,12,50,47,47
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,4,4,12,50,0,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,NA,0,N,N,Y,Y,3,4,4,12,50,1,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,28,Y,N,N,Y,3,15,5,12,50,1,46
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,28,Y,N,N,Y,3,15,5,12,50,11,49
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,28,Y,N,N,Y,3,15,5,12,50,7,47
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,28,Y,N,N,Y,3,20,10,12,50,17,48
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,28,Y,N,N,Y,3,20,10,12,50,14,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,28,Y,N,N,Y,3,20,10,12,50,19,46
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,28,Y,N,N,Y,3,25,15,12,50,31,43
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,28,Y,N,N,Y,3,25,15,12,50,27,42
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,28,Y,N,N,Y,3,25,15,12,50,32,44
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,Y,3,15,5,12,50,10,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,Y,3,15,5,12,50,10,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,Y,3,15,5,12,50,12,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,Y,3,20,10,12,50,28,47
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,Y,3,20,10,12,50,31,49
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,Y,3,20,10,12,50,32,48
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,Y,3,25,15,12,50,41,49
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,Y,3,25,15,12,50,32,45
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,56,Y,N,N,Y,3,25,15,12,50,41,48
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,119,Y,N,N,Y,3,15,5,12,50,16,49
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,119,Y,N,N,Y,3,15,5,12,50,28,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,119,Y,N,N,Y,3,15,5,12,50,21,46
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,119,Y,N,N,Y,3,20,10,12,50,36,47
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,119,Y,N,N,Y,3,20,10,12,50,34,48
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,119,Y,N,N,Y,3,20,10,12,50,39,47
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,119,Y,N,N,Y,3,25,15,12,50,42,44
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,119,Y,N,N,Y,3,25,15,12,50,43,48
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,119,Y,N,N,Y,3,25,15,12,50,45,47
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,147,Y,N,N,Y,3,15,5,12,50,23,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,147,Y,N,N,Y,3,15,5,12,50,24,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,147,Y,N,N,Y,3,15,5,12,50,23,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,147,Y,N,N,Y,3,20,10,12,50,34,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,147,Y,N,N,Y,3,20,10,12,50,34,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,147,Y,N,N,Y,3,20,10,12,50,29,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,147,Y,N,N,Y,3,25,15,12,50,38,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,147,Y,N,N,Y,3,25,15,12,50,39,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,147,Y,N,N,Y,3,25,15,12,50,46,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,182,Y,N,N,Y,3,15,5,12,50,33,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,182,Y,N,N,Y,3,15,5,12,50,28,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,182,Y,N,N,Y,3,15,5,12,50,26,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,182,Y,N,N,Y,3,20,10,12,50,39,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,182,Y,N,N,Y,3,20,10,12,50,38,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,182,Y,N,N,Y,3,20,10,12,50,39,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,182,Y,N,N,Y,3,25,15,12,50,44,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,182,Y,N,N,Y,3,25,15,12,50,44,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,182,Y,N,N,Y,3,25,15,12,50,43,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,210,Y,N,N,Y,3,15,5,12,50,18,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,210,Y,N,N,Y,3,15,5,12,50,29,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,210,Y,N,N,Y,3,15,5,12,50,26,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,210,Y,N,N,Y,3,20,10,12,50,33,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,210,Y,N,N,Y,3,20,10,12,50,41,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,210,Y,N,N,Y,3,20,10,12,50,39,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,210,Y,N,N,Y,3,25,15,12,50,42,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,210,Y,N,N,Y,3,25,15,12,50,45,50
+Mondoni,Silene elisabethae,Italy,BG687,,,2053,4,210,Y,N,N,Y,3,25,15,12,50,39,50
+Mondoni,Silene nutans,Italy,19RE,,,1250,NA,0,N,N,N,Y,1,20,20,12,25,25,25
+Mondoni,Silene nutans,Italy,19RE,,,1250,NA,0,N,N,N,Y,1,15,15,12,25,22,25
+Mondoni,Silene nutans,Italy,18RE,,,1350,NA,0,N,N,N,Y,1,20,20,12,25,25,25
+Mondoni,Silene nutans,Italy,18RE,,,1350,NA,0,N,N,N,Y,1,15,15,12,25,25,25
+Mondoni,Silene nutans,Italy,172SO,,,1400,NA,0,N,N,N,Y,1,20,20,12,25,25,25
+Mondoni,Silene nutans,Italy,172SO,,,1400,NA,0,N,N,N,Y,1,15,15,12,25,25,25
+Mondoni,Silene nutans,Italy,3BG,,,1500,NA,0,N,N,N,Y,1,20,20,12,25,22,25
+Mondoni,Silene nutans,Italy,3BG,,,1500,NA,0,N,N,N,Y,1,15,15,12,25,22,25
+Mondoni,Silene nutans,Italy,173SO,,,1900,NA,0,N,N,N,Y,1,20,20,12,25,22,25
+Mondoni,Silene nutans,Italy,173SO,,,1900,NA,0,N,N,N,Y,1,15,15,12,25,23,25
+Mondoni,Silene nutans,Italy,2AO,,,2051,NA,0,N,N,N,Y,1,20,20,12,25,25,25
+Mondoni,Silene nutans,Italy,2AO,,,2051,NA,0,N,N,N,Y,1,15,15,12,25,25,25
+Mondoni,Silene nutans,Italy,2AO,,,2051,NA,0,N,N,N,Y,1,20,20,12,50,47,47
+Mondoni,Silene nutans,Italy,76 AQ,,,2150,NA,0,N,N,N,Y,1,25,,12,30,23,27
+Mondoni,Silene nutans,Italy,76 AQ,,,2150,NA,0,N,N,N,Y,1,15,,12,30,28,30
+Mondoni,Silene nutans,Italy,76 AQ,,,2150,NA,0,N,N,N,Y,1,20,,12,30,29,30
+Mondoni,Silene nutans,Italy,21RE,,,2150,NA,0,N,N,N,Y,1,20,20,12,25,25,25
+Mondoni,Silene nutans,Italy,21RE,,,2150,NA,0,N,N,N,Y,1,15,15,12,25,25,25
+Mondoni,Silene quadridentata,Italy,22BL,,,,NA,0,N,N,N,Y,1,15,15,12,30,17,17
+Mondoni,Silene quadridentata,Italy,22BL,,,,NA,0,N,N,N,Y,1,20,20,12,30,27,29
+Mondoni,Silene rupestris,Italy,23RE,,,,NA,0,N,N,N,Y,1,20,20,12,25,25,25
+Mondoni,Silene rupestris,Italy,23RE,,,,NA,0,N,N,N,Y,1,15,15,12,25,25,25
+Mondoni,Silene rupestris,Italy,22RE,,,1450,NA,0,N,N,N,Y,1,20,20,12,25,23,25
+Mondoni,Silene rupestris,Italy,22RE,,,1450,NA,0,N,N,N,Y,1,15,15,12,25,25,25
+Mondoni,Silene rupestris,Italy,187SO,,,1710,NA,0,N,N,N,Y,1,20,20,12,25,20,25
+Mondoni,Silene rupestris,Italy,187SO,,,1710,NA,0,N,N,N,Y,1,15,15,12,25,19,25
+Mondoni,Silene rupestris,Italy,186SO,,,2000,NA,0,N,N,N,Y,1,20,20,12,25,23,25
+Mondoni,Silene rupestris,Italy,186SO,,,2000,NA,0,N,N,N,Y,1,15,15,12,25,23,25
+Mondoni,Silene rupestris,Italy,49 AQ,,,2172,NA,0,N,N,Y,Y,1,20,,12,30,24,30
+Mondoni,Silene rupestris,Italy,49 AQ,,,2172,NA,0,N,N,N,Y,1,15,,12,30,27,27
+Mondoni,Silene rupestris,Italy,49 AQ,,,2172,NA,0,N,N,N,Y,1,20,,12,30,18,21
+Mondoni,Silene rupestris,Italy,387SO,,,2172,NA,0,N,N,N,Y,1,15,15,12,30,27,27
+Mondoni,Silene rupestris,Italy,387SO,,,2172,NA,0,N,N,N,Y,1,20,20,12,30,18,21
+Mondoni,Silene rupestris,Italy,387SO,,,2172,NA,0,N,N,Y,Y,1,20,20,12,30,24,30
+Mondoni,Silene rupestris,Italy,185SO,,,2400,NA,0,N,N,N,Y,1,20,20,12,25,19,25
+Mondoni,Silene rupestris,Italy,185SO,,,2400,NA,0,N,N,N,Y,1,15,15,12,25,20,25
+Mondoni,Silene rupestris,Italy,185SO,,,2400,NA,0,N,N,N,Y,1,20,20,12,50,27,48
+Mondoni,Silene saxifraga,Italy,145 AQ,,,2007,NA,0,N,N,N,Y,1,25,,12,30,21,27
+Mondoni,Silene saxifraga,Italy,145 AQ,,,2007,NA,0,N,N,Y,Y,1,25,,12,30,27,27
+Mondoni,Silene saxifraga,Italy,145 AQ,,,2007,NA,0,N,N,N,Y,1,20,,12,30,27,30
+Mondoni,Silene saxifraga,Italy,145 AQ,,,2007,NA,0,N,N,N,Y,1,15,,12,30,19,28
+Mondoni,Silene suecica,Italy,SO165,,,,NA,0,N,N,N,Y,1,20,20,12,50,47,50
+Mondoni,Silene suecica,Italy,20RE,,,,NA,0,N,N,N,Y,1,20,20,12,25,21,25
+Mondoni,Silene suecica,Italy,17RE,,,1895,NA,0,N,N,N,Y,1,20,20,12,25,20,25
+Mondoni,Silene suecica,Italy,163SO,,,2400,NA,0,N,N,N,Y,1,20,20,12,25,18,25
+Mondoni,Silene suecica,Italy,163SO,,,2400,NA,0,N,N,Y,Y,1,20,20,12,50,47,47
+Mondoni,Silene suecica,Italy,205 AQ,,,2496,NA,0,N,N,Y,Y,3,20,,12,50,50,50
+Mondoni,Silene suecica,Italy,205 AQ,,,2496,NA,0,N,N,N,Y,1,25,,12,30,6,30
+Mondoni,Silene suecica,Italy,205 AQ,,,2496,NA,0,N,N,N,Y,1,20,,12,30,12,30
+Mondoni,Silene suecica,Italy,205 AQ,,,2496,NA,0,N,N,N,Y,1,15,,12,30,2,30
+Mondoni,Silene suecica,Italy,205 AQ,,,2496,NA,0,N,N,N,Y,1,25,15,12,30,20,30
+Mondoni,Silene suecica,Italy,205 AQ,,,2496,NA,0,N,N,Y,Y,3,20,,12,30,30,30
+Mondoni,Silene suecica,Italy,205 AQ,,,2496,NA,0,N,N,Y,Y,1,25,15,12,30,30,30
+Mondoni,Silene suecica,Italy,205 AQ,,,2496,NA,0,N,N,Y,Y,3,20,,12,50,46,50
+Mondoni,Silene suecica,Italy,12AO,,,2496,NA,0,N,N,N,Y,1,25,15,12,30,20,30
+Mondoni,Silene suecica,Italy,12AO,,,2496,NA,0,N,N,Y,Y,1,20,20,12,30,30,30
+Mondoni,Silene suecica,Italy,12AO,,,2496,NA,0,N,N,Y,Y,1,25,15,12,30,30,30
+Mondoni,Silene vallesia,Italy,203 AQ,,,2291,NA,0,N,N,N,Y,1,15,,12,30,14,30
+Mondoni,Silene vallesia,Italy,203 AQ,,,2291,NA,0,N,N,N,Y,1,20,,12,30,30,30
+Mondoni,Silene vallesia,Italy,203 AQ,,,2291,NA,0,N,N,Y,Y,1,20,,12,30,27,30
+Mondoni,Silene vallesia,Italy,13AO,,,2291,NA,0,N,N,N,Y,1,15,15,12,30,14,30
+Mondoni,Silene vallesia,Italy,13AO,,,2291,NA,0,N,N,N,Y,1,20,20,12,30,30,30
+Mondoni,Silene vallesia,Italy,13AO,,,2291,NA,0,N,N,Y,Y,1,20,20,12,30,27,30
+Mondoni,Silene vulgaris,Italy,4BG,,,1500,NA,0,N,N,N,Y,1,20,20,12,25,21,25
+Mondoni,Silene vulgaris,Italy,4BG,,,1500,NA,0,N,N,N,Y,1,15,15,12,25,15,25
+Mondoni,Silene vulgaris,Italy,176SO,,,2000,NA,0,N,N,N,Y,1,20,20,12,25,18,25
+Mondoni,Silene vulgaris,Italy,176SO,,,2000,NA,0,N,N,N,Y,1,15,15,12,25,10,25
+Mondoni,Silene vulgaris,Italy,63BG,,,2024,NA,0,N,N,N,Y,1,20,20,12,30,1,26
+Mondoni,Silene vulgaris,Italy,63BG,,,2024,NA,0,N,N,Y,Y,1,20,20,12,30,13,26
+Mondoni,Silene vulgaris,Italy,1AO,,,2051,NA,0,N,N,N,Y,1,20,20,12,25,12,25
+Mondoni,Silene vulgaris,Italy,1AO,,,2051,NA,0,N,N,N,Y,1,15,15,12,25,11,25
+Mondoni,Silene vulgaris,Italy,1AO,,,2051,NA,0,N,N,N,Y,1,20,20,12,50,30,50
+Mondoni,Silene vulgaris,Italy,61 AQ,,,2150,NA,0,N,N,N,Y,3,25,,12,50,45,49
+Mondoni,Silene vulgaris,Italy,61 AQ,,,2150,NA,0,N,N,N,Y,1,15,,12,30,12,30
+Mondoni,Silene vulgaris,Italy,61 AQ,,,2150,NA,0,N,N,N,Y,3,25,,12,30,28,29
+Mondoni,Silene vulgaris,Italy,61 AQ,,,2150,NA,0,N,N,N,Y,3,25,,12,50,46,50
+Mondoni,Silene vulgaris,Italy,61 AQ,,,2150,NA,0,N,N,Y,Y,1,25,,12,30,30,30
+Mondoni,Silene vulgaris,Italy,61 AQ,,,2150,NA,0,N,N,N,Y,1,20,,12,30,25,30
+Mondoni,Silene vulgaris,Italy,392SO,,,2800,NA,0,N,N,N,Y,1,25,15,12,30,15,27
+Mondoni,Silene vulgaris,Italy,392SO,,,2800,NA,0,N,N,Y,Y,1,20,20,12,30,26,30
+Mondoni,Silene vulgaris,Italy,392SO,,,2800,NA,0,N,N,Y,Y,1,25,15,12,30,25,30
+Mondoni,Silene vulgaris ,Italy,81 AQ,,,2731,NA,0,N,N,Y,Y,3,25,,12,50,38,46
+Mondoni,Silene vulgaris ,Italy,81 AQ,,,2731,NA,0,N,N,N,Y,1,25,15,12,30,15,27
+Mondoni,Silene vulgaris ,Italy,81 AQ,,,2731,NA,0,N,N,Y,Y,1,20,,12,30,26,30
+Mondoni,Silene vulgaris ,Italy,81 AQ,,,2731,NA,0,N,N,Y,Y,3,25,,12,50,37,44
+Mondoni,Silene vulgaris ,Italy,81 AQ,,,2731,NA,0,N,N,N,Y,1,15,,12,30,4,28
+Mondoni,Silene vulgaris ,Italy,81 AQ,,,2731,NA,0,N,N,N,Y,1,20,,12,30,15,29
+Mondoni,Silene vulgaris ,Italy,81 AQ,,,2731,NA,0,N,N,N,Y,1,25,,12,30,7,22
+Mondoni,Silene vulgaris ,Italy,81 AQ,,,2731,NA,0,N,N,Y,Y,3,25,,12,30,23,28
+Mondoni,Silene vulgaris ,Italy,81 AQ,,,2731,NA,0,N,N,Y,Y,1,25,15,12,30,25,30
+Mondoni,Solidago virgaurea,Italy,209SO,,,2113,NA,0,N,N,N,Y,1,20,20,12,47,30,30
+Mondoni,Taraxacum alpinum,Italy,58 AQ,,,2618,NA,0,N,N,N,Y,1,15,,12,30,28,28
+Mondoni,Taraxacum alpinum,Italy,58 AQ,,,2618,NA,0,N,N,N,Y,1,20,,12,30,29,29
+Mondoni,Telekia speciosissima,Italy,BG186,,,1630,NA,0,N,N,Y,Y,1,25,15,12,30,5,30
+Mondoni,Trifolium badium,Italy,89SO,,,1970,NA,0,N,N,N,Y,1,20,20,12,50,11,44
+Mondoni,Trifolium badium,Italy,89SO,,,1970,NA,0,N,Y,N,Y,1,20,20,12,20,10,10
+Mondoni,Trifolium pallescens,Italy,47SO,,,2100,NA,0,N,N,N,Y,1,20,20,12,50,2,50
+Mondoni,Trifolium pallescens,Italy,47SO,,,2100,NA,0,N,Y,N,Y,1,20,20,12,20,20,20
+Mondoni,Trifolium pratense,Italy,427SO,,,1945,NA,0,N,Y,N,Y,1,20,20,12,50,48,48
+Mondoni,Trifolium pratense,Italy,446SO,,,2109,NA,0,N,Y,N,Y,1,20,20,12,50,49,49
+Mondoni,Trifolium pratense,Italy,426SO,,,2181,NA,0,N,Y,N,Y,1,20,20,12,50,50,50
+Mondoni,Trifolium pratense,Italy,431SO,,,2574,NA,0,N,Y,N,Y,1,15,15,12,48,37,43
+Mondoni,Trifolium pratense,Italy,431SO,,,2574,NA,0,N,Y,N,Y,1,20,20,12,50,47,48
+Mondoni,Trifolium thalii,Italy,10RE,,,1950,NA,0,N,N,N,Y,1,20,20,12,50,15,47
+Mondoni,Trifolium thalii,Italy,10RE,,,1950,NA,0,N,Y,N,Y,1,20,20,12,20,20,20
+Mondoni,Trollius europaeus,Italy,SO179,,,,NA,0,N,N,Y,Y,1,20,20,12,20,16,16
+Mondoni,Trollius europaeus,Italy,SO179,,,,NA,0,N,N,Y,Y,1,25,15,12,30,0,30
+Mondoni,Trollius europaeus,Italy,SO179,,,,NA,0,N,N,Y,Y,1,25,15,12,30,20,20
+Mondoni,Trollius europaeus,Italy,PV107,,,1718,NA,0,N,N,Y,Y,1,25,15,12,30,26,26
+Mondoni,Turritis brassica,Italy,Alp_157,,,1782,NA,0,N,N,N,Y,3,20,20,12,20,2,20
+Mondoni,Turritis brassica,Italy,Alp_157,,,1782,NA,0,N,N,N,Y,3,20,20,12,20,0,20
+Mondoni,Turritis brassica,Italy,Alp_157,,,1782,NA,0,N,N,N,Y,3,20,20,12,20,0,17
+Mondoni,Vaccinium uliginosum,Italy,131SO,,,,NA,0,N,N,Y,Y,1,25,15,12,30,3,25
+Mondoni,Verbascum alpinum,Italy,177 AQ,,,1600,NA,0,N,N,N,Y,1,25,,12,30,18,28
+Mondoni,Verbascum thapsus,Italy,10AO,,,1868,NA,0,N,N,N,Y,1,25,25,12,30,26,29
+Mondoni,Verbascum thapsus,Italy,10AO,,,1868,NA,0,N,N,N,Y,1,25,15,12,30,26,30
+Mondoni,Verbascum thapsus,Italy,10AO,,,1868,NA,0,N,N,Y,Y,1,25,25,12,30,30,30
+Mondoni,Verbascum thapsus,Italy,10AO,,,1868,NA,0,N,N,N,Y,1,25,25,12,50,48,48
+Mondoni,Veronica allionii,Italy,ALP_043 ,,,1870,NA,0,N,N,N,Y,3,20,,12,25,18,23
+Mondoni,Veronica allionii,Italy,ALP_043 ,,,1870,NA,0,N,N,Y,Y,3,20,,12,25,19,22
+Mondoni,Veronica allionii,Italy,ALP_043 ,,,1870,NA,0,N,N,Y,Y,3,20,,12,25,23,23
+Mondoni,Veronica allionii,Italy,ALP_043 ,,,1870,NA,0,N,N,N,Y,3,20,,12,25,11,22
+Mondoni,Veronica allionii,Italy,ALP_043 ,,,1870,NA,0,N,N,Y,Y,3,20,,12,25,24,24
+Mondoni,Veronica allionii,Italy,ALP_043 ,,,1870,NA,0,N,N,N,Y,3,20,,12,25,10,24
+Mondoni,Veronica alpina,Italy,169 AQ,,,2534,NA,0,N,N,Y,Y,1,20,10,12,30,27,27
+Mondoni,Veronica alpina,Italy,169 AQ,,,2534,NA,0,N,N,N,Y,1,20,10,12,30,25,29
+Mondoni,Veronica alpina,Italy,169 AQ,,,2534,NA,0,N,N,Y,Y,1,15,,12,30,2,26
+Mondoni,Veronica alpina,Italy,169 AQ,,,2534,NA,0,N,N,N,Y,1,25,,12,30,28,28
+Mondoni,Veronica alpina,Italy,16BL,,,2534,NA,0,N,N,N,Y,1,25,25,12,30,28,28
+Mondoni,Veronica alpina,Italy,16BL,,,2534,NA,0,N,N,N,Y,1,20,10,12,30,24,27
+Mondoni,Veronica alpina,Italy,16BL,,,2534,NA,0,N,N,N,Y,1,30,20,12,30,25,25
+Mondoni,Veronica alpina,Italy,16BL,,,2534,NA,0,N,N,N,Y,1,25,25,12,30,27,28
+Mondoni,Veronica alpina,Italy,16BL,,,2534,NA,0,N,N,Y,Y,1,20,10,12,30,29,30
+Mondoni,Veronica alpina,Italy,16BL,,,2534,NA,0,N,N,Y,Y,1,25,25,12,30,29,29
+Mondoni,Veronica alpina,Italy,16BL,,,2534,NA,0,N,N,Y,Y,1,15,15,12,30,29,29
+Mondoni,Veronica alpina,Italy,16BL,,,2534,NA,0,N,N,Y,Y,1,25,15,12,30,30,30
+Mondoni,Veronica alpina,Italy,Alp_096,,,2671,NA,0,N,N,N,Y,3,25,25,12,20,19,20
+Mondoni,Veronica alpina,Italy,Alp_096,,,2671,NA,0,N,N,N,Y,3,25,25,12,20,18,20
+Mondoni,Veronica alpina,Italy,Alp_096,,,2671,NA,0,N,N,N,Y,3,25,25,12,20,17,18
+Mondoni,Veronica aphylla,Italy,11BL,,,,NA,0,N,N,Y,Y,1,25,15,12,30,0,30
+Mondoni,Veronica aphylla,Italy,11BL,,,,NA,0,N,N,Y,Y,1,20,20,12,30,2,30
+Mondoni,Veronica bellidioides,Italy,347SO,,,2561,NA,0,N,N,Y,Y,1,25,15,12,30,18,30
+Mondoni,Veronica bellidioides,Italy,347SO,,,2561,NA,0,N,N,Y,Y,1,20,20,12,30,17,30
+Mondoni,Veronica fruticans,Italy,346SO,,,2169,NA,0,N,N,Y,Y,1,25,15,12,30,10,25
+Mondoni,Veronica fruticans,Italy,346SO,,,2169,NA,0,N,N,Y,Y,1,20,20,12,30,10,30
+Mondoni,Viola comollia,Italy,SO294,,,,NA,0,N,N,Y,Y,1,20,20,12,20,17,17
+Mondoni,Viola comollia,Italy,BG387,,,,NA,0,N,N,Y,Y,1,25,15,12,10,9,9
+Mondoni,Viola dubyana,Italy,BG191,,,,NA,0,N,N,Y,Y,1,20,20,12,20,18,18
+Maria Tudela Ecol & Evol,Achillea moschata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Achillea nana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Antennaria dioica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Anthoxanthum odoratum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,3,60
+Maria Tudela Ecol & Evol,Anthyllis vulneraria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,25,60
+Maria Tudela Ecol & Evol,Arnica montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,22,60
+Maria Tudela Ecol & Evol,Aster alpinus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,1,60
+Maria Tudela Ecol & Evol,Bartsia alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,1,60
+Maria Tudela Ecol & Evol,Biscutella laevigata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Campanula barbata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,2,60
+Maria Tudela Ecol & Evol,Carex curvula,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Carex firma,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Carex sempervirens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Dryas octopetala,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Festuca halleri,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Festuca nigricans,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,4,60
+Maria Tudela Ecol & Evol,Festuca pumila,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,42,60
+Maria Tudela Ecol & Evol,Festuca nigrescens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Gentiana acaulis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Gentiana clusii,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Gentiana nivalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Gentiana punctata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Gentiana verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Gentianella anisodonta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,7,60
+Maria Tudela Ecol & Evol,Geum montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,5,60
+Maria Tudela Ecol & Evol,Helictochloa versicolor,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,6,60
+Maria Tudela Ecol & Evol,Horminum pyrenaicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Leontodon hispidus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Leontopodium alpinum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Lotus corniculatus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Luzula spicata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Minuartia verna subsp. verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,5,60
+Maria Tudela Ecol & Evol,Nardus stricta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Pedicularis tuberosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Phleum rhaeticum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,11,60
+Maria Tudela Ecol & Evol,Phyteuma hemisphaericum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,2,60
+Maria Tudela Ecol & Evol,Phyteuma orbiculare,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,32,60
+Maria Tudela Ecol & Evol,Pilosella officinarum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,12,60
+Maria Tudela Ecol & Evol,Poa alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,4,60
+Maria Tudela Ecol & Evol,Polygala alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,4,60
+Maria Tudela Ecol & Evol,Potentilla aurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Primula farinosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Pulsatilla alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,24,60
+Maria Tudela Ecol & Evol,Pulsatilla vernalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Ranunculus montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,4,60
+Maria Tudela Ecol & Evol,Rhinanthus glacialis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,33,60
+Maria Tudela Ecol & Evol,Scorzoneroides helvetica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Senecio doronicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,54,60
+Maria Tudela Ecol & Evol,Serratula tinctoria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Sesleria caerulea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,5,60
+Maria Tudela Ecol & Evol,Soldanella alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,0,60
+Maria Tudela Ecol & Evol,Solidago virgaurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,3,60
+Maria Tudela Ecol & Evol,Valeriana montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,N,Merged,0,0,0,60,10,60
+Maria Tudela Ecol & Evol,Achillea moschata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,3,60
+Maria Tudela Ecol & Evol,Achillea nana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,2,60
+Maria Tudela Ecol & Evol,Antennaria dioica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,39,60
+Maria Tudela Ecol & Evol,Anthoxanthum odoratum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,34,60
+Maria Tudela Ecol & Evol,Anthyllis vulneraria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,1,60
+Maria Tudela Ecol & Evol,Arnica montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,56,60
+Maria Tudela Ecol & Evol,Aster alpinus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,11,60
+Maria Tudela Ecol & Evol,Bartsia alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Biscutella laevigata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,3,60
+Maria Tudela Ecol & Evol,Campanula barbata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,7,60
+Maria Tudela Ecol & Evol,Carex curvula,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Carex firma,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,1,60
+Maria Tudela Ecol & Evol,Carex sempervirens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,1,60
+Maria Tudela Ecol & Evol,Dryas octopetala,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,4,60
+Maria Tudela Ecol & Evol,Festuca halleri,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,6,60
+Maria Tudela Ecol & Evol,Festuca nigricans,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,8,60
+Maria Tudela Ecol & Evol,Festuca pumila,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,17,60
+Maria Tudela Ecol & Evol,Festuca nigrescens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,13,60
+Maria Tudela Ecol & Evol,Gentiana acaulis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,2,60
+Maria Tudela Ecol & Evol,Gentiana clusii,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Gentiana nivalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Gentiana punctata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Gentiana verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Gentianella anisodonta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Geum montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,10,60
+Maria Tudela Ecol & Evol,Helictochloa versicolor,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,7,60
+Maria Tudela Ecol & Evol,Horminum pyrenaicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,19,60
+Maria Tudela Ecol & Evol,Leontodon hispidus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,5,60
+Maria Tudela Ecol & Evol,Leontopodium alpinum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,2,60
+Maria Tudela Ecol & Evol,Lotus corniculatus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,12,60
+Maria Tudela Ecol & Evol,Luzula spicata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Minuartia verna subsp. verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,1,60
+Maria Tudela Ecol & Evol,Nardus stricta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Pedicularis tuberosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Phleum rhaeticum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,34,60
+Maria Tudela Ecol & Evol,Phyteuma hemisphaericum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,9,60
+Maria Tudela Ecol & Evol,Phyteuma orbiculare,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,4,60
+Maria Tudela Ecol & Evol,Pilosella officinarum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,1,60
+Maria Tudela Ecol & Evol,Poa alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,38,60
+Maria Tudela Ecol & Evol,Polygala alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,45,60
+Maria Tudela Ecol & Evol,Potentilla aurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,1,60
+Maria Tudela Ecol & Evol,Primula farinosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,7,60
+Maria Tudela Ecol & Evol,Pulsatilla alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Pulsatilla vernalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Ranunculus montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,3,60
+Maria Tudela Ecol & Evol,Rhinanthus glacialis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Scorzoneroides helvetica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,3,60
+Maria Tudela Ecol & Evol,Senecio doronicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,15,60
+Maria Tudela Ecol & Evol,Serratula tinctoria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Sesleria caerulea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,41,60
+Maria Tudela Ecol & Evol,Soldanella alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,35,60
+Maria Tudela Ecol & Evol,Solidago virgaurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,16,60
+Maria Tudela Ecol & Evol,Valeriana montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,15,5,12,60,5,60
+Maria Tudela Ecol & Evol,Achillea moschata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Achillea nana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,47,60
+Maria Tudela Ecol & Evol,Antennaria dioica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Anthoxanthum odoratum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,44,60
+Maria Tudela Ecol & Evol,Anthyllis vulneraria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,3,60
+Maria Tudela Ecol & Evol,Arnica montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Aster alpinus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,57,60
+Maria Tudela Ecol & Evol,Bartsia alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,56,60
+Maria Tudela Ecol & Evol,Biscutella laevigata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,3,60
+Maria Tudela Ecol & Evol,Campanula barbata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,48,60
+Maria Tudela Ecol & Evol,Carex curvula,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Carex firma,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,21,60
+Maria Tudela Ecol & Evol,Carex sempervirens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,10,60
+Maria Tudela Ecol & Evol,Dryas octopetala,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Festuca halleri,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,38,60
+Maria Tudela Ecol & Evol,Festuca nigricans,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,50,60
+Maria Tudela Ecol & Evol,Festuca pumila,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,33,60
+Maria Tudela Ecol & Evol,Festuca nigrescens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,20,60
+Maria Tudela Ecol & Evol,Gentiana acaulis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,16,60
+Maria Tudela Ecol & Evol,Gentiana clusii,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,54,60
+Maria Tudela Ecol & Evol,Gentiana nivalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,21,60
+Maria Tudela Ecol & Evol,Gentiana punctata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,15,60
+Maria Tudela Ecol & Evol,Gentiana verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Gentianella anisodonta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,1,60
+Maria Tudela Ecol & Evol,Geum montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,59,60
+Maria Tudela Ecol & Evol,Helictochloa versicolor,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,16,60
+Maria Tudela Ecol & Evol,Horminum pyrenaicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Leontodon hispidus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Leontopodium alpinum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Lotus corniculatus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,13,60
+Maria Tudela Ecol & Evol,Luzula spicata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Minuartia verna subsp. verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,6,60
+Maria Tudela Ecol & Evol,Nardus stricta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,20,60
+Maria Tudela Ecol & Evol,Pedicularis tuberosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,1,60
+Maria Tudela Ecol & Evol,Phleum rhaeticum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,39,60
+Maria Tudela Ecol & Evol,Phyteuma hemisphaericum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Phyteuma orbiculare,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,39,60
+Maria Tudela Ecol & Evol,Pilosella officinarum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,54,60
+Maria Tudela Ecol & Evol,Poa alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,11,60
+Maria Tudela Ecol & Evol,Polygala alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,30,60
+Maria Tudela Ecol & Evol,Potentilla aurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,8,60
+Maria Tudela Ecol & Evol,Primula farinosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,46,60
+Maria Tudela Ecol & Evol,Pulsatilla alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Pulsatilla vernalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,16,60
+Maria Tudela Ecol & Evol,Ranunculus montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,5,60
+Maria Tudela Ecol & Evol,Rhinanthus glacialis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Scorzoneroides helvetica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,53,60
+Maria Tudela Ecol & Evol,Senecio doronicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Serratula tinctoria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,59,60
+Maria Tudela Ecol & Evol,Sesleria caerulea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,38,60
+Maria Tudela Ecol & Evol,Soldanella alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,59,60
+Maria Tudela Ecol & Evol,Solidago virgaurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Valeriana montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,15,5,12,60,53,60
+Maria Tudela Ecol & Evol,Achillea moschata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Achillea nana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,51,60
+Maria Tudela Ecol & Evol,Antennaria dioica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,54,60
+Maria Tudela Ecol & Evol,Anthoxanthum odoratum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,48,60
+Maria Tudela Ecol & Evol,Anthyllis vulneraria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,5,60
+Maria Tudela Ecol & Evol,Arnica montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,41,60
+Maria Tudela Ecol & Evol,Aster alpinus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,55,60
+Maria Tudela Ecol & Evol,Bartsia alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,54,60
+Maria Tudela Ecol & Evol,Biscutella laevigata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,8,60
+Maria Tudela Ecol & Evol,Campanula barbata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,38,60
+Maria Tudela Ecol & Evol,Carex curvula,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Carex firma,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,29,60
+Maria Tudela Ecol & Evol,Carex sempervirens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,12,60
+Maria Tudela Ecol & Evol,Dryas octopetala,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Festuca halleri,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,34,60
+Maria Tudela Ecol & Evol,Festuca nigricans,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,33,60
+Maria Tudela Ecol & Evol,Festuca pumila,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,37,60
+Maria Tudela Ecol & Evol,Festuca nigrescens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,30,60
+Maria Tudela Ecol & Evol,Gentiana acaulis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,25,60
+Maria Tudela Ecol & Evol,Gentiana clusii,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,58,60
+Maria Tudela Ecol & Evol,Gentiana nivalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,12,60
+Maria Tudela Ecol & Evol,Gentiana punctata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,8,60
+Maria Tudela Ecol & Evol,Gentiana verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,18,60
+Maria Tudela Ecol & Evol,Gentianella anisodonta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,8,60
+Maria Tudela Ecol & Evol,Geum montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,51,60
+Maria Tudela Ecol & Evol,Helictochloa versicolor,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,21,60
+Maria Tudela Ecol & Evol,Horminum pyrenaicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,48,60
+Maria Tudela Ecol & Evol,Leontodon hispidus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,56,60
+Maria Tudela Ecol & Evol,Leontopodium alpinum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Lotus corniculatus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,11,60
+Maria Tudela Ecol & Evol,Luzula spicata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,19,60
+Maria Tudela Ecol & Evol,Minuartia verna subsp. verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,7,60
+Maria Tudela Ecol & Evol,Nardus stricta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,24,60
+Maria Tudela Ecol & Evol,Pedicularis tuberosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Phleum rhaeticum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,30,60
+Maria Tudela Ecol & Evol,Phyteuma hemisphaericum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,51,60
+Maria Tudela Ecol & Evol,Phyteuma orbiculare,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,18,60
+Maria Tudela Ecol & Evol,Pilosella officinarum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,36,60
+Maria Tudela Ecol & Evol,Poa alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,8,60
+Maria Tudela Ecol & Evol,Polygala alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,18,60
+Maria Tudela Ecol & Evol,Potentilla aurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,14,60
+Maria Tudela Ecol & Evol,Primula farinosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,50,60
+Maria Tudela Ecol & Evol,Pulsatilla alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,50,60
+Maria Tudela Ecol & Evol,Pulsatilla vernalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,24,60
+Maria Tudela Ecol & Evol,Ranunculus montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,5,60
+Maria Tudela Ecol & Evol,Rhinanthus glacialis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,0,60
+Maria Tudela Ecol & Evol,Scorzoneroides helvetica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,48,60
+Maria Tudela Ecol & Evol,Senecio doronicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Serratula tinctoria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,55,60
+Maria Tudela Ecol & Evol,Sesleria caerulea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,13,60
+Maria Tudela Ecol & Evol,Soldanella alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,57,60
+Maria Tudela Ecol & Evol,Solidago virgaurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,60,60
+Maria Tudela Ecol & Evol,Valeriana montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,15,5,12,60,47,60
+Maria Tudela Ecol & Evol,Achillea moschata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,52,60
+Maria Tudela Ecol & Evol,Achillea nana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,23,60
+Maria Tudela Ecol & Evol,Antennaria dioica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,49,60
+Maria Tudela Ecol & Evol,Anthoxanthum odoratum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,49,60
+Maria Tudela Ecol & Evol,Anthyllis vulneraria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,5,60
+Maria Tudela Ecol & Evol,Arnica montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,54,60
+Maria Tudela Ecol & Evol,Aster alpinus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,52,60
+Maria Tudela Ecol & Evol,Bartsia alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Biscutella laevigata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,44,60
+Maria Tudela Ecol & Evol,Campanula barbata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,24,60
+Maria Tudela Ecol & Evol,Carex curvula,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Carex firma,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,30,60
+Maria Tudela Ecol & Evol,Carex sempervirens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,1,60
+Maria Tudela Ecol & Evol,Dryas octopetala,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Festuca halleri,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,38,60
+Maria Tudela Ecol & Evol,Festuca nigricans,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,35,60
+Maria Tudela Ecol & Evol,Festuca pumila,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,42,60
+Maria Tudela Ecol & Evol,Festuca nigrescens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,42,60
+Maria Tudela Ecol & Evol,Gentiana acaulis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,1,60
+Maria Tudela Ecol & Evol,Gentiana clusii,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Gentiana nivalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Gentiana punctata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Gentiana verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Gentianella anisodonta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Geum montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,7,60
+Maria Tudela Ecol & Evol,Helictochloa versicolor,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,21,60
+Maria Tudela Ecol & Evol,Horminum pyrenaicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,58,60
+Maria Tudela Ecol & Evol,Leontodon hispidus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,37,60
+Maria Tudela Ecol & Evol,Leontopodium alpinum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,59,60
+Maria Tudela Ecol & Evol,Lotus corniculatus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,23,60
+Maria Tudela Ecol & Evol,Luzula spicata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Minuartia verna subsp. verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,4,60
+Maria Tudela Ecol & Evol,Nardus stricta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,2,60
+Maria Tudela Ecol & Evol,Pedicularis tuberosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Phleum rhaeticum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,48,60
+Maria Tudela Ecol & Evol,Phyteuma hemisphaericum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,5,60
+Maria Tudela Ecol & Evol,Phyteuma orbiculare,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,1,60
+Maria Tudela Ecol & Evol,Pilosella officinarum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,52,60
+Maria Tudela Ecol & Evol,Poa alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,53,60
+Maria Tudela Ecol & Evol,Polygala alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,43,60
+Maria Tudela Ecol & Evol,Potentilla aurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,8,60
+Maria Tudela Ecol & Evol,Primula farinosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,13,60
+Maria Tudela Ecol & Evol,Pulsatilla alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,4,60
+Maria Tudela Ecol & Evol,Pulsatilla vernalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,51,60
+Maria Tudela Ecol & Evol,Ranunculus montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,8,60
+Maria Tudela Ecol & Evol,Rhinanthus glacialis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Scorzoneroides helvetica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,42,60
+Maria Tudela Ecol & Evol,Senecio doronicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,56,60
+Maria Tudela Ecol & Evol,Serratula tinctoria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,46,60
+Maria Tudela Ecol & Evol,Sesleria caerulea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,59,60
+Maria Tudela Ecol & Evol,Soldanella alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Solidago virgaurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Valeriana montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,N,Y,Merged,25,15,12,60,2,60
+Maria Tudela Ecol & Evol,Achillea moschata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Achillea nana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,55,60
+Maria Tudela Ecol & Evol,Antennaria dioica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,50,60
+Maria Tudela Ecol & Evol,Anthoxanthum odoratum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,38,60
+Maria Tudela Ecol & Evol,Anthyllis vulneraria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,4,60
+Maria Tudela Ecol & Evol,Arnica montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,58,60
+Maria Tudela Ecol & Evol,Aster alpinus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,55,60
+Maria Tudela Ecol & Evol,Bartsia alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,34,60
+Maria Tudela Ecol & Evol,Biscutella laevigata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,35,60
+Maria Tudela Ecol & Evol,Campanula barbata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Carex curvula,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Carex firma,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,25,60
+Maria Tudela Ecol & Evol,Carex sempervirens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,6,60
+Maria Tudela Ecol & Evol,Dryas octopetala,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,55,60
+Maria Tudela Ecol & Evol,Festuca halleri,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,39,60
+Maria Tudela Ecol & Evol,Festuca nigricans,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,55,60
+Maria Tudela Ecol & Evol,Festuca pumila,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,24,60
+Maria Tudela Ecol & Evol,Festuca nigrescens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,29,60
+Maria Tudela Ecol & Evol,Gentiana acaulis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,6,60
+Maria Tudela Ecol & Evol,Gentiana clusii,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,23,60
+Maria Tudela Ecol & Evol,Gentiana nivalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,12,60
+Maria Tudela Ecol & Evol,Gentiana punctata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,19,60
+Maria Tudela Ecol & Evol,Gentiana verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Gentianella anisodonta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,1,60
+Maria Tudela Ecol & Evol,Geum montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,50,60
+Maria Tudela Ecol & Evol,Helictochloa versicolor,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,27,60
+Maria Tudela Ecol & Evol,Horminum pyrenaicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Leontodon hispidus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Leontopodium alpinum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Lotus corniculatus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,17,60
+Maria Tudela Ecol & Evol,Luzula spicata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Minuartia verna subsp. verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,8,60
+Maria Tudela Ecol & Evol,Nardus stricta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,32,60
+Maria Tudela Ecol & Evol,Pedicularis tuberosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Phleum rhaeticum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,44,60
+Maria Tudela Ecol & Evol,Phyteuma hemisphaericum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,46,60
+Maria Tudela Ecol & Evol,Phyteuma orbiculare,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,19,60
+Maria Tudela Ecol & Evol,Pilosella officinarum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Poa alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,13,60
+Maria Tudela Ecol & Evol,Polygala alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,22,60
+Maria Tudela Ecol & Evol,Potentilla aurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,18,60
+Maria Tudela Ecol & Evol,Primula farinosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,55,60
+Maria Tudela Ecol & Evol,Pulsatilla alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Pulsatilla vernalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,34,60
+Maria Tudela Ecol & Evol,Ranunculus montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,9,60
+Maria Tudela Ecol & Evol,Rhinanthus glacialis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Scorzoneroides helvetica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,56,60
+Maria Tudela Ecol & Evol,Senecio doronicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,56,60
+Maria Tudela Ecol & Evol,Serratula tinctoria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Sesleria caerulea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,7,60
+Maria Tudela Ecol & Evol,Soldanella alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,58,60
+Maria Tudela Ecol & Evol,Solidago virgaurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Valeriana montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,90,Y,N,N,Y,Merged,25,15,12,60,28,60
+Maria Tudela Ecol & Evol,Achillea moschata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Achillea nana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,57,60
+Maria Tudela Ecol & Evol,Antennaria dioica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,43,60
+Maria Tudela Ecol & Evol,Anthoxanthum odoratum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,36,60
+Maria Tudela Ecol & Evol,Anthyllis vulneraria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,2,60
+Maria Tudela Ecol & Evol,Arnica montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,54,60
+Maria Tudela Ecol & Evol,Aster alpinus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Bartsia alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,31,60
+Maria Tudela Ecol & Evol,Biscutella laevigata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,19,60
+Maria Tudela Ecol & Evol,Campanula barbata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,56,60
+Maria Tudela Ecol & Evol,Carex curvula,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Carex firma,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,30,60
+Maria Tudela Ecol & Evol,Carex sempervirens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,14,60
+Maria Tudela Ecol & Evol,Dryas octopetala,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,51,60
+Maria Tudela Ecol & Evol,Festuca halleri,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,32,60
+Maria Tudela Ecol & Evol,Festuca nigricans,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Festuca pumila,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Festuca nigrescens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,30,60
+Maria Tudela Ecol & Evol,Gentiana acaulis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Gentiana clusii,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,31,60
+Maria Tudela Ecol & Evol,Gentiana nivalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Gentiana punctata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,9,60
+Maria Tudela Ecol & Evol,Gentiana verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,15,60
+Maria Tudela Ecol & Evol,Gentianella anisodonta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,4,60
+Maria Tudela Ecol & Evol,Geum montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,49,60
+Maria Tudela Ecol & Evol,Helictochloa versicolor,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,21,60
+Maria Tudela Ecol & Evol,Horminum pyrenaicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,58,60
+Maria Tudela Ecol & Evol,Leontodon hispidus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Leontopodium alpinum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Lotus corniculatus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,3,60
+Maria Tudela Ecol & Evol,Luzula spicata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,2,60
+Maria Tudela Ecol & Evol,Minuartia verna subsp. verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,2,60
+Maria Tudela Ecol & Evol,Nardus stricta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,39,60
+Maria Tudela Ecol & Evol,Pedicularis tuberosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Phleum rhaeticum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,48,60
+Maria Tudela Ecol & Evol,Phyteuma hemisphaericum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,24,60
+Maria Tudela Ecol & Evol,Phyteuma orbiculare,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,15,60
+Maria Tudela Ecol & Evol,Pilosella officinarum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,33,60
+Maria Tudela Ecol & Evol,Poa alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,10,60
+Maria Tudela Ecol & Evol,Polygala alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,21,60
+Maria Tudela Ecol & Evol,Potentilla aurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,15,60
+Maria Tudela Ecol & Evol,Primula farinosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,46,60
+Maria Tudela Ecol & Evol,Pulsatilla alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,45,60
+Maria Tudela Ecol & Evol,Pulsatilla vernalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,36,60
+Maria Tudela Ecol & Evol,Ranunculus montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,2,60
+Maria Tudela Ecol & Evol,Rhinanthus glacialis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Scorzoneroides helvetica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Senecio doronicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Serratula tinctoria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Sesleria caerulea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,7,60
+Maria Tudela Ecol & Evol,Soldanella alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Solidago virgaurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,57,60
+Maria Tudela Ecol & Evol,Valeriana montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,0,150,Y,N,N,Y,Merged,25,15,12,60,59,60
+Maria Tudela Ecol & Evol,Achillea moschata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,59,60
+Maria Tudela Ecol & Evol,Achillea nana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,22,60
+Maria Tudela Ecol & Evol,Antennaria dioica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,51,60
+Maria Tudela Ecol & Evol,Anthoxanthum odoratum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,39,60
+Maria Tudela Ecol & Evol,Anthyllis vulneraria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,4,60
+Maria Tudela Ecol & Evol,Arnica montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Aster alpinus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Bartsia alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,12,60
+Maria Tudela Ecol & Evol,Biscutella laevigata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,44,60
+Maria Tudela Ecol & Evol,Campanula barbata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,59,60
+Maria Tudela Ecol & Evol,Carex curvula,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Carex firma,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,47,60
+Maria Tudela Ecol & Evol,Carex sempervirens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,14,60
+Maria Tudela Ecol & Evol,Dryas octopetala,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Festuca halleri,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,42,60
+Maria Tudela Ecol & Evol,Festuca nigricans,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,53,60
+Maria Tudela Ecol & Evol,Festuca pumila,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,37,60
+Maria Tudela Ecol & Evol,Festuca nigrescens,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,38,60
+Maria Tudela Ecol & Evol,Gentiana acaulis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,6,60
+Maria Tudela Ecol & Evol,Gentiana clusii,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,29,60
+Maria Tudela Ecol & Evol,Gentiana nivalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Gentiana punctata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,29,60
+Maria Tudela Ecol & Evol,Gentiana verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,50,60
+Maria Tudela Ecol & Evol,Gentianella anisodonta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,6,60
+Maria Tudela Ecol & Evol,Geum montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,15,60
+Maria Tudela Ecol & Evol,Helictochloa versicolor,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,40,60
+Maria Tudela Ecol & Evol,Horminum pyrenaicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,56,60
+Maria Tudela Ecol & Evol,Leontodon hispidus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,55,60
+Maria Tudela Ecol & Evol,Leontopodium alpinum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Lotus corniculatus,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,19,60
+Maria Tudela Ecol & Evol,Luzula spicata,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Minuartia verna subsp. verna,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,6,60
+Maria Tudela Ecol & Evol,Nardus stricta,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,18,60
+Maria Tudela Ecol & Evol,Pedicularis tuberosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,51,60
+Maria Tudela Ecol & Evol,Phleum rhaeticum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,53,60
+Maria Tudela Ecol & Evol,Phyteuma hemisphaericum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Phyteuma orbiculare,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Pilosella officinarum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,44,60
+Maria Tudela Ecol & Evol,Poa alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,52,60
+Maria Tudela Ecol & Evol,Polygala alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,47,60
+Maria Tudela Ecol & Evol,Potentilla aurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,44,60
+Maria Tudela Ecol & Evol,Primula farinosa,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,59,60
+Maria Tudela Ecol & Evol,Pulsatilla alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Pulsatilla vernalis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,20,60
+Maria Tudela Ecol & Evol,Ranunculus montanum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,5,60
+Maria Tudela Ecol & Evol,Rhinanthus glacialis,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,0,60
+Maria Tudela Ecol & Evol,Scorzoneroides helvetica,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,57,60
+Maria Tudela Ecol & Evol,Senecio doronicum,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,54,60
+Maria Tudela Ecol & Evol,Serratula tinctoria,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,59,60
+Maria Tudela Ecol & Evol,Sesleria caerulea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,57,60
+Maria Tudela Ecol & Evol,Soldanella alpina,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,60,60
+Maria Tudela Ecol & Evol,Solidago virgaurea,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,56,60
+Maria Tudela Ecol & Evol,Valeriana montana,Italy,Val Viola Dosde and Passo dello Stelvi,46,10,2750,NA,0,N,N,Y,Y,Merged,25,15,12,60,27,60
