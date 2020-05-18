@@ -44,19 +44,19 @@ read_excel(here("data",
 # Read from original files with germination indices (S Rosbakh)
 
 read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "Aust Alpine Germination timing 11MAY2020.xlsx"),
+                "Sergey Rosbakh (Indices)", "UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx"),
            sheet = 4, skip = 0) %>%
   select(Species, Accession, Elevation, Treatment, Rep, seeds, GRS:CVG) -> satyanti1
 read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "Aust Alpine Germination timing 11MAY2020.xlsx"),
-           sheet = 5, skip = 0)  %>%
+                "Sergey Rosbakh (Indices)", "UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx"),
+           sheet = 8, skip = 0)  %>%
   select(Species, Accession, Elevation, Treatment, Rep, seeds, GRS:CVG) -> satyanti2
 read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "Aust Alpine Germination timing 11MAY2020.xlsx"),
-           sheet = 6, skip = 0)  %>%
+                "Sergey Rosbakh (Indices)", "UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx"),
+           sheet = 9, skip = 0)  %>%
   select(Species, Accession, Elevation, Treatment, Rep, seeds, GRS:CVG) -> satyanti3
 read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "Aust Alpine Germination timing 11MAY2020.xlsx"),
+                "Sergey Rosbakh (Indices)", "UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx"),
            sheet = 7, skip = 0)  %>%
   select(Species, Accession, Elevation, Treatment, Rep, seeds, GRS:CVG) -> satyanti4
 
