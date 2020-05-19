@@ -1213,7 +1213,31 @@ germination %>%
   merge(filip, all.x = TRUE) -> # Merge embryo
   traits
 
+# Table for Angelino
+
+traits %>%
+  merge(germination, by = "TPLName") %>%
+  merge(read.csv(here("data", "elevations", "regions.csv")), by = "Region", all.x = TRUE) %>%
+  mutate(Macroregion = as.character(Macroregion),
+         Macroregion = ifelse(is.na(Macroregion), "Europe", Macroregion),
+         Stratification = as.character(Stratification),
+         Stratification_Y_N = ifelse(Stratification == "None", "N", "Y")) %>%
+  select(TPLName, 
+         Alpine, `Plant category`, `Life form`, Lifespan, `Reproduction frequency`,
+         Dormancy, Embryo, Seed.mass,
+         Source, Macroregion, Region, Accession,
+         Dish,
+         Scarification, GA3, 
+         Stratification,
+         Stratification_Y_N,
+         Light, Alternating,
+         Tmean, Tdif, Temperature,
+         Sown, Germinated, Germinable,
+         MGT, MGR,
+         UNC, SYN) -> angelino
+
 # Save
 
 write.csv(germination, here("results", "database", "germination.csv"), row.names = FALSE)
 write.csv(traits, here("results", "database", "traits.csv"), row.names = FALSE)
+write.csv(angelino, here("results", "database", "angelino.csv"), row.names = FALSE)
