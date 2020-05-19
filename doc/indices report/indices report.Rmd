@@ -180,13 +180,13 @@ I re-calculated the indices for shorter timer series (ca. 60 days; orange tabs; 
 
 One further improvement would be to reduce the time series in Anissa's, Venn's and Bu's data to 40 days, to make the differences even smaller, but it would require additional data re-formatting.
 
-# Number of records with >80% germination and germination indices, by region.
+# Number of records with >90% germination and germination indices, by region.
 
 ```{r table1, echo = FALSE}
 indi %>% group_by(Region) %>% tally
 ```
 
-# Number of records with >80% germination and germination indices, by alpine strict vs. generalist.
+# Number of records with >90% germination and germination indices, by alpine strict vs. generalist.
 
 ```{r table2, echo = FALSE}
 indi %>% group_by(Alpine) %>% tally

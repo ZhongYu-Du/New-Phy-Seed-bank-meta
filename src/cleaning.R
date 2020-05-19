@@ -1137,12 +1137,66 @@ rbind(SMBu2005, SMBu2010, LiuSM) %>%
   group_by(TPLName) %>%
   summarise(Seed.mass = mean(Seed.mass, na.rm = TRUE)) %>%
   mutate(Seed.mass = 10*Seed.mass) -> # Convert to mg (= g per 1000 seeds)
-  seed.mass
+  seed.mass1
+
+read_excel(here("data", "A Carta", "germ&traits.xlsx"), sheet = 2, skip = 0) %>%
+  select(TPLName, mass.new) %>%
+  filter(! TPLName %in% seed.mass1$TPLName) %>%
+  filter(mass.new != "NA") %>%
+  rename(Seed.mass = mass.new) ->
+  seed.mass2 # Values calculated for the genus
+
+# Missing: Helictochloa versicolor: Use SID average of genus Helictotrichon
+# rbind(c("Helictotrichon canescens", 0.4908),
+#       c("Helictotrichon desertorum", 3.4804),
+#       c("Helictotrichon elongatum",  1.3792),
+#       c("Helictotrichon fluitans", 0.7612),
+#       c("Helictotrichon hookeri", 1.7928),
+#       c("Helictotrichon parlatorei", 1.789),
+#       c("Helictotrichon planiculme", 4.7016),
+#       c("Helictotrichon pratense", 2.32),
+#       c("Helictotrichon pubescens", 1.93),
+#       c("Helictotrichon sedenense", 2.6692)) %>%
+#   data.frame-> Helictotrichon
+
+# Missing Neopaxia australasica: SID Data available for synonym
+# "Montia australasica", 0.418
+
+# Missing Nastanthus scapigerus: There is SID data for a related (I think) species
+# "Calycera eryngioides", 7.1784
+
+# Missing Dichosciadium ranunculaceum: There is SID data for related (I think) species
+#rbind(c("Azorella compacta", 2.6322),
+#      c("Azorella filamentosa", 0.7352),
+#      c("Azorella madreporica", 1.3),
+#      c("Azorella spinosa", 3.032)) %>%
+#  data.frame -> Azorella
+
+data.frame(TPLName = c("Helictochloa versicolor",
+                       "Neopaxia australasica",
+                       "Nastanthus scapigerus",
+                       "Dichosciadium ranunculaceum"),
+           Seed.mass = c(mean(c(0.4908, 3.4804,  1.3792, 0.7612, 1.7928, 1.789, 4.7016, 2.32, 1.93, 2.6692)),
+                         0.418,
+                         7.1784,
+                         mean(c(2.6322, 0.7352, 1.3, 3.032)))) -> seed.mass3
+
+rbind(seed.mass1, seed.mass2, seed.mass3) -> seed.mass
 
 # Embryo trait (Filip)
 
 read.csv(here("data", "F Vandelook", 
               "alpine plant traits embryo to seed surface ratio.csv"), sep = ";") %>%
+  select(TPLName, Familia, Species:Family) -> 
+  filip1 # first batch of values
+  
+read.csv(here("data", "F Vandelook", 
+                "Kopie van Species without embryo manual edit.csv"), sep = ",") -> 
+  filip2 # Species missing from 1st bacth
+
+filip1 %>%
+  filter(! TPLName %in% filip2$TPLName) %>%
+rbind(filip2) %>%
   select(TPLName, Species, Genus, Family) %>%
   mutate(Embryo = ifelse(is.na(Species), Genus, Species),
          Embryo = ifelse(is.na(Embryo), Family, Embryo)) %>%

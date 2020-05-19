@@ -1,0 +1,129 @@
+---
+title: "Alpine traits report"
+author: "Eduardo Fernández Pascual"
+date: "`r format(Sys.time(), '%d/%m/%Y')`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message = FALSE, echo = FALSE, warning = FALSE}
+library(tidyverse); library(here); library(FactoMineR); library(cowplot)
+library(ggthemes); library(ggrepel); library(flextable); library(ggpubr)
+
+read.csv(here("results", "database", "traits.csv")) %>%
+  merge(read.csv(here("results", "database", "germination.csv")), by = "TPLName") %>% 
+  merge(read.csv(here("data", "elevations", "regions.csv")), by = "Region", all.x = TRUE) %>%
+  mutate(Macroregion = as.character(Macroregion),
+         Macroregion = ifelse(is.na(Macroregion), "Europe", Macroregion),
+         Macroregion = as.factor(Macroregion)) -> master
+
+read.csv(here("results", "database", "traits.csv")) %>%
+  select(TPLName, Seed.mass, Embryo) -> tt
+
+
+```
+
+```{r fig1, echo = FALSE, fig.cap = "Embryo by region and alpine character (brackets are SD)"}
+master %>%
+  group_by(TPLName, Macroregion, Alpine) %>%
+  summarise(rate = mean(MGR, na.rm = TRUE), 
+            syn = mean(SYN, na.rm = TRUE)) %>%
+  merge(tt, by = "TPLName") %>%
+  select(TPLName, Macroregion, Alpine, rate, syn, Seed.mass, Embryo) %>%
+  gather(Trait, Value, rate:Embryo) %>%
+  filter(is.finite(Value)) %>%
+  filter(Trait == "Embryo") %>%
+  group_by(Trait, Alpine, Macroregion) %>%
+  summarise(y = mean(Value), SD = sd(Value)) %>%
+  ggplot(aes(Alpine, y, ymin = y - SD, ymax = y + SD, fill = Alpine)) +
+    theme_wsj() +
+  geom_bar(stat = "identity", position = "dodge", alpha = 0.4) + 
+  facet_wrap(~ Macroregion, scales = "fixed") +
+  geom_errorbar(aes(color = Alpine), width=.2,
+                position=position_dodge(.9))
+```
+
+```{r fig2, echo = FALSE, fig.cap = "Seed mass by region and alpine character (brackets are SD)"}
+master %>%
+  group_by(TPLName, Macroregion, Alpine) %>%
+  summarise(rate = mean(MGR, na.rm = TRUE), 
+            syn = mean(SYN, na.rm = TRUE)) %>%
+  merge(tt, by = "TPLName") %>%
+  select(TPLName, Macroregion, Alpine, rate, syn, Seed.mass, Embryo) %>%
+  gather(Trait, Value, rate:Embryo) %>%
+  filter(is.finite(Value)) %>%
+  filter(Trait == "Seed.mass") %>%
+  group_by(Trait, Alpine, Macroregion) %>%
+  summarise(y = mean(Value), SD = sd(Value)) %>%
+  ggplot(aes(Alpine, y, ymin = y - SD, ymax = y + SD, fill = Alpine)) +
+    theme_wsj() +
+  geom_bar(stat = "identity", position = "dodge", alpha = 0.4) + 
+  facet_wrap(~ Macroregion, scales = "fixed") +
+  geom_errorbar(aes(color = Alpine), width=.2,
+                position=position_dodge(.9))
+```
+
+
+```{r fig3, echo = FALSE,fig.cap = "Mean germination rate by region and alpine character (brackets are SD)"}
+master %>%
+  group_by(TPLName, Macroregion, Alpine) %>%
+  summarise(rate = mean(MGR, na.rm = TRUE), 
+            syn = mean(SYN, na.rm = TRUE)) %>%
+  merge(tt, by = "TPLName") %>%
+  select(TPLName, Macroregion, Alpine, rate, syn, Seed.mass, Embryo) %>%
+  gather(Trait, Value, rate:Embryo) %>%
+  filter(is.finite(Value)) %>%
+  filter(Trait == "rate") %>%
+  group_by(Trait, Alpine, Macroregion) %>%
+  summarise(y = mean(Value), SD = sd(Value)) %>%
+  ggplot(aes(Alpine, y, ymin = y - SD, ymax = y + SD, fill = Alpine)) +
+    theme_wsj() +
+  geom_bar(stat = "identity", position = "dodge", alpha = 0.4) + 
+  facet_wrap(~ Macroregion, scales = "fixed") +
+  geom_errorbar(aes(color = Alpine), width=.2,
+                position=position_dodge(.9))
+```
+
+
+```{r fig4, echo = FALSE, fig.cap = "Germination synchrony by region and alpine character (brackets are SD)"}
+master %>%
+  group_by(TPLName, Macroregion, Alpine) %>%
+  summarise(rate = mean(MGR, na.rm = TRUE), 
+            syn = mean(SYN, na.rm = TRUE)) %>%
+  merge(tt, by = "TPLName") %>%
+  select(TPLName, Macroregion, Alpine, rate, syn, Seed.mass, Embryo) %>%
+  gather(Trait, Value, rate:Embryo) %>%
+  filter(is.finite(Value)) %>%
+  filter(Trait == "syn") %>%
+  group_by(Trait, Alpine, Macroregion) %>%
+  summarise(y = mean(Value), SD = sd(Value)) %>%
+  ggplot(aes(Alpine, y, ymin = y - SD, ymax = y + SD, fill = Alpine)) +
+    theme_wsj() +
+  geom_bar(stat = "identity", position = "dodge", alpha = 0.4) + 
+  facet_wrap(~ Macroregion, scales = "fixed") +
+  geom_errorbar(aes(color = Alpine), width=.2,
+                position=position_dodge(.9))
+```
+
+```{r fig5, echo = FALSE, fig.cap = "Proportion of full out of sown seeds by region and alpine character (brackets are binomial ci)"}
+master %>%
+  group_by(Macroregion, Alpine) %>%
+  summarise(Sown = sum(Sown, na.rm = TRUE), 
+            Germinable = sum(Germinable, na.rm = TRUE)) %>%
+  filter(Germinable < Sown) %>% data.frame -> props
+
+binom::binom.confint(props$Germinable, props$Sown, method = "wilson") %>% 
+  cbind(props) %>%
+  ggplot(aes(Alpine, mean, ymin = lower, ymax = upper, fill = Alpine)) +
+    theme_wsj() +
+  geom_bar(stat = "identity", position = "dodge", alpha = 0.4) + 
+  facet_wrap(~ Macroregion, scales = "fixed") +
+  geom_errorbar(aes(color = Alpine), width=.2,
+                position=position_dodge(.9))
+```
+
+
+
