@@ -1038,6 +1038,8 @@ rbind(AustraliaVenn, AustraliaSommerville, AustraliaSat, ChileBriceño, ChileCav
   #summarise(Germinated = sum(Germinated), Germinable = sum(Germinable), Sown = sum(Sown)) %>%
   mutate(Germinable = ifelse(is.na(Germinable), Sown, Germinable),
          Sown = ifelse(is.na(Sown), Germinable, Sown),
+         Germinated = as.numeric(Germinated),
+         Germinable = as.numeric(Germinable),
          Germinated = ifelse(Germinated > Germinable, Germinable, Germinated),
          Germinated = as.numeric(Germinated)) %>%
   group_by()  %>%
