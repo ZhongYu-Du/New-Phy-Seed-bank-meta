@@ -1042,6 +1042,7 @@ rbind(AustraliaVenn, AustraliaSommerville, AustraliaSat, ChileBriceño, ChileCav
          Germinable = as.numeric(Germinable),
          Germinated = ifelse(Germinated > Germinable, Germinable, Germinated),
          Germinated = as.numeric(Germinated)) %>%
+  filter(Germinable > 0) %>%
   group_by()  %>%
   select(TPLName,
          Taxon,
