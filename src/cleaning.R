@@ -1176,11 +1176,11 @@ read_excel(here("data", "A Carta", "germ&traits.xlsx"), sheet = 2, skip = 0) %>%
 #  data.frame -> Azorella
 
 data.frame(TPLName = c("Helictochloa versicolor",
-                       "Neopaxia australasica",
+                       "Neopaxia australasica", # Told by S Venn
                        "Nastanthus scapigerus",
                        "Dichosciadium ranunculaceum"),
            Seed.mass = c(mean(c(0.4908, 3.4804,  1.3792, 0.7612, 1.7928, 1.789, 4.7016, 2.32, 1.93, 2.6692)),
-                         0.418,
+                         -0.7522,
                          7.1784,
                          mean(c(2.6322, 0.7352, 1.3, 3.032)))) -> seed.mass3
 

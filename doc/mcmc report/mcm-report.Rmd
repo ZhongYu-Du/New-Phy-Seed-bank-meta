@@ -1,0 +1,63 @@
+---
+title: "MCMC report"
+author: "Eduardo Fernández Pascual"
+date: "`r format(Sys.time(), '%d/%m/%Y')`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message = FALSE, echo = FALSE, warning = FALSE}
+library(tidyverse); library(here); library(readxl)
+
+read_excel(here("results", "analysis", "results.preliminary.xlsx")) -> sheet1
+
+sheet1[8:19, ]  %>%
+  select(variable, post.mean, l.95..CI, u.95..CI, pMCMC) %>%
+  separate(variable, into = c("Alpine", "Treatment"), sep = ":") %>%
+  mutate(Alpine = gsub("Alpine", "", Alpine)) %>%
+  rename(Mean = post.mean,
+         Lower = l.95..CI,
+         Upper = u.95..CI,
+         p = pMCMC) -> df1
+
+ggplot(df1, aes(y = Alpine, x = Mean, xmin = Lower, xmax = Upper, color = Alpine)) +
+  geom_point() +
+  labs(title = "Final germination proportion by alpine") + 
+  geom_errorbarh(height = .1) +
+  facet_grid(~ Treatment, scales = "free") +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+  theme(legend.position = "none", axis.title = element_blank()) -> fig1
+
+sheet1[21:57, ]  %>%
+  select(variable, post.mean, l.95..CI, u.95..CI, pMCMC) %>%
+  separate(variable, into = c("Macroregion", "Alpine", "Treatment"), sep = ":") %>%
+  mutate(Alpine = gsub("Alpine", "", Alpine),
+         Macroregion = gsub("Macroregion", "", Macroregion)) %>%
+  rename(Mean = post.mean,
+         Lower = l.95..CI,
+         Upper = u.95..CI,
+         p = pMCMC) -> df2
+
+ggplot(df2, aes(y = Alpine, x = Mean, xmin = Lower, xmax = Upper, color = Alpine)) +
+  geom_point() +
+  labs(title = "Final germination proportion by alpine and region") + 
+  geom_errorbarh(height = .1) +
+  facet_grid(Macroregion ~ Treatment, scales = "free") +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+  theme(legend.position = "none", axis.title = element_blank()) -> fig2
+```
+
+```{r echo = FALSE, fig.height = 1.5}
+fig1
+```
+
+```{r echo = FALSE, fig.height = 3}
+fig2
+```
+
+
+
+
