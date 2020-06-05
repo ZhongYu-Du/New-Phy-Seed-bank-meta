@@ -1180,7 +1180,7 @@ data.frame(TPLName = c("Helictochloa versicolor",
                        "Nastanthus scapigerus",
                        "Dichosciadium ranunculaceum"),
            Seed.mass = c(mean(c(0.4908, 3.4804,  1.3792, 0.7612, 1.7928, 1.789, 4.7016, 2.32, 1.93, 2.6692)),
-                         -0.7522,
+                         0.7522,
                          7.1784,
                          mean(c(2.6322, 0.7352, 1.3, 3.032)))) -> seed.mass3
 
@@ -1221,21 +1221,28 @@ germination %>%
 traits %>%
   merge(germination, by = "TPLName") %>%
   merge(read.csv(here("data", "elevations", "regions.csv")), by = "Region", all.x = TRUE) %>%
-  mutate(Macroregion = as.character(Macroregion),
+  mutate(TPLName = gsub(" ", "_", TPLName),
+         Macroregion = as.character(Macroregion),
          Macroregion = ifelse(is.na(Macroregion), "Europe", Macroregion),
-         Stratification = as.character(Stratification),
-         Stratification_Y_N = ifelse(Stratification == "None", "N", "Y")) %>%
+         Stratification2 = as.character(Stratification),
+         Scarification = ifelse(Scarification == "Y", 1, 0),
+         Stratification = ifelse(Stratification == "None", 0, 1),
+         GA3 = ifelse(GA3 == "Y", 1, 0),
+         Light = ifelse(Light == "Y", 1, 0),
+         Alternating = ifelse(Alternating == "Y", 1, 0),
+         percent = Germinated / Germinable) %>%
+  rename(embryo = Embryo, mass = Seed.mass) %>%
   select(TPLName, 
          Alpine, `Plant category`, `Life form`, Lifespan, `Reproduction frequency`,
-         Dormancy, Embryo, Seed.mass,
+         Dormancy, embryo, mass,
          Source, Macroregion, Region, Accession,
-         Dish,
+         Dish, Stratification2,
          Scarification, GA3, 
          Stratification,
-         Stratification_Y_N,
          Light, Alternating,
          Tmean, Tdif, Temperature,
          Sown, Germinated, Germinable,
+         percent,
          MGT, MGR,
          UNC, SYN) -> angelino
 
@@ -1243,4 +1250,4 @@ traits %>%
 
 write.csv(germination, here("results", "database", "germination.csv"), row.names = FALSE)
 write.csv(traits, here("results", "database", "traits.csv"), row.names = FALSE)
-write.csv(angelino, here("results", "database", "angelino.csv"), row.names = FALSE)
+write.csv(angelino, here("results", "database", "alpine.data.csv"), row.names = FALSE)
