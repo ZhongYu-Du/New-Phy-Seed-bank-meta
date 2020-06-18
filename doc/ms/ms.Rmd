@@ -1,0 +1,62 @@
+---
+title: "Alpine Seeds MS"
+date: "15/6/2020"
+output: 
+  bookdown::html_document2:
+    reference_docx: gebtemplate.docx
+bibliography: refs.bib
+csl: global-ecology-and-biogeography.csl
+link-citations: yes
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message = FALSE, echo = FALSE, warning = FALSE}
+knitr::knit_hooks$set(inline = function(x) {
+  prettyNum(x, big.mark = ",")
+})
+```
+
+```{r message = FALSE, echo = FALSE, warning = FALSE}
+library(tidyverse); library(here)
+source(here("src", "msSource.R"))
+```
+
+# Introduction
+
+Alpine environments are those that occur above the maximum elevation at which trees can grow, and are characterized by low temperatures, strong winds, unstable substrates, and short growing seasons [@RN2392]. The short alpine growing season is a major barrier for plant recruitment, as it constrains the period favorable for seedling establishment [@RN4714; @RN4717]. Alpine seedlings must survive extreme environmental stresses and yet grow to a critical biomass by the end of the growing season, to withstand the harsh and long-lasting winter [@RN2868]. The physiological process of seed germination is the essential, yet most vulnerable, start of seedling establishment [@RN3397]. Because it is an irreversible process, germination must be timed to occur when the environment is favourable for subsequent seedling survival and growth [@RN4691]. Thus, the mechanisms regulating the timing of the seed-to-seedling transition are expected to be under strong selective pressure [@RN3375; @RN2968]. Natural selection should favour seed germination requirements that reduce the probability of facing environmental conditions that are not appropriate for seedlings. The main physiological drivers of germination, water availability and temperature [@RN3368], are also two main features of climate. In addition, many plant species have developed seed dormancy, by which germination is prevented during periods that are only ephemerally favourable, ensuring germination in the right season [@RN3063]. Different degrees of dormancy also ensure the distribution of offspring emergence across time, as bet-hedging against unpredictable environments [@RN3065]. Other germination cues allow for a detection of fine-scale germination niches and safe sites [@RN4719], such as the response to light [@RN4656] and alternating temperatures [@RN1380]. In the alpine environment, the diversity of microhabitats has apparently resulted in variable germination ecologies across species, making it difficult to define a common *alpine germination syndrome* [@RN2392; @RN2943].
+
+Early studies on the germination ecology of alpine plants demonstrated that freshly collected seeds of most arctic and alpine species required relatively high temperatures for germination [@RN3258; @RN3213; @RN4712]. High-temperature germination has been considered to be an adaptation to prevent seed germination at the timing of seed dispersal (autumn), when temperatures are low and there is a high risk of frost [@RN3393]. Indeed, seed germination of alpine species tends to occur after exposure to winter in early summer [@RN2392; @RN2382]; at this stage the temperature window for germination usually widens towards lower values [@RN1021]. Nevertheless, there is an increasing number of studies highlighting the germination of freshly collected seeds at cool incubation temperatures or even during cold stratification treatments [@RN2943; @RN3285; @RN2371; @RN4713]. Low-temperature germination could be an adaptation to germination under snow or at snowmelt, which could presumably allow seedlings to develop a deeper root system before topsoil desiccation in summer [@RN4720], as well as to attain an optimal size for overwintering [@RN4712].
+
+Many alpine species have been described as having deep physiological dormancy [@RN2943; @RN3703; @RN3214]. Dormancy in freshly-dispersed seeds would prevent precocious germination under autumn conditions, when appropriate soil moisture and temperature are not likely to persist for more than a few weeks or days [@RN3330]. A requirement for cold stratification to break dormancy would allow seeds to sense the snow season, thereby timing germination to a posterior period, more appropriate for seedling survival and growth. Thus, it can be expected that a cold stratification period would be a common requirement for seed germination in alpine plant species. Nonetheless, in an early review, Amen [-@RN3213] concluded that cold stratification was not a common requirement for the seed germination of several alpine plant species from different mountains in the USA (see also Sayers and Ward [-@RN1484]; Marchand and Roach [-@RN2995]; Kaye [-@RN4721]). More recently, Sommerville *et al.* [-@RN3703] and Hoyle *et al.* [-@RN3285] showed that in 19 and 54 Australian alpine plant species, respectively, a cold stratification period significantly increased seed germination only in half of the species tested. In contrast, Söyrinki (1938, cited in Körner [-@RN2392]), experimenting with 91 alpine species from the Alps, found that storage at winter temperatures (i.e. cold stratification) increased seed germination in the great majority of cases. Shimono and Kudo [-@RN707] reported that cold stratification increased seed germination over a range of temperatures in most of the 27 plant species studied in the alpine zone of Japan. Cavieres and Sierra-Almeida [-@RN4713] reported that, along an elevational gradient in the central Chilean Andes, cold stratification was an important requirement for seed germination in species from lower elevations, while species from higher sites still did not germinate after cold stratification. Therefore, how important cold stratification is for seed germination in alpine plant species remains unclear and requires a global assessment.
+
+The response of alpine seeds to light and alternating temperatures can provide further information on their capacity to detect fine-scale environmental variation. The preference of some species to germinate in light [@RN4730; @RN4729] could favour the creation of a persistent soil seed bank [@RN4718], adventageous in temporally and spatially unpredictable alpine environments [@RN4731; @RN4732]. Some species seem to prefer dark germination [@RN2943], a behaviour interpreted by some as detecting safe sites in rock crevices [@RN3008]. Regarding alternating temperatures, a study of 445 species from the Qinhai-Tibet plateau detected that species from high elevation alpine meadows did not show a significant response to diurnal temperature oscillations [@RN3376].
+
+# Materials and methods
+
+## Data collection
+
+We have conducted a meta-analysis of primary data [@RN4734]. To gather data, we contacted research groups who have performed experiments on the germination of alpine seeds, asking them to send raw data from laboratory germination experiments. The submitted data had to report the studied species, the germination treatments, the number of seeds sown and the number of seeds germinated. We received data from the Cantabrian Mountains [@RN2371], the Alps [@RN4729; @RN3029; @RN4727; Rosbakh, unpublished], the Apennines (Mondoni, unpublished), the Caucasus [Rosbakh, unpublished], the Qinhai-Tibet Plateau [@RN4728; @RN4735; @RN3376], the Andes [@RN3393; @RN4713; Briceño, unpublished] and the Australian Alps [@RN4737; @RN4736; @RN3703; Satyanti, unpublished]. We also received data on European alpine species from *Enscobase* (http://enscobase.maich.gr/index.tml). Once received, we standardized the species names using *The Plant List* [@RN2321] with the package *Taxonstand* [@RN4660] in *R* [@RN2315]. For each species, we checked its elevation range in local floras [@RN4741; @RN4739; @RN3243; @RN4742; @RN4740], catalogues [@RN4738] and herbaria (*Australian National Herbarium*). We used to elevation ranges to (i) remove from the dataset species that do not grow above the treeline; and (ii) classify the rest of the species as *strict alpine* (i.e. species that only grow above the subalpine) or *generalist* (i.e. species that can grow above the subalpine but also in the lowlands). For each species, we also compiled the following traits: life form and life span from the references used for the elevation, plus some extra references [@RN4747; @RN4744; RN4745; @RN4746; @RN4748; @RN4749] and online sources (https://www.infoflora.ch/de/; http://plantnet.rbgsyd.nsw.gov.au/search/simple.htm; http://buscador.floraargentina.edu.ar/; https://patagoniawildflowers.org/); seed dormancy class [@RN3214; @RN4743]; seed mass [@RN4728; @RN4735; @RN3376; @RN2987] and embryo to endosperm ratio (*Vandelook, ???*). For the species missing seed mass or embryo values, we used genus or family means.
+
+## Description of the dataset
+
+The final dataset contains `r MSrecords` records (germination proportions for a given seed lot of a species, recorded in a set of experimental conditions) contributed by `r MSgroups` research groups, representing `r MSfamilies` seed plant families and `r MSspecies` species (`r MSstrict` strict alpine species and `r MSgeneral` generalists). Seed lots had been collected in `r MSregions` alpine regions of the world (**Fig. \@ref(fig:fig1)**), in both hemispheres. The total number of seeds used in the experiments is `r MSseeds`. The range of germination temperatures (weighted average of the daily thermoperiod) goes from `r MSminT` to `r MSmaxT` ºC, with `r MSaltY` records of constant temperatures and `r MSaltN` of alternating temperatures. Light was used in `r MSlightY` records, darkness in `r MSlightN`. The experiments were performed with unstratified seeds in `r MSstratN` records, and of the rest, the majority (`r MSstratCold`) went through cold stratification. Scarification was applied to `r MSscarY` records, and GA~3~ to `r MSga3`.
+
+## Data analysis
+
+Across species, germination and dormancy patterns are affected by a combination of factors such as phylogeny [@RN4723; @RN4724; @RN4715] and seed traits [@RN3061; @RN4728].
+
+# Discussion
+
+The influence of environmental conditions as drivers of these contrasting germination responses to temperature is gaining recognition. For example, alpine species show higher optimal temperatures for germination than either subalpine species (i.e. species that live close to the treeline, Fernández-Pascual *et al.* [-@RN2371]) or congeneric counterparts from below the treeline [@RN3266]. Differences in germination traits have been attributed also to species successional niche, with pioneer species germinating better at colder temperatures than later successional species [@RN3229]. Species from calcareous and siliceous alpine grasslands show a slow overwinter germination or high germination under all conditions, respectively [@RN4727; @RN4726]. Other factors related to species germination characteristics include slope [@RN4733] and biogeographical origin [@RN698]. Nevertheless, no habitat-related germination strategies were identified when comparing a major divide in alpine microhabitats, as is the one between fellfields and snowbeds [@RN707]. 
+
+# Figures
+
+```{r fig1, message = FALSE, echo = FALSE, warning = FALSE, fig.pos = "H", fig.cap = "Geographical origin of the germination data with the number of records, species and strict alpine species per alpine region. Ensconet is not plotted because its records come from alpine regions throughout Europe. The purple areas correspond to the global extension of alpine environments according to Testolin *et al.* [-@RN4750].", fig.align = "center", fig.width=7, fig.height=3}
+cowplot::ggdraw(fig1)
+```
+
+# References

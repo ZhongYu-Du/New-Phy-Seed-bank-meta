@@ -1027,7 +1027,7 @@ rbind(AustraliaVenn, AustraliaSommerville, AustraliaSat, ChileBriceño, ChileCav
          Sown = as.numeric(Sown)) %>%
   rename(Germinable = Normal) %>%
   filter(! is.na(Germinated)) %>%
-  merge(read.csv("../tpl/results/TPLNames.csv"), by = "Taxon") %>%
+  merge(read.csv("../#tpl/results/TPLNames.csv"), by = "Taxon") %>%
   mutate(TPLName = paste(New.Genus, New.Species)) %>%
   #unique %>% # Remove duplicates (may remove non duplicates with same info)
   merge(read_excel(here("data", "Peter Poschlod", "Traits_to_complete_PP_20200510.xlsx")), 
@@ -1132,7 +1132,7 @@ read_excel(path = here("data", "Lydia Guja (Liu et al.)",
 # Merge seed mass files
 
 rbind(SMBu2005, SMBu2010, LiuSM) %>%
-  merge(read.csv("../tpl/results/TPLNames.csv")) %>%
+  merge(read.csv("../#tpl/results/TPLNames.csv")) %>%
   mutate(TPLName = paste(New.Genus, New.Species)) %>%
   select(TPLName, Seed.mass) %>%
   rbind(smassCarta) %>%
@@ -1212,7 +1212,7 @@ germination %>%
   unique %>%
   merge(life.form, all.x = TRUE) %>%
   merge(seed.mass, all.x = TRUE) %>% # Merge seed mass
-  merge(read.csv("../baskin/results/dormancy.csv"), all.x = TRUE) %>%
+  merge(read.csv("../#baskin/results/dormancy.csv"), all.x = TRUE) %>%
   merge(filip, all.x = TRUE) -> # Merge embryo
   traits
 

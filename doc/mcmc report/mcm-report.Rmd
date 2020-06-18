@@ -1,6 +1,5 @@
 ---
 title: "MCMC report"
-author: "Eduardo Fernández Pascual"
 date: "`r format(Sys.time(), '%d/%m/%Y')`"
 output: pdf_document
 ---
@@ -10,54 +9,101 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r message = FALSE, echo = FALSE, warning = FALSE}
-library(tidyverse); library(here); library(readxl)
+library(tidyverse); library(here)
 
-read_excel(here("results", "analysis", "results.preliminary.xlsx")) -> sheet1
+source(here("src", "analysis.R"))
 
-sheet1[8:19, ]  %>%
-  select(variable, post.mean, l.95..CI, u.95..CI, pMCMC) %>%
-  separate(variable, into = c("Alpine", "Treatment"), sep = ":") %>%
-  mutate(Alpine = gsub("Alpine", "", Alpine)) %>%
-  rename(Mean = post.mean,
-         Lower = l.95..CI,
-         Upper = u.95..CI,
-         p = pMCMC) -> df1
-
-ggplot(df1, aes(y = Alpine, x = Mean, xmin = Lower, xmax = Upper, color = Alpine)) +
-  geom_point() +
-  labs(title = "Final germination proportion by alpine") + 
-  geom_errorbarh(height = .1) +
-  facet_grid(~ Treatment, scales = "free") +
-  geom_vline(xintercept = 0, linetype = "dashed") +
-  theme(legend.position = "none", axis.title = element_blank()) -> fig1
-
-sheet1[21:57, ]  %>%
-  select(variable, post.mean, l.95..CI, u.95..CI, pMCMC) %>%
-  separate(variable, into = c("Macroregion", "Alpine", "Treatment"), sep = ":") %>%
-  mutate(Alpine = gsub("Alpine", "", Alpine),
-         Macroregion = gsub("Macroregion", "", Macroregion)) %>%
-  rename(Mean = post.mean,
-         Lower = l.95..CI,
-         Upper = u.95..CI,
-         p = pMCMC) -> df2
-
-ggplot(df2, aes(y = Alpine, x = Mean, xmin = Lower, xmax = Upper, color = Alpine)) +
-  geom_point() +
-  labs(title = "Final germination proportion by alpine and region") + 
-  geom_errorbarh(height = .1) +
-  facet_grid(Macroregion ~ Treatment, scales = "free") +
-  geom_vline(xintercept = 0, linetype = "dashed") +
-  theme(legend.position = "none", axis.title = element_blank()) -> fig2
 ```
 
-```{r echo = FALSE, fig.height = 1.5}
+# Manuscript figures
+
+```{r echo = FALSE, fig.height = 5.5}
 fig1
 ```
 
+# Final germination proportions
+
 ```{r echo = FALSE, fig.height = 3}
-fig2
+fgFull
 ```
 
+```{r echo = FALSE, fig.height = 3}
+fgAlpine
+```
 
+```{r echo = FALSE, fig.height = 3}
+fgRegion
+```
 
+```{r echo = FALSE, fig.height = 3}
+fgDormancy
+```
 
+```{r echo = FALSE, fig.height = 3}
+fgPlanttype
+```
+```{r echo = FALSE, fig.height = 3}
+fgLifeform
+```
+
+```{r echo = FALSE, fig.height = 3}
+fgLifespan
+```
+
+# Mean germination time
+
+```{r echo = FALSE, fig.height = 3}
+mgtFull
+```
+
+```{r echo = FALSE, fig.height = 3}
+mgtAlpine
+```
+
+```{r echo = FALSE, fig.height = 3}
+mgtRegion
+```
+
+```{r echo = FALSE, fig.height = 3}
+mgtDormancy
+```
+
+```{r echo = FALSE, fig.height = 3}
+mgtPlanttype
+```
+```{r echo = FALSE, fig.height = 3}
+mgtLifeform
+```
+
+```{r echo = FALSE, fig.height = 3}
+mgtLifespan
+```
+
+# Uncertainty
+
+```{r echo = FALSE, fig.height = 3}
+uncFull
+```
+
+```{r echo = FALSE, fig.height = 3}
+uncAlpine
+```
+
+```{r echo = FALSE, fig.height = 3}
+uncRegion
+```
+
+```{r echo = FALSE, fig.height = 3}
+uncDormancy
+```
+
+```{r echo = FALSE, fig.height = 3}
+uncPlanttype
+```
+```{r echo = FALSE, fig.height = 3}
+uncLifeform
+```
+
+```{r echo = FALSE, fig.height = 3}
+uncLifespan
+```
