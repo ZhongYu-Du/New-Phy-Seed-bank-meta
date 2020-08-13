@@ -11,6 +11,50 @@ read.csv(here("data", "Elevations", "Regions.csv")) %>%
          Region = ifelse(Region %in% c("Cantabrian Mountains"), "Cantabrian Mts", Region),     
          Region = as.factor(Region)) -> dataset
 
+# Table with the datasets
+
+data.frame(
+merge(
+merge(
+dataset %>%
+  mutate(Source = fct_recode(Source, `Fernández-Pascual` = "Fernández-Pascual Plant Biol")) %>%
+  mutate(Region = fct_recode(Region, `European Alps` = "Alps")) %>%
+  mutate(Region = fct_recode(Region, `Europe` = "Enscobase")) %>%
+  select(Source, Region, Country, TPLName, Alpine) %>%
+  group_by(Source, Region) %>%
+  tally %>%
+  rename(Dataset = Source, 
+         `Coverage` = Region,
+         Records = n),
+dataset %>%
+  mutate(Source = fct_recode(Source, `Fernández-Pascual` = "Fernández-Pascual Plant Biol")) %>%
+  mutate(Region = fct_recode(Region, `European Alps` = "Alps")) %>%
+  mutate(Region = fct_recode(Region, `Europe` = "Enscobase")) %>%
+  select(Source, Region, Country, TPLName, Alpine) %>%
+  unique %>%
+  group_by(Source, Region) %>%
+  tally %>%
+  rename(Dataset = Source, 
+         `Coverage` = Region,
+         Species = n)),
+dataset %>%
+  filter(Alpine == "Strict") %>%
+  mutate(Source = fct_recode(Source, `Fernández-Pascual` = "Fernández-Pascual Plant Biol")) %>%
+  mutate(Region = fct_recode(Region, `European Alps` = "Alps")) %>%
+  mutate(Region = fct_recode(Region, `Europe` = "Enscobase")) %>%
+  select(Source, Region, Country, TPLName, Alpine) %>%
+  unique %>%
+  group_by(Source, Region) %>%
+  tally %>%
+  rename(Dataset = Source, 
+         `Coverage` = Region,
+         `Strict` = n)),
+  Source = c("Briceño, unpublished", "Bu et al. (2007, 2008)", "Cavieres & Arroyo (2000), Cavieres & Sierra-Almeida (2018)", 
+               "enscobase.maich.gr", "Fernández-Pascual et al. (2017a)", "Liu et al. (2013)", "Mondoni, unpublished", 
+               "Mondoni et al. (2009), Mondoni et al. (2012)", "Rosbakh, unpublished", "Rosbakh, unpublished", "Satyanti, unpublished", 
+               "Sommerville et al. (2013)", "Tudela-Isanta et al. (2018)", "Venn (2007), Venn & Morgan (2009)")) %>%
+  select(Source, Coverage, Records, Species, Strict) -> Table1
+
 # Numbers for the main text
 
 dataset %>% summary
