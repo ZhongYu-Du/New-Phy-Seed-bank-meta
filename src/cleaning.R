@@ -1,12 +1,14 @@
-library(tidyverse); library(here); library(readxl)
+library(tidyverse); library(readxl)
 
-# WITH GERMINATION INDICES
+# This script has the code to read the primary germination data from the different contributors
+# and merge it into a clean germination dataset
 
-# Format Australian data (susanna Venn)
-# Read from original files with germination indices (S Rosbakh)
+# CLEAN GERMINATION DATA
 
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "VENN hand joined.xlsx"),
+## Format Australian data (susanna Venn)
+## Read from original files with germination indices (S Rosbakh)
+
+read_excel("data/venn/VENN hand joined.xlsx",
            sheet = 1, skip = 0) %>%
   mutate(Region = "Australian Alps",
          Tmin = ifelse(is.na(Tmin), Tmax, Tmin),
@@ -40,36 +42,31 @@ read_excel(here("data",
          GRS:CVG) ->
   AustraliaVenn
 
-# Format Australian data (Annisa Satyanti)
-# Read from original files with germination indices (S Rosbakh)
+## Format Australian data (Annisa Satyanti)
+## Read from original files with germination indices (S Rosbakh)
 
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx"),
+read_excel("data/satyanti/UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx",
            sheet = 4, skip = 0) %>%
   select(Species, Accession, Elevation, Treatment, Rep, seeds, GRS:CVG) -> satyanti1
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx"),
+read_excel("data/satyanti/UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx",
            sheet = 8, skip = 0)  %>%
   select(Species, Accession, Elevation, Treatment, Rep, seeds, GRS:CVG) -> satyanti2
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx"),
+read_excel("data/satyanti/UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx",
            sheet = 9, skip = 0)  %>%
   select(Species, Accession, Elevation, Treatment, Rep, seeds, GRS:CVG) -> satyanti3
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx"),
+read_excel("data/satyanti/UPDATE_Aust Alpine Germination timing 11MAY2020.xlsx",
            sheet = 7, skip = 0)  %>%
   select(Species, Accession, Elevation, Treatment, Rep, seeds, GRS:CVG) -> satyanti4
 
-read.csv(here("data", "Manual edit", "australian germination.csv")) %>%
-  filter(Source == "Satyanti") %>%
+read.csv("data/satyanti/satyanti_manual_edit.csv") %>%
   select(Accession, Scarification, GA3, Germinated, Sown) %>%
   unique %>%
-  group_by(Accession, Scarification,  Scarification, Germinated, GA3) -> SownSeeds
+  group_by(Accession, Scarification, Germinated, GA3) -> SownSeeds
 
 rbind(satyanti1, satyanti2, satyanti3, satyanti4) %>%
   rename(Taxon = Species, Dish = Rep, Normal = seeds) %>%
   mutate(Germinated = GRS) %>%
-  merge(read_excel(here("data", "Annisa Satyanti", "Treatments.xlsx"))) %>%
+  merge(read_excel("data/satyanti/Treatments.xlsx")) %>%
   merge(SownSeeds, by = c("Accession", "Scarification",  "Scarification", "Germinated", "GA3")) %>%
   mutate(Region = "Australian Alps",
          Source = "Satyanti",
@@ -102,13 +99,12 @@ rbind(satyanti1, satyanti2, satyanti3, satyanti4) %>%
          GRS:CVG) ->
   AustraliaSat
 
-# Format Chilean data (Verónica Briceño)
-# Read from original files with germination indices (S Rosbakh)
+## Format Chilean data (Verónica Briceño)
+## Read from original files with germination indices (S Rosbakh)
 
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "SESData_VBChile.xlsx"),
+read_excel("data/briceno/SESData_VBChile.xlsx",
            sheet = 2, skip = 0)  %>% # Exclude move-along treatments
-  merge(read.csv(here("data", "Verónica Briceño", "SpeciesNames.csv")), by.x ="sp abrev", by.y = "sp.abrev") %>%
+  merge(read.csv("data/briceno/SpeciesNames.csv"), by.x ="sp abrev", by.y = "sp.abrev") %>%
   rename(Accession = collect.no,
          Dish = `sp abrev`,
          Sown = seeds_start) %>%
@@ -165,13 +161,10 @@ read_excel(here("data",
          GRS:CVG) ->
   ChileBriceño
 
-# Format Italian data (Andrea Mondoni)
-# Read from original file with germination indices (S Rosbakh)
+## Format Italian data (Andrea Mondoni)
+## Read from manually edited file with germination indices (S Rosbakh)
 
-cbind(
-read_excel(here("data", "Sergey Rosbakh (Indices)", "Alpine andrea + interval.xlsx")),
-read_excel(here("data", "Sergey Rosbakh (Indices)", "Andrea Mondoni_Alps_scoring.xlsx")) %>%
-  select(GRS:CVG)) %>%
+read_excel("data/mondoni/mondoni_manual_edit.xlsx") %>%
   rename(Accession = Code,
          Taxon = `Scientific name`, 
          Stratification_temperature = `Strat °C`,
@@ -188,7 +181,7 @@ read_excel(here("data", "Sergey Rosbakh (Indices)", "Andrea Mondoni_Alps_scoring
          Sown = sown, 
          Germinated = germ, 
          Normal =  alive,
-         Region = ifelse(Accession %in% pull(read.csv(here("data", "Manual edit", "apennines seedlots.csv")), Accession), "Apennines", "Southern Alps"),
+         Region = ifelse(Accession %in% pull(read.csv("data/mondoni/apennines seedlots.csv"), Accession), "Apennines", "Southern Alps"),
          Tmin = ifelse(is.na(Tmin), Tmax, Tmin),
          Tmean = (Tmax * Photoperiod + Tmin * (24 - Photoperiod)) / 24, 
          Tdif = Tmax - Tmin, 
@@ -224,10 +217,10 @@ read_excel(here("data", "Sergey Rosbakh (Indices)", "Andrea Mondoni_Alps_scoring
          GRS:CVG) -> 
   ItalyMondoni
 
-# Format Spanish data (Eduardo Fernández-Pascual)
-# Read from manually edited files
+## Format Spanish data (Eduardo Fernández-Pascual)
+## Read from manually edited files
 
-read.csv(here("data", "Manual edit", "spanish germination.csv")) %>%
+read.csv("data/fernandezpascual/spanish germination.csv") %>%
   mutate(Region = "Cantabrian Mountains",
          Tmin = ifelse(is.na(Tmin), Tmax, Tmin),
          Tmean = (Tmax * Photoperiod + Tmin * (24 - Photoperiod)) / 24, 
@@ -259,30 +252,26 @@ read.csv(here("data", "Manual edit", "spanish germination.csv")) %>%
          Normal) ->
   Spain0
 
-# Add indices (S Rosbakh)
+## Add indices (S Rosbakh)
 
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "#47_VANESSA2012.xlsx"),
+read_excel("data/fernandezpascual/#47_VANESSA2012.xlsx",
            sheet = 1, skip = 1) %>%
   filter(Accesión %in% unique(Spain0$Accession)) %>%
   select(Accesión, Pretratamiento, Temperatura, Placa, GRS...29:CVG...48) -> Spain1
 
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "#51_Ensayos Picos-Pirineos.xlsx"),
+read_excel("data/fernandezpascual/#51_Ensayos Picos-Pirineos.xlsx",
            sheet = 1, skip = 1) %>%
   filter(Accesión %in% unique(Spain0$Accession)) %>%
   select(Accesión, Pretratamiento, Temperatura, Placa, GRS...45:CVG...64) -> Spain2
 colnames(Spain2) <- colnames(Spain1)
 
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "#52_Sara Trabajo Grado.xlsx"),
+read_excel("data/fernandezpascual/#52_Sara Trabajo Grado.xlsx",
            sheet = 1, skip = 1) %>%
   filter(Accesión %in% unique(Spain0$Accession)) %>%
   select(Accesión, Pretratamiento, Temperatura, Placa, GRS...45:CVG...64) -> Spain3
 colnames(Spain3) <- colnames(Spain1)
 
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "#56_CANTABROPYRENAICAE2013.xlsx"),
+read_excel("data/fernandezpascual/#56_CANTABROPYRENAICAE2013.xlsx",
            sheet = 2, skip = 0) %>%
   filter(Accesión %in% unique(Spain0$Accession)) %>%
   select(Accesión, Pretratamiento, Temperatura, Placa, GRS...23:CVG...42) -> Spain4
@@ -293,7 +282,7 @@ rbind(Spain1, Spain2, Spain3, Spain4) %>%
   filter(Pretratamiento == "F") %>%
   mutate(Pretratamiento = NA) -> Spain5
 colnames(Spain5) <- c("Accession", "Stratification_temperature", "Tmean", "Dish",
-                  "GRS", "GRP","MGT", "MGR", "GSP", "UNC", "SYN", "VGT", "SDG", "CVG")
+                      "GRS", "GRP","MGT", "MGR", "GSP", "UNC", "SYN", "VGT", "SDG", "CVG")
 
 rbind(Spain1, Spain2, Spain3, Spain4) %>%
   select(Accesión, Pretratamiento, Temperatura, Placa, GRS...39:CVG...48) -> Spain6
@@ -342,11 +331,10 @@ Spain0 %>%
          GRS:CVG) ->
   Spain
 
-# Format German data (Sergey Rosbakh)
-# Read from original files with germination indices
+## Format German data (Sergey Rosbakh)
+## Read from original files with germination indices
 
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "Alps_Rosbakh_indices.xlsx")) %>%
+read_excel("data/rosbakh/Alps_Rosbakh_indices.xlsx") %>%
   mutate(Region = "Northern Alps",
          Stratification_temperature = ifelse(Stratification_days == 0, NA, Stratification_temperature),
          Stratification = ifelse(Stratification == "0", "N", Stratification),
@@ -384,11 +372,10 @@ read_excel(here("data",
          GRS:CVG) ->
   Germany
 
-# Format Russian data (Sergey Rosbakh)
-# Read from original files with germination indices
+## Format Russian data (Sergey Rosbakh)
+## Read from original files with germination indices
 
-read_excel(here("data",
-                "Sergey Rosbakh (Indices)", "NCaucasus_Rosbakh_indices.xlsx")) %>%
+read_excel("data/rosbakh/NCaucasus_Rosbakh_indices.xlsx") %>%
   mutate(Region = "Caucasus", 
          GA3 = ifelse(GA3 == 0, "N", "Y"),
          Scarification = ifelse(Scarification == 0, "N", "Y"),
@@ -425,35 +412,31 @@ read_excel(here("data",
          GRS:CVG) ->
   Russia
 
-# Haiyan Bu 2005
-# Read from original files with germination indices by S Rosbakh
+## Haiyan Bu 2005
+## Read from original files with germination indices by S Rosbakh
 
-read_excel(path = here("data", "Sergey Rosbakh (Indices)",  
-                       "alternating temperature (5-20) in darkness germiantion data-2005.xls"), 
+read_excel(path = "data/bu/alternating temperature (5-20) in darkness germiantion data-2005.xls", 
            sheet = 1, skip = 1, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   group_by(`serial number`) %>%
   mutate(Dish = paste(`serial number`, row_number())) %>%
   gather(Time, Germinated, -c(`serial number`, Dish, GRS:CVG)) -> sheet1
 
-read_excel(path = here("data", "Sergey Rosbakh (Indices)",  
-                       "alternating temperature (5-20) in darkness germiantion data-2005.xls"), 
+read_excel(path = "data/bu/alternating temperature (5-20) in darkness germiantion data-2005.xls", 
            sheet = 1, skip = 1, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   group_by(`serial number`) %>%
   mutate(Dish = paste(`serial number`, row_number())) %>%
   gather(Time, Germinated, -c(`serial number`, Dish, GRS:CVG)) -> sheet2
 
-read_excel(path = here("data", "Sergey Rosbakh (Indices)",  
-                       "alternating temperature (5-20) in darkness germiantion data-2005.xls"), 
+read_excel(path = "data/bu/alternating temperature (5-20) in darkness germiantion data-2005.xls", 
            sheet = 1, skip = 1, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   group_by(`serial number`) %>%
   mutate(Dish = paste(`serial number`, row_number())) %>%
   gather(Time, Germinated, -c(`serial number`, Dish, GRS:CVG)) -> sheet3
 
-read_excel(path = here("data", "Sergey Rosbakh (Indices)",  
-                       "alternating temperature (5-20) in darkness germiantion data-2005.xls"), 
+read_excel(path = "data/bu/alternating temperature (5-20) in darkness germiantion data-2005.xls", 
            sheet = 1, skip = 1, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   group_by(`serial number`) %>%
@@ -463,40 +446,35 @@ read_excel(path = here("data", "Sergey Rosbakh (Indices)",
 rbind(sheet1, sheet2, sheet3, sheet4) %>%
   mutate(Tmax = 20, Tmin = 5, Photoperiod = 0) -> experiment1
 
-read_excel(path = here("data", "Sergey Rosbakh (Indices)",  
-                       "alternating temperature (10-25) in darkness germiantion data-2005.xls"), 
+read_excel(path = "data/bu/alternating temperature (10-25) in darkness germiantion data-2005.xls", 
            sheet = 1, skip = 1, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   group_by(`serial number`) %>%
   mutate(Dish = paste(`serial number`, row_number())) %>%
   gather(Time, Germinated, -c(`serial number`, Dish, GRS:CVG)) -> sheet1
 
-read_excel(path = here("data", "Sergey Rosbakh (Indices)",   
-                       "alternating temperature (10-25) in darkness germiantion data-2005.xls"), 
+read_excel(path = "data/bu/alternating temperature (10-25) in darkness germiantion data-2005.xls", 
            sheet = 2, skip = 1, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   group_by(`serial number`) %>%
   mutate(Dish = paste(`serial number`, row_number())) %>%
   gather(Time, Germinated, -c(`serial number`, Dish, GRS:CVG)) -> sheet2
 
-read_excel(path = here("data", "Sergey Rosbakh (Indices)",  
-                       "alternating temperature (10-25) in darkness germiantion data-2005.xls"), 
+read_excel(path = "data/bu/alternating temperature (10-25) in darkness germiantion data-2005.xls", 
            sheet = 3, skip = 1, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   group_by(`serial number`) %>%
   mutate(Dish = paste(`serial number`, row_number())) %>%
   gather(Time, Germinated, -c(`serial number`, Dish, GRS:CVG)) -> sheet3
 
-read_excel(path = here("data", "Sergey Rosbakh (Indices)",  
-                       "alternating temperature (10-25) in darkness germiantion data-2005.xls"), 
+read_excel(path = "data/bu/alternating temperature (10-25) in darkness germiantion data-2005.xls", 
            sheet = 4, skip = 1, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   group_by(`serial number`) %>%
   mutate(Dish = paste(`serial number`, row_number())) %>%
   gather(Time, Germinated, -c(`serial number`, Dish, GRS:CVG)) -> sheet4
 
-read_excel(path = here("data", "Sergey Rosbakh (Indices)",  
-                       "alternating temperature (10-25) in darkness germiantion data-2005.xls"), 
+read_excel(path = "data/bu/alternating temperature (10-25) in darkness germiantion data-2005.xls", 
            sheet = 5, skip = 1, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   group_by(`serial number`) %>%
@@ -506,9 +484,7 @@ read_excel(path = here("data", "Sergey Rosbakh (Indices)",
 rbind(sheet1, sheet2, sheet3, sheet4, sheet5) %>%
   mutate(Tmax = 25, Tmin = 10, Photoperiod = 0) -> experiment2
 
-read_excel(path = here("data", "Haiyan Bu", 
-                       "germination in darkness-2005", 
-                       "species information-2005.xlsx"), 
+read_excel(path = "data/bu/species information-2005.xlsx", 
            sheet = 1, skip = 0, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   select(`serial number`, Species, `alditude (m)`) %>%
@@ -563,11 +539,10 @@ read_excel(path = here("data", "Haiyan Bu",
          Normal, 
          GRS:CVG) -> Bu2005
 
-# Haiyan Bu 2010
-# Read from original files with germination indices by S Rosbakh
+## Haiyan Bu 2010
+## Read from original files with germination indices by S Rosbakh
 
-read_excel(path = here("data", "Sergey Rosbakh (Indices)",  
-                       "germination data in light-2010.xls"), 
+read_excel(path = "data/bu/germination data in light-2010.xls", 
            sheet = 1, skip = 1, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   group_by(`serial number`) %>%
@@ -575,8 +550,7 @@ read_excel(path = here("data", "Sergey Rosbakh (Indices)",
   gather(Time, Germinated, -c(`serial number`, Dish, 
                               GRS:CVG)) -> sheet1
 
-read_excel(path = here("data", "Sergey Rosbakh (Indices)",  
-                       "germination data in light-2010.xls"), 
+read_excel(path = "data/bu/germination data in light-2010.xls", 
            sheet = 2, skip = 1, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   group_by(`serial number`) %>%
@@ -584,9 +558,7 @@ read_excel(path = here("data", "Sergey Rosbakh (Indices)",
   gather(Time, Germinated, -c(`serial number`, Dish, 
                               GRS:CVG)) -> sheet2
 
-read_excel(path = here("data", "Haiyan Bu", 
-                       "germination in light -2010", 
-                       "species information and seed mass.xlsx"), 
+read_excel(path = "data/bu/species information and seed mass.xlsx", 
            sheet = 1, skip = 0, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   select(`serial number`, species, `altitude(m)`) %>%
@@ -644,9 +616,7 @@ read_excel(path = here("data", "Haiyan Bu",
          Normal, 
          GRS:CVG) -> Bu2010
 
-# Chinese datasets, prepare germination timing, merge
-#rbind(Bu2005, Bu2010) %>% write.csv(here("results", "database", "BuScoring.csv"), 
-#                                    row.names = FALSE) # Data with scoring times
+## Chinese datasets, prepare germination timing, merge
 
 rbind(Bu2005, Bu2010) %>%
   group_by(Taxon,
@@ -710,14 +680,12 @@ rbind(Bu2005, Bu2010) %>%
          GRS:CVG) %>%
   group_by() -> Bu
 
-# WITHOUT GERMINATION INDICES
+## ENSCOBASE germination (2nd and 3rd submission, Angelino Carta)
+## Read from original files
 
-# ENSCOBASE germination (2nd and 3rd submission, Angelino Carta)
-# Read from original files
-
-read.csv(here("data", "A Carta", "AlpineDB_AC.csv")) %>% # Species which are also in other sources
+read.csv("data/carta/AlpineDB_AC.csv") %>% # Species which are also in other sources
   filter(Source == "" & ! Latitude == "Italy") %>% # Remove data from other sources, remove Enscobase data from Italy (probably repeated from A Mondoni)
-  rbind(read.csv(here("data", "A Carta", "AlpineDB_AC_NEWspecies.csv"))) %>% # Species which are NOT in other sources
+  rbind(read.csv("data/carta/AlpineDB_AC_NEWspecies.csv")) %>% # Species which are NOT in other sources
   filter(! GA3 %in% "KNO3") %>%
   mutate(Taxon = gsub("_", " ", Species),
          Region = paste("Enscobase", Latitude, sep = ": "),
@@ -773,11 +741,10 @@ read.csv(here("data", "A Carta", "AlpineDB_AC.csv")) %>% # Species which are als
          GRS:CVG) ->
   Enscobase
 
-# Liu et al. 2013 (transcribed by Lydia Guja)
-# Read from original files
+## Liu et al. 2013 (transcribed by Lydia Guja)
+## Read from original files
 
-read_excel(path = here("data", "Lydia Guja (Liu et al.)", 
-                       "Liu et al 2013 Table S2.xlsx"), 
+read_excel(path = "data/liu/Liu et al 2013 Table S2.xlsx", 
            sheet = 2, skip = 0, col_types = "text") %>%
   select(`Published name`, `G5/25 (%)`:`G15 (%)`) %>%
   gather(Treatment, Germination, -`Published name`) %>%
@@ -845,10 +812,10 @@ read_excel(path = here("data", "Lydia Guja (Liu et al.)",
          Normal,
          GRS:CVG) -> Liu2013
 
-# Format Australian data (Karen Sommerville and missing Satyanti spp)
-# Read from manually edited files
+## Format Australian data (Karen Sommerville and missing Satyanti and Venn spp)
+## Read from manually edited files
 
-read.csv(here("data", "Manual edit", "australian germination.csv")) %>%
+read.csv("data/sommerville/australia_manual_edit.csv") %>%
   filter(Source == "Sommerville" | ! Taxon %in% AustraliaSat$Taxon) %>%
   mutate(Region = "Australian Alps",
          Tmin = ifelse(is.na(Tmin), Tmax, Tmin),
@@ -892,12 +859,12 @@ read.csv(here("data", "Manual edit", "australian germination.csv")) %>%
          GRS:CVG) ->
   AustraliaSommerville
 
-# Format Italian data (Maria Tudela)
-# Read from manually edited files
+## Format Italian data (Maria Tudela)
+## Read from manually edited files
 
-read.csv(here("data", "Manual edit", "italian germination.csv")) %>%
+read.csv("data/tudela/tudela_manual_edit.csv") %>%
   filter(Source == "Maria Tudela Ecol & Evol") %>%
-  mutate(Region = ifelse(Accession %in% pull(read.csv(here("data", "Manual edit", "apennines seedlots.csv")), Accession), "Apennines", "Southern Alps"),
+  mutate(Region = "Southern Alps",
          Tmin = ifelse(is.na(Tmin), Tmax, Tmin),
          Tmean = (Tmax * Photoperiod + Tmin * (24 - Photoperiod)) / 24, 
          Tdif = Tmax - Tmin, 
@@ -939,11 +906,10 @@ read.csv(here("data", "Manual edit", "italian germination.csv")) %>%
          GRS:CVG) -> 
   ItalyTudela
 
-# Format Chilean data (Lohengrin Cavieres)
-# Read from manually edited files
+## Format Chilean data (Lohengrin Cavieres)
+## Read from manually edited files
 
-read.csv(here("data", "Manual edit", "chilean germination.csv")) %>%
-  filter(Source == "Cavieres") %>%
+read.csv("data/cavieres/cavieres_manual_edit.csv") %>%
   mutate(Taxon = as.character(Taxon),
          Taxon = ifelse(Taxon == "Anatrophyllum cumingii", "Anarthrophyllum cumingii", Taxon),
          Taxon = ifelse(Taxon == "Senecio bipontinus", "Senecio bipontinii", Taxon),
@@ -991,7 +957,7 @@ read.csv(here("data", "Manual edit", "chilean germination.csv")) %>%
          GRS:CVG) ->
   ChileCavieres
 
-# Join germination datasets
+## Join germination datasets
 
 rbind(AustraliaVenn, AustraliaSommerville, AustraliaSat, ChileBriceño, ChileCavieres, Bu, Liu2013, Enscobase, Germany, ItalyMondoni, ItalyTudela, Russia, Spain) %>%
   mutate(Tmax = ifelse(Tdif == -10, 20, Tmax),
@@ -1027,10 +993,10 @@ rbind(AustraliaVenn, AustraliaSommerville, AustraliaSat, ChileBriceño, ChileCav
          Sown = as.numeric(Sown)) %>%
   rename(Germinable = Normal) %>%
   filter(! is.na(Germinated)) %>%
-  merge(read.csv("../#tpl/results/TPLNames.csv"), by = "Taxon") %>%
+  merge(read.csv("data/fernandezpascual/TPLNames.csv"), by = "Taxon") %>%
   mutate(TPLName = paste(New.Genus, New.Species)) %>%
   #unique %>% # Remove duplicates (may remove non duplicates with same info)
-  merge(read_excel(here("data", "Peter Poschlod", "Traits_to_complete_PP_20200510.xlsx")), 
+  merge(read_excel("data/poschlod/Traits_to_complete_PP_20200510.xlsx"), 
         all.x = TRUE, by = "TPLName") %>%
   filter(Alpine %in% c("Strict", "Generalist")) %>%
   #group_by(TPLName, Region, Source, Accession,
@@ -1076,25 +1042,24 @@ rbind(AustraliaVenn, AustraliaSommerville, AustraliaSat, ChileBriceño, ChileCav
   filter(! is.na(Germinated)) ->
   germination
 
-# SPECIES TRAITS FILE
+# CLEAN SPECIES TRAITS
 
-# Life form and elevation revised by P Poschlod
+## Life form and elevation revised by P Poschlod
 
-read_excel(here("data", "Peter Poschlod", "Traits_to_complete_PP_20200510.xlsx")) -> life.form
+read_excel("data/poschlod/Traits_to_complete_PP_20200510.xlsx") -> life.form
 
-# Read and prepare seed mass data from A Carta
+## Read and prepare seed mass data from A Carta
 
-read.csv(here("data", "A Carta", "mass.alpine.csv")) %>%
+read.csv("data/carta/mass.alpine.csv") %>%
   mutate(TPLName = paste(New.Genus, New.Species)) %>%
   mutate(mass = mass/10) %>% # Kew if for 1000 seeds
   select(TPLName, mass) %>%
   group_by(TPLName) %>%
   summarise(Seed.mass = mean(mass)) -> smassCarta
 
-# Read and prepare seed mass data from Bu
+## Read and prepare seed mass data from Bu
 
-read_excel(here("data", "Haiyan Bu", 
-                "germination in light -2010", "species information and seed mass.xlsx")) %>%
+read_excel("data/bu/species information and seed mass.xlsx") %>%
   select(species, `seed mass (g,100seeds)-sample1`, 
          `seed mass (g,100seeds)-sample2`, `seed mass (g,100seeds)-sample3`) %>%
   gather(Trait, Value, -species) %>%
@@ -1102,15 +1067,11 @@ read_excel(here("data", "Haiyan Bu",
   rename(Taxon = species) %>%
   summarise(Seed.mass = mean(Value, na.rm = TRUE)) -> SMBu2010
 
-read_excel(path = here("data", "Haiyan Bu", 
-                       "germination in darkness-2005", 
-                       "species information-2005.xlsx"), 
+read_excel(path = "data/bu/species information-2005.xlsx", 
            sheet = 1, skip = 0, col_types = "text") %>%
   select(`serial number`, Species) -> Bu2005spp
 
-read_excel(path = here("data", "Haiyan Bu", 
-                       "germination in darkness-2005", 
-                       "seed mass-2005.xls"), 
+read_excel(path = "data/bu/seed mass-2005.xls", 
            sheet = 1, skip = 0, col_types = "text") %>%
   mutate(`serial number` = round(as.numeric(`serial number`), 2)) %>%
   merge(Bu2005spp) %>%
@@ -1119,20 +1080,19 @@ read_excel(path = here("data", "Haiyan Bu",
   group_by(Taxon) %>%
   summarise(Seed.mass = mean(`seed weight (g,100 seeds)`, na.rm = TRUE)) -> SMBu2005
 
-# Liu paper (Lydia)
+## Liu paper (Lydia)
 
-read_excel(path = here("data", "Lydia Guja (Liu et al.)", 
-                       "Liu et al 2013 Table S2.xlsx"), 
+read_excel(path = "data/liu/Liu et al 2013 Table S2.xlsx", 
            sheet = 2, skip = 0) %>%
   select(`Published name`, `Seed mass (mg)`) %>%
   rename(Taxon = `Published name`, Seed.mass =  `Seed mass (mg)`) %>%
   mutate(Seed.mass = (Seed.mass/1000)*100) -> #This dataset is in mg per seed 
   LiuSM
 
-# Merge seed mass files
+## Merge seed mass files
 
 rbind(SMBu2005, SMBu2010, LiuSM) %>%
-  merge(read.csv("../#tpl/results/TPLNames.csv")) %>%
+  merge(read.csv("data/fernandezpascual/TPLNames.csv")) %>%
   mutate(TPLName = paste(New.Genus, New.Species)) %>%
   select(TPLName, Seed.mass) %>%
   rbind(smassCarta) %>%
@@ -1142,7 +1102,7 @@ rbind(SMBu2005, SMBu2010, LiuSM) %>%
   mutate(Seed.mass = 10*Seed.mass) -> # Convert to mg (= g per 1000 seeds)
   seed.mass1
 
-read_excel(here("data", "A Carta", "germ&traits.xlsx"), sheet = 2, skip = 0) %>%
+read_excel("data/carta/germ&traits.xlsx", sheet = 2, skip = 0) %>%
   select(TPLName, mass.new) %>%
   filter(! TPLName %in% seed.mass1$TPLName) %>%
   filter(mass.new != "NA") %>%
@@ -1186,68 +1146,35 @@ data.frame(TPLName = c("Helictochloa versicolor",
 
 rbind(seed.mass1, seed.mass2, seed.mass3) -> seed.mass
 
-# Embryo trait (Filip)
+## Embryo trait (Filip)
 
-read.csv(here("data", "F Vandelook", 
-              "alpine plant traits embryo to seed surface ratio.csv"), sep = ";") %>%
+read.csv("data/vandelook/alpine plant traits embryo to seed surface ratio.csv", sep = ";") %>%
   select(TPLName, Familia, Species:Family) -> 
   filip1 # first batch of values
-  
-read.csv(here("data", "F Vandelook", 
-                "Kopie van Species without embryo manual edit.csv"), sep = ",") -> 
+
+read.csv("data/vandelook/Kopie van Species without embryo manual edit.csv", sep = ",") -> 
   filip2 # Species missing from 1st bacth
 
 filip1 %>%
   filter(! TPLName %in% filip2$TPLName) %>%
-rbind(filip2) %>%
+  rbind(filip2) %>%
   select(TPLName, Species, Genus, Family) %>%
   mutate(Embryo = ifelse(is.na(Species), Genus, Species),
          Embryo = ifelse(is.na(Embryo), Family, Embryo)) %>%
   select(TPLName, Embryo) -> filip
 
-# Prepare traits object
+## Prepare traits object
 
 germination %>%
   select(TPLName) %>% # Get names in germination database
   unique %>%
   merge(life.form, all.x = TRUE) %>%
   merge(seed.mass, all.x = TRUE) %>% # Merge seed mass
-  merge(read.csv("../#baskin/results/dormancy.csv"), all.x = TRUE) %>%
+  merge(read.csv("data/fernandezpascual/dormancy.csv"), all.x = TRUE) %>%
   merge(filip, all.x = TRUE) -> # Merge embryo
   traits
 
-# Table for Angelino
+# SAVE CLEAN FILES
 
-traits %>%
-  merge(germination, by = "TPLName") %>%
-  merge(read.csv(here("data", "elevations", "regions.csv")), by = "Region", all.x = TRUE) %>%
-  mutate(TPLName = gsub(" ", "_", TPLName),
-         Macroregion = as.character(Macroregion),
-         Macroregion = ifelse(is.na(Macroregion), "Europe", Macroregion),
-         Stratification2 = as.character(Stratification),
-         Scarification = ifelse(Scarification == "Y", 1, 0),
-         Stratification = ifelse(Stratification == "None", 0, 1),
-         GA3 = ifelse(GA3 == "Y", 1, 0),
-         Light = ifelse(Light == "Y", 1, 0),
-         Alternating = ifelse(Alternating == "Y", 1, 0),
-         percent = Germinated / Germinable) %>%
-  rename(embryo = Embryo, mass = Seed.mass) %>%
-  select(TPLName, 
-         Alpine, `Plant category`, `Life form`, Lifespan, `Reproduction frequency`,
-         Dormancy, embryo, mass,
-         Source, Macroregion, Region, Accession,
-         Dish, Stratification2,
-         Scarification, GA3, 
-         Stratification,
-         Light, Alternating,
-         Tmean, Tdif, Temperature,
-         Sown, Germinated, Germinable,
-         percent,
-         MGT, MGR,
-         UNC, SYN) -> angelino
-
-# Save
-
-write.csv(germination, here("results", "database", "germination.csv"), row.names = FALSE)
-write.csv(traits, here("results", "database", "traits.csv"), row.names = FALSE)
-write.csv(angelino, here("results", "database", "alpine.data.csv"), row.names = FALSE)
+write.csv(germination, "results/germination.csv", row.names = FALSE)
+write.csv(traits, "results/traits.csv", row.names = FALSE)
