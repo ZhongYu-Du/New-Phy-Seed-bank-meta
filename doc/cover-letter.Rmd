@@ -1,0 +1,32 @@
+---
+title: "Cover letter"
+author: "Eduardo Fernández Pascual"
+date: "14/09/2020"
+output: word_document
+bibliography: refs.bib
+csl: new-phytologist.csl
+link-citations: yes
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dear Editorial Board,
+
+I submit the manuscript *The seed germination spectrum of alpine plants: a global meta-analysis* to be considered for publication as a **full paper** in New Phytologist.
+
+## What hypotheses or questions does this work address?
+
+This is a global meta-analysis of primary germination data contributed by 12 research groups from 8 alpine regions in 4 continents. We used 9,799 records representing 62 seed plant families and 661 species to assess whether the germination ecological patterns detected by local studies are generalized at the global level.
+
+## How does this work advance our current understanding of plant science?
+
+We describe a global alpine germination syndrome, information valuable for all scientists working in alpine environments. Our results indicate a convergence of the seed germination spectrum in strict alpine species. We also found interactive effects of phylogeny and seed morphology that point to trade-offs shaping the seed ecological spectrum.
+
+## Why is this work important and timely?
+
+This is the first global evaluation, for a coherent habitat, of the seed germination spectrum and its relationship with other aspects of the seed ecological spectrum. This was one of the objectives in the research agenda for trait-based seed ecology recently published by New Phytologist [@RN4655].
+
+## References
