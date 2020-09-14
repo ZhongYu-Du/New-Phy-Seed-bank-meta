@@ -7,7 +7,7 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-![Picos de Europa National Park, Cantabrian Mountains, Spain](data/fernandezpascual/Picos de Europa.JPG)
+![Picos de Europa National Park, Cantabrian Mountains, Spain](data/fernandezpascual/Picos de Europa.jpg)
 
 # The seed germination spectrum of alpine plants: a global meta-analysis
 

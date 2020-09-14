@@ -2,7 +2,7 @@ README.md
 ================
 
 ![Picos de Europa National Park, Cantabrian Mountains,
-Spain](data/fernandezpascual/Picos%20de%20Europa.JPG)
+Spain](data/fernandezpascual/Picos%20de%20Europa.jpg)
 
 # The seed germination spectrum of alpine plants: a global meta-analysis
 
