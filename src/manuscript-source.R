@@ -108,7 +108,7 @@ dataset %>%
   ggthemes::theme_tufte() +
   theme(legend.position = "right", axis.title.x = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.x = element_text(size = 7)) +
+        axis.text.x = element_text(size = 10)) +
   scale_fill_manual(values = c("olivedrab", "yellowgreen", "turquoise4", "gold", "purple")) -> fig1a
 
 dataset %>%
@@ -121,7 +121,7 @@ dataset %>%
   ggthemes::theme_tufte() +
   theme(legend.position = "none", axis.title.x = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.x = element_text(size = 7)) +
+        axis.text.x = element_text(size = 10)) +
   scale_fill_manual(values = c("yellowgreen", "gold")) -> fig1b
 
 dataset %>%
@@ -134,7 +134,7 @@ dataset %>%
   ggthemes::theme_tufte() +
   theme(legend.position = "none", axis.title.x = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.x = element_text(size = 7)) +
+        axis.text.x = element_text(size = 10)) +
   scale_fill_manual(values = c("yellowgreen", "gold")) -> fig1c
 
 gridExtra::arrangeGrob(fig1a, fig1b, fig1c, ncol = 3, widths = c(8, 7, 7)) -> fig1
@@ -543,7 +543,9 @@ ggplot(pcaInds, aes(x = Dim.1, y = Dim.2)) +
   scale_color_manual(values = c("yellowgreen", "gold")) +
   labs(title = "(D) Species distribution") -> fig5d
 
-gridExtra::arrangeGrob(fig5a, fig5b, fig5c, fig5d, ncol = 2) -> fig5
+gridExtra::arrangeGrob(fig5a, fig5b, fig5c, fig5d, ncol = 2,
+                       left = grid::textGrob("Second FAMD axis", rot = 90, gp = grid::gpar(fontfamily = "serif")),
+                       bottom = grid::textGrob("First FAMD axis", gp = grid::gpar(fontfamily = "serif"))) -> fig5
 
 # Save figures
 

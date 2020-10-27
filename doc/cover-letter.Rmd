@@ -1,7 +1,6 @@
 ---
-title: "Cover letter"
-author: "Eduardo Fernández Pascual"
-date: "14/09/2020"
+title: "NPH-MS-2020-34477 - Response to reviewers"
+date: "`r format(Sys.time(), '%d/%m/%Y')`"
 output: word_document
 bibliography: refs.bib
 csl: new-phytologist.csl
@@ -13,20 +12,119 @@ always_allow_html: true
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Dear Editorial Board,
+# Editor
 
-I submit the manuscript *The seed germination spectrum of alpine plants: a global meta-analysis* to be considered for publication as a **full paper** in New Phytologist.
+> **I am writing you concerning your submitted manuscript NPH-MS-2020-34477 "The seed germination spectrum of alpine plants: a global meta-analysis”, which has now been reviewed. We found two reviewers and they both saw a great deal of merit in your manuscript. While both reviewers were quite enthusiastic about the topic and the way you’re analyzed your dataset, they also request that additional clarity be introduced at several parts of the manuscript. Reviewer #2 has also pointed out several aspects of the methodology that might require a different approach, especially with regard to how to incorporate light and phylogenetic signal. Finally, both reviewers also have numerous specific concerns to convey (see below).**
 
-## What hypotheses or questions does this work address?
+We respond below to each of the issues pointed out by the referees. We have adopted most of the proposed changes. Regarding light, we explain that this is an intrinsic limitation of the meta-analysis approach, and discuss the implications. As for the phylogenetic signal, we explain that this is explicitly taken into account by adopting a phylogenetic comparative statistical method such as the MCMCglmm, which considers phylogeny and phylogenetic signal within the analysis.
 
-This is a global meta-analysis of primary germination data contributed by 12 research groups from 8 alpine regions in 4 continents. We used 9,799 records representing 62 seed plant families and 661 species to assess whether the germination ecological patterns detected by local studies are generalized at the global level.
+# Referee 1
 
-## How does this work advance our current understanding of plant science?
+> **The introductory bullet point in your abstract is not strong, you may want to change the initial sentence (that rather describes part of the methodology) with one that sets the context for your study. Something in line with what you wrote in lines 103-107 would be nice.**
 
-We describe a global alpine germination syndrome, information valuable for all scientists working in alpine environments. Our results indicate a convergence of the seed germination spectrum in strict alpine species. We also found interactive effects of phylogeny and seed morphology that point to trade-offs shaping the seed ecological spectrum.
+We have changed the introductory point to *Given the micro-climatic heterogeneity of alpine landscapes, and the wealth of local studies on alpine seed ecology, a current challenge is to synthesize, at the global level, the seed ecological spectrum of alpine plants.*.
 
-## Why is this work important and timely?
+> **Line 277: How many of the species you have included in this study have achieved the final germination proportion by 8 weeks? It would be nice to know the reason why you have chosen that timing as a response variable.**
 
-This is the first global evaluation, for a coherent habitat, of the seed germination spectrum and its relationship with other aspects of the seed ecological spectrum. This was one of the objectives in the research agenda for trait-based seed ecology recently published by New Phytologist [@RN4655].
+Eight weeks was a compromise deadline to unify datasets. There was only a small fraction of trials that had run for longer times, so we cropped these to eight weeks. We now indicate this in the main text.
 
-## References
+> **Line 282: Would you provide the equation, citation or more details for how you estimated the uncertainty index please?**
+
+The equation is provided by Lozano-Isla et al. [-@RN4752] in their article about the *GerminaR* package. We now comment this in the manuscript.
+
+> **Lines 289-296: Would the chosen timeframe influence in any way the uncertainty index?**
+
+We think that, rather than the timeframe, the uncertainty index could have been more affected by the germination scoring frequency (i.e. daily, every three days, etc.) which was not the same in all datasets. We have included this consideration in the *Random effects and phylogenetic signal* section of the *Results*.
+
+> **Line 330: Please check the ‘FAMD’ abbreviation spelling throughout the text.**
+
+We have corrected the spelling of FAMD throughout the text.
+
+> **Lines 402-404: The points for ‘strict alpine species’ and ‘embryo:seed’ data are missing in Figure 2b scarification panel.**
+
+The effects that are missing are those that overlap with zero (i.e. no effect) and also have very wide credible intervals (much wider than the other cues). They hamper the figure's visibility (i.e. they make all other effects appear too compressed), so we removed them from the plots. We have included this clarification in the figure's caption.
+
+> **Line 445: Figure 5 should be called earlier in this section. You should also label the axes (axis 1 and 2) and indicate to which panel you refer to in the text.**
+
+We have moved the call to the section's beginning and labelled the axes. Indicating to which panel we are referring to in the text is not easy, because the different panels/traits are intertwined in the descriptions, therefore it would require to make many recurrent calls (and, in our opinion, that would burden the text too much.)
+
+> **Legends for figures 4 and 5 should be expanded to make the figures more self-explaining, please include the meaning of abbreviations (UNC, MGT) and axes legends. Especially for figure 5 it would be useful to say which panels correspond to quantitative or qualitative data.**
+
+We have included the requested information in the figure captions.
+
+> **Would you enlarge axes legends in figure 1?**
+
+Done accordingly.
+
+> **Line 477: “… the frequency of dormancy…” as in ‘the frequency of dormancy class displayed by…’?**
+
+We have changed the sentence to *the frequency of dormancy classes displayed by strict alpine and generalist species is similar*.
+
+
+# Referee 2
+
+> **Upfront, the authors should define their object. They studied diaspores. Some of these are seeds, some are fruits (think of achenes in Asteraceae and caryopses in Poaceae). Once defined, you may continue with 'seed' for all practical reasons.**
+
+We have defined "seeds" upon first mention: *diaspores (i.e. seeds, fruits, or fruits with extra-ovarian structures attached; hereafter 'seeds')*.
+
+> **You also need to specify early on that this is for seasonal alpine settings (mostly high latitude). It would be a different situation in the humid tropics. Had anybody explored this for the tropics? [...] 360 please mention/recall the latitude range covered (here or earlier). All these are regions with a temperature seasonality. Alpine taxa from humid tropical habitats may show very different responses (e.g. no chill-requirement?). Since the title of the paper should not be lengthened, please specify early on that 'global' excludes tropics and subtropics (abstract, intro). Is there a knowledge gap for these latitudes?**
+
+Yes, there is a knowledge gap for tropical mountains. We were unable to find any significant amount of data from the tropics (excluding single species studies). We have qualified *global* as excluding the tropics throughout the manuscript, and commented on the knowledge gap in the conclusions.
+
+> **Light: It seems, the authors took 'light' during germination trials as a parameter in the sense of 'on or off' (germination in light or dark). However light carries substantial information by (a) its spectral composition, that is the R/FR ratio (think of tungsten light, LEDs, daylight) and (b) by photoperiod (the night to day length ratio). Both (a) and (b) affect germination. In fact, (b) belongs to the environmental cues that also prevent germination at the 'wrong time' (in conjunction with chilling requirement). [...] 221 ...respond positively to light. Please see my general remark. The action of light has many facets [...] 378 you really need to account for photoperiod. If the data are too poor, you need to mention at least the two potential quality effects of the light regime on germination. [...] 427 same issue [...] 550 'light conditions' is far too vague a phrase, given the multiple possible actions of the light regime [...] 565 again the light issue!**
+
+The referee is right that light is a more complex cue than the binary variable we considered. The same can be said about other cues, like alternating temperature (amplitude of the alternation, duration of the cycles...) or cold stratification (actual temperature, length...). However, to conduct a meta-analysis, we need to find a compromise between data quality and quantity. Detailed descriptions of light spectral composition and photoperiod are only available for a small fraction of the whole dataset. Therefore, we must summarise cues into some variables (like light absence/presence) that are routinely recorded in the majority of trials. We have added these considerations to the conclusions.
+
+> **Seed storage type. There are two major types of storage: endosperm (e.g. Poaceae) and (e.g. Asteraceae, Fabaceae) cotyledons. So these should be specified as such and you need to acknowlege that these seed traits are phylogenetically confounded, hence you cannot separate them from taxonomic relatedness. This means the abundance of taxa in your data set that belong to either type influences the outcome of the analysis. [...] 370 storage type... see my general comment [...] 470 mention/address the phylogenetic bias issue and whether you could solve it. [...] 606 seed storage type and phylogeny are confounded [...] 624 are you sure it is phylogeny or is it seed morphology across families? []**
+
+We considered storage type as a continuum (i.e. embryo:seed ratio), ranging from species with small embryos with copious endosperm (often referred to as endospermic) to species with no endosperm at all and all nutrient reserves stored in the embryo (often referred to as non-endospermic seeds). To improve understanding, we have included a definition of non-endospermic seeds as *non-endospermic seeds that store nutrients in the cotyledons*. In any comparative biology analysis, all traits are always phylogenetically confounded. This is why we used a phylogenetic comparative analysis such as the MCMCglmm. The analysis includes, as a random factor, a matrix of phylogenetic distances among species. In this way, traits are analysed in relation to the underlying phylogenetic structure of the dataset. In our models, both the trait (seed:endosperm ratio) and phylogeny had significant effects. The use of phylogenetic comparative analysis is covered in the analysis section of the methods section.
+
+> **Dormancy: A common distinction in the phenology literature is 'endodormancy' versus 'ecodormancy'. Both these dormancies are physiological states, hence there is no non-physiological dormancy.  Endodormancy means an internal state controlled by genes and hormons. The drivers of endodormancy are (a) an (unknown) internal clock that causes germination to occur over a wide time window (in cohorts, staggering) between a few weeks and 100 years (Verbascum) and (b) environmental cues ('switches') that operate at gene level (e.g. chilling requirement, passage through an animal gut). Ecodormancy indicates an active (turgid) seed, ready to germinate when the environment permits (T, moisture). Admittedly, there may be intermediate states, when e.g. R/FR comes into play. I think, this just needs a bit of better phrasing. [...] 264 delayed embryogenesis is quite common. See e.g. Akhalkatsi M, Wagner J (1996) Reproductive phenology and seed development of Gentianella caucasea in different habitats in the Central Caucasus. Flora 191:161-168 [...] 364 dormancy... see my general comment [...] 465 dormancy is always a physiological state. See general comment**
+
+In our manuscript we use the definition and classification of dormancy that is currently dominant in seed ecology and physiology. This framework is based on two main references: (i) the concept by Vleeshouwers et al. [-@RN3254] that dormancy is an inner seed property ("endodormancy"), which should be separated from the absence of appropriate germination cues in the environment ("ecodormancy"); and the classification system proposed by Baskin & Baskin [-@RN3261] based on previous work by Nikolaeva et al. [-@RN2877] and which considers morphological and physical dormancy separated from physiological. There are two practical reasons to use this framework: first, it will be readily understandable to the widest scope of readers; and second, it provides the largest amount of species trait data available [@RN3214; @RN4743]. We have retained the definition and classification of dormancy originally used in our paper, however, we have also included explanation in the text of how this classification corresponds to the terminology preferred by the reviewer.  
+
+> **Conclusion/message: I found the message vague. First you mention that alpine seeds are special, but than you do NOT specify what is special, and escape into recommendations for further research (not very concrete ones) and that the data may be a useful reference (they surely are). If you wish to add a methods advice, this would best be pointing at the specific limitations of the current data or questions that had not even been addressed. If you find that alpine plants are NOT special (this is the impression I get from the data), then why not state this? This would also be an important message. Don't your findings match what is known from non-ruderal seeds at low elevation? If I am wrong, you really need to specify what is special. Fenner M (1985) Seed ecology. Chapman and Hall, London, might be a source for comparing alpine with other habitats /always excluding (!) ruderals/pioneers (which are opportunistic with regard to germination) and trees, which often employ mass seeding, shade tolerance, and are fighting with predation. [...] As I said at the beginning, the conclusions really need upgrading.  If you think something is special, you need to verify this by comparing with non-alpine data. If you arrive at concluding that most responses are not special (similar to lowland herbs/grasses, check Fenner and literature cited therein), but a few are indeed special, this needs to be phrased into a differential take home message.  As phrased now, the conclusion tells the reader that things varied, you were busy and that more work is needed.... You would be frustrated reading such conclusion yourself. [...] 617 If you think there is something special, this is the place to highlight it specifically. [...] 620 Please explain the convergence. What exactly do you think converges? In which direction? Please avoid recalling your activitiesbut rather focus on the main results/take home message. Potential relatedness? There are always 'potentials' for relatedness. Can you name specific traits/responses**
+
+We have revised the entire conclusions paragraph to address these concerns, being more specific about both the conclusions and about the limitations of the data.
+
+> **A language suggestion: better avoid words like change, vary, interplay, interwined, interact. All these can be replaced by or combined with directional terms that provide an answer. Things always vary, interplay etc.  That by itself is not worth mentioning. If there are interactions you better write them out. [...] 523 try to avoid neutral (non-directional) statements. See general comment.**
+
+The referee is right and we have screened the text for this class of words. *Change* is used to refer to a concept like climate change, or to encompass and summarise changes that can go in different directions (environmental changes, snow cover changes). *Interplay* and *intertwined* are used in places like the summary and conclusions, where we must summarise concepts that are detailed elsewhere. *Interaction* is used in its statistical meaning, and qualified as *no interaction*, *negative interaction*, etc. We could not find *vary*. Regarding the specific point at L523, this is not a neutral statement: the direction of *interplay* is explained in the same sentence, after the *;*. To make this point clear, we have substituted the *;* with a *:*.
+
+> **In the characterisation of alpine habitats I suggest to remove 'wind'. Mountains are in fact less windy than the plains (except for summits and ridges where weather stations often happen to be located) and the most characteristic feature of alpine plants is their aerodynamic decoupling from the free atmosphere. I am not saying that wind may not contribute to pollination and seed dispersal, but not in a sense that alpine plants face special wind 'problems'.**
+
+We have removed wind.
+
+> **Line 64 If I may, I would suggest to remove that vulnerability 'soap'. Things do not become more true if repeated more often. Many authors (including IPCC) confuse the vulnerability of human infrastructure in mountains with that of mountain biota. And of all mountain biota, the alpine one is the least vulnerable in terms of fatal environmental influences other than human intervention with bulldozers on ski slopes. I consider the topography driven habitat diversity a particular safety factor, by offering alternative habitat conditions at shorter geographical distance than anywhere else (see Scherer and Körner 2011 J Biogeography). If climatic warming were such a threat as many argue, we should have lost a great deal of alpine flora in the postglacial 'Atlanticum' period (some 8000 years ago, a period during which most glaciers had gone, the climate was c. 2 K warmer and the treeline 250 m higher (not sure what happened to the Australian alpine then?).  If enhanced summer drought comes into play (Chile, Sierra Nevada), then say so. GLORIA seems to suggest there is a drought issue in Mediterranean mountain settings.  I prefer such works to start with scientific motives rather than potential usefulness for society. Admittedly, it became a fashion to use such populistic motives. At the least, calm down with the alarmistic tone... Further, the ecosystem services story is unneeded here. Other then securing soils against erosion there are hardly any such 'services' for 'millions', and erosion control by vegetation is always true. Körner and Ohsawa talk about the entire mountain terrain and not just the small alpine fraction. That makes a big difference... 73ff reads very well, in contrast.**
+
+We have removed the *soap*, and now the two introductory sentences link directly to former L73.
+
+> **103 heterogeneity of alpine climate? Not sure what you are referring to. The fact that different alpine regions have different climate? Or, you mean microclimatic variation within a given alpine landscape?**
+
+To the latter. To be more concrete, we have changed the sentence to *Given the high micro-climatic heterogeneity of alpine landscapes, and the wealth of local studies on alpine seed ecology (reviewed in the following paragraphs), a current challenge is to synthesize, at the global level, the seed ecological spectrum of alpine plants*. 
+
+> **178 -10 cm T seems to be quite irrelevant for germination. I guess everything deeper than 1 cm would rarely facilitate germination? Hence, solar radiation driven fluctuation of T is the norm. I do appreciate language barriers, but the following study is a must to consider. This author explored 197 arctic-alpine species and accumulated an enormous wealth of data. Peter Poschlod could help with that text. You find a brief summary in Alpine Plant Life. Soeyrinki N (1938) Studien über die generative und vegetative Vermehrung der Samenpflanzen in der alpinen Vegetation Petsamo-Lappland. 1. Allgemeiner Teil. Ann Bot Soc Zool Bot Fenn Vanamo 11:83-93, 124-147  There may be a second paper/part. Name spelling could be an issue, try Söyrinki. I recall that he explored temperature variation and arrived at concluding that it is essential for many alpine species to properly germinate. [...] 555 see Söyrienki above** 
+
+We have removed the reference to a hard set depth boundary. The depth profile of temperature fluctuations will depend on soil type, vegetation cover, snow cover. Specifically, the insulating effect of snow cover means that fluctuation of T is not necessarily the norm. We have changed the sentence to *Fluctuations of diurnal temperature decrease with increasing burial depths and the depth profile of this decrease depends on soil type, vegetation cover and snow*. We have read Söyrinki's work and cited it where appropriate, however, we did not find that he explicitly tested the effect of fluctuating temperatures.
+
+> **270 not really clear to me what sort of ratios you talk about. In a 2D microscopy image you could quantify fraction of area covered or circumference. What is the measure? length, area, volume? A reference is not enough.**
+
+We rewrote more clearly in the methods section *Embryo to seed surface area values were calculated by dividing embryo area by the surface area of the seed, more specifically embryo plus endosperm and perisperm. Measurements were made using the ImageJ software (Schneider et al. 2012) on drawings and photographs of seeds cut in half along the longitudinal axis, retrieved mainly from Martin (1946) and the Royal Botanic Gardens Kew Seed Information Database (2017), supplemented with own photographs (Vandelook, unpublished).*. In our opinion this is the most straightforward method to obtain a good perception of the amount of nutrient reserves stored either inside or outside the embryo without going into more advanced 3D methods. It was approximately the same methodology as the one applied by Forbis et al. [-@RN4958].     
+
+> **274 genus or family averages? You really think this works? Within a family the spectrum of trait variation could be far bigger than among families...**
+
+It works as a proxy in as much as these two traits consistently show a strong phylogenetic signal [@RN4958; @RN4916; @RN3685], as we mention in the discussion. We must keep in mind that the purpose of the meta-analysis is to detect a pattern across the studied alpine flora, rather than to accurately predict the specific traits of any given species. In this sense, we would argue that, if it had not worked, we would have found no pattern or random noise, rather than an effect that is consistent with ecological theory and previous research.
+
+> **296 Did you, and if, how did you standardize trial temperatures for comparison? At least this needs a comment. It is a pity how little data on actual field temperatures in seedbeds are available (if any) in order to judge the suitability of temperatures during lab trials. It is very hard to obtain trustworthy seedbed temperatures. Possible you need fine flexible probes (thermocouples, thermistors, Pt100), securely embedded into the seed bed. Would be great to install such a trial in the field and observe germination dynamics in relation to actual temperature. Because top soils desiccate within a few hours of direct insolation, it may need a very special moisture regime in combination with temperature for successful germination and seedling establishment. Given the clonal nature (also treated by Söyrinki), successful seedling establishment needs to occur only once in perhaps half a century to retain a population. One would expect micro-evolutionary selection for such coincidental conditions.... This would be a more useful topic in the introduction than the vulnerability debate.**
+
+Trial temperatures are the ones reported in the original datasets, and they correspond to daily temperature regimes programmed in an incubator/growth chamber. For analysis, each trial is represented by two temperature variables: (1) the *average temperature* (i.e. the weighted average of the day and night temperatures, weighted by the duration of each phase) and (2) *alternating temperature* (i.e. a binary variable describing whether the trial applied constant temperature versus different temperatures during the day and the night, in diurnal cycles). These two variables are described later in the text, in the *Description of the dataset* section of the *Results*.
+
+> **531 40 °C would be an exceptionally low heat resistance. To my knowledge alpine plants always survive 46 °C and a 48 °C threshold is rather the norm than the exception. Dehydration could be a problem with such trials. Any evidence that seelings are more sensitive than adult tissue?**
+
+We have removed the adjective *high* and changed the sentence to *yet tolerate heat up to 40–50°C*.
+
+> **535 staggering is true for almost all herbs/graminoids (except for ruderal weeds, but even these perform it for risk mitigation... classical works by John Harper I think). So this is nothing special with alpine plants.** 
+
+Indeed, this is not something exclusive of alpine environments. We have changed the sentence to *a form of adaptation to unpredictable environments*.
+
+# References
