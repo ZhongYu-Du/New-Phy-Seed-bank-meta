@@ -5,16 +5,8 @@ library(tidyverse)
 
 # Prepare dataset object to create tables, figures, etc for the manuscript
 
-read.csv("../data/fernandezpascual/Regions.csv") %>%
-  merge(read.csv("../results/germination.csv"), by = "Region", all = TRUE) %>%
-  merge(read.csv("../results/traits.csv"), by = "TPLName") %>%
-  mutate(Region = as.character(Region),
-         Region = ifelse(is.na(Macroregion), "Enscobase", Region),
-         Region = ifelse(Region %in% c("Northern Alps", "Southern Alps"), "Alps", Region),
-         Region = ifelse(Region %in% c("Central Andes", "Southern Andes"), "Andes", Region),
-         Region = ifelse(Region %in% c("Qinghai-Tibet Plateau"), "Qinghai-Tibet", Region),
-         Region = ifelse(Region %in% c("Cantabrian Mountains"), "Cantabrian Mts", Region),     
-         Region = as.factor(Region)) -> dataset
+read.csv("../data/germination.csv") %>%
+  merge(read.csv("../data/traits.csv"), by = "TPLName") -> dataset
 
 # Table 1
 
@@ -22,9 +14,6 @@ data.frame(
 merge(
 merge(
 dataset %>%
-  mutate(Source = fct_recode(Source, `Fernández-Pascual` = "Fernández-Pascual Plant Biol")) %>%
-  mutate(Region = fct_recode(Region, `European Alps` = "Alps")) %>%
-  mutate(Region = fct_recode(Region, `Europe` = "Enscobase")) %>%
   select(Source, Region, Country, TPLName, Alpine) %>%
   group_by(Source, Region) %>%
   tally %>%
@@ -32,9 +21,6 @@ dataset %>%
          `Coverage` = Region,
          Records = n),
 dataset %>%
-  mutate(Source = fct_recode(Source, `Fernández-Pascual` = "Fernández-Pascual Plant Biol")) %>%
-  mutate(Region = fct_recode(Region, `European Alps` = "Alps")) %>%
-  mutate(Region = fct_recode(Region, `Europe` = "Enscobase")) %>%
   select(Source, Region, Country, TPLName, Alpine) %>%
   unique %>%
   group_by(Source, Region) %>%
@@ -44,9 +30,6 @@ dataset %>%
          Species = n)),
 dataset %>%
   filter(Alpine == "Strict") %>%
-  mutate(Source = fct_recode(Source, `Fernández-Pascual` = "Fernández-Pascual Plant Biol")) %>%
-  mutate(Region = fct_recode(Region, `European Alps` = "Alps")) %>%
-  mutate(Region = fct_recode(Region, `Europe` = "Enscobase")) %>%
   select(Source, Region, Country, TPLName, Alpine) %>%
   unique %>%
   group_by(Source, Region) %>%
@@ -66,11 +49,7 @@ dataset %>% summary
 dataset %>% pull(Region) %>% unique %>% length -> MSregions
 dataset %>% tally() -> MSrecords
 dataset %>% pull(Source) %>% unique %>% length -> MSgroups
-read.csv("../data/fernandezpascual/TPLNames.csv") %>% 
-  select(Taxon, Family) %>%
-  unique %>%
-  merge(dataset, by = "Taxon", all.y = TRUE) %>%
-  pull(Family) %>% unique %>% length -> MSfamilies
+dataset %>% pull(Family) %>% unique %>% length -> MSfamilies
 dataset %>% pull(TPLName) %>% unique %>% length -> MSspecies
 dataset %>% filter(Alpine == "Strict") %>% pull(TPLName) %>% unique %>% length -> MSstrict
 dataset %>% filter(Alpine == "Generalist") %>% pull(TPLName) %>% unique %>% length -> MSgeneral
@@ -439,13 +418,11 @@ dataset %>%
             GA3 = weighted.mean(GA3, w = Germination),
             MGT = min(MGT, na.rm = TRUE),
             UNC = mean(UNC, na.rm = TRUE)) %>%
-  merge(read.csv("../results/traits.csv"), by = "TPLName") %>%
-  select(TPLName, Alpine, Plant.category, Life.form, Lifespan, Reproduction.frequency, Dormancy, Seed.mass, Embryo, Temperature:GA3, MGT:UNC) %>%
+  merge(read.csv("../data/traits.csv"), by = "TPLName") %>%
+  select(TPLName, Alpine, Plant.category, Lifespan, Dormancy, Seed.mass, Embryo, Temperature:GA3, MGT:UNC) %>%
   filter(!is.nan(Temperature)) %>% 
   mutate(Plant.category = fct_recode(Plant.category, Woody = "Herb, Woody", Woody = "Woody, Subshrub?"),
-         Life.form = fct_recode(Life.form, T = "T, H", G = "H, G", CH = "H, CH", T = "T, Hydrophyt", CH = "CH, H", CH = "CH, NP", G = "G, H", H = "H, Hydrophyt"),
-         Lifespan = fct_recode(Lifespan, annual = "annual, biennial", annual = "annual, perennial", perennial = "biennial", perennial = "biennial, perennial"),
-         Reproduction.frequency = fct_recode(Reproduction.frequency, monocarp = "monocarp, ?polycarp", monocarp = "monocarp, polycarp")) %>%
+         Lifespan = fct_recode(Lifespan, annual = "annual, biennial", annual = "annual, perennial", perennial = "biennial", perennial = "biennial, perennial")) %>%
   filter(! is.nan(MGT) & is.finite(MGT)) -> traits
 
 traits %>% pull(TPLName) %>% unique %>% length -> MSfamdspp
@@ -563,3 +540,4 @@ ggsave(fig4, file = "../results/Fig4.tiff",
 
 ggsave(fig5, file = "../results/Fig5.tiff", 
        path = NULL, scale = 1, width = 170, height = 170, units = "mm", dpi = 600)
+
