@@ -45,6 +45,12 @@ dataset %>%
 
 # Numbers for the main text
 
+read.csv("../data/traits.csv") %>% filter(Embryo.rank == "Species") %>% pull(TPLName) %>% unique %>% length -> MSembrankspp
+read.csv("../data/traits.csv") %>% filter(Embryo.rank == "Genus") %>% pull(TPLName) %>% unique %>% length -> MSembrankgen
+read.csv("../data/traits.csv") %>% filter(Embryo.rank == "Family") %>% pull(TPLName) %>% unique %>% length -> MSembrankfam
+
+read.csv("../data/traits.csv") %>% filter(Seed.mass.rank == "Species") %>% pull(TPLName) %>% unique %>% length -> MSmassrankspp
+read.csv("../data/traits.csv") %>% filter(Seed.mass.rank == "Genus") %>% pull(TPLName) %>% unique %>% length -> MSmassrankgen
 dataset %>% summary
 dataset %>% pull(Region) %>% unique %>% length -> MSregions
 dataset %>% tally() -> MSrecords
@@ -87,7 +93,8 @@ dataset %>%
   ggthemes::theme_tufte() +
   theme(legend.position = "right", axis.title.x = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.x = element_text(size = 10)) +
+        axis.title = element_text(size = 14),
+        axis.text = element_text(size = 11.5, color = "black")) +
   scale_fill_manual(values = c("olivedrab", "yellowgreen", "turquoise4", "gold", "purple")) -> fig1a
 
 dataset %>%
@@ -100,7 +107,8 @@ dataset %>%
   ggthemes::theme_tufte() +
   theme(legend.position = "none", axis.title.x = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.x = element_text(size = 10)) +
+        axis.title = element_text(size = 14),
+        axis.text = element_text(size = 11.5, color = "black")) +
   scale_fill_manual(values = c("yellowgreen", "gold")) -> fig1b
 
 dataset %>%
@@ -113,10 +121,11 @@ dataset %>%
   ggthemes::theme_tufte() +
   theme(legend.position = "none", axis.title.x = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.x = element_text(size = 10)) +
+        axis.title = element_text(size = 14),
+        axis.text = element_text(size = 11.5, color = "black")) +
   scale_fill_manual(values = c("yellowgreen", "gold")) -> fig1c
 
-gridExtra::arrangeGrob(fig1a, fig1b, fig1c, ncol = 3, widths = c(8, 7, 7)) -> fig1
+gridExtra::arrangeGrob(fig1a, fig1b, fig1c, ncol = 3, widths = c(9.3, 6.5, 6.5)) -> fig1
 
 # Figure 2 - MCMCglmm fixed effects
 
@@ -151,21 +160,23 @@ rbind(
                             Embryo = "Embryo:seed",
                             Alone = "Main effect"),
          Moderator = fct_relevel(Moderator, c("Embryo:seed", "Seed mass",  "Generalist spp.", "Strict alpine spp.", "Main effect")),
-         Treatment = recode(Treatment, Tmean = "Temperature", GA3 = "GA[3]"),
-         Treatment = fct_relevel(Treatment, c("Stratification", "GA[3]", "Scarification",  "Temperature", "Alternating", "Light"))) %>%
+         Treatment = recode(Treatment, Tmean = "Temperature", GA3 = "GA3"),
+         Treatment = fct_relevel(Treatment, c("Stratification", "GA3", "Scarification",  "Temperature", "Alternating", "Light"))) %>%
   ggplot(aes(y = Moderator, x = Mean, 
              xmin = Lower, xmax = Upper,
              color = Moderator)) +
-  facet_wrap(~ Treatment, labeller = label_parsed, nrow = 1) +
-  geom_point(size = 1, alpha = 0.7) +
+  facet_wrap(~ Treatment, nrow = 1) +
+  geom_point(size = 2) +
   labs(x = "Effect size", title = "(A) Effect on final germination proportions") +
   geom_errorbarh(height = .3) +
   geom_vline(xintercept = 0, linetype = "dashed") +
   ggthemes::theme_tufte() +
   theme(legend.position = "none", axis.title.y = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.y = element_text(color = c("olivedrab",  "turquoise4", "yellowgreen", "gold", "purple")),
-        axis.text.x = element_text(size = 7)) +
+        axis.text.y = element_text(size = 12,
+                                   color = c("olivedrab",  "turquoise4", "yellowgreen", "gold", "purple")),
+        axis.text.x = element_text(size = 7.5, color = "black"),
+        strip.text.x = element_text(size = 12)) +
   scale_color_manual(values = c("olivedrab",  "turquoise4", "yellowgreen", "gold", "purple")) -> fig2a
 
 rbind(
@@ -200,21 +211,24 @@ rbind(
                             Embryo = "Embryo:seed",
                             Alone = "Main effect"),
          Moderator = fct_relevel(Moderator, c("Embryo:seed", "Seed mass",  "Generalist spp.", "Strict alpine spp.", "Main effect")),
-         Treatment = recode(Treatment, Tmean = "Temperature", GA3 = "GA[3]"),
-         Treatment = fct_relevel(Treatment, c("Stratification", "GA[3]", "Scarification",  "Temperature", "Alternating", "Light"))) %>%
+         Treatment = recode(Treatment, Tmean = "Temperature", GA3 = "GA3"),
+         Treatment = fct_relevel(Treatment, c("Stratification", "GA3", "Scarification",  "Temperature", "Alternating", "Light"))) %>%
   ggplot(aes(y = Moderator, x = Mean, 
              xmin = Lower, xmax = Upper,
              color = Moderator)) +
-  facet_wrap(~ Treatment, labeller = label_parsed, nrow = 1) +
-  geom_point(size = 1, alpha = 0.7) +
+  facet_wrap(~ Treatment, nrow = 1) +
+  geom_point(size = 2) +
   labs(x = "Effect size", title = "(B) Effect on mean germination time") +
+  scale_x_continuous(breaks = c(-.2, 0)) +
   geom_errorbarh(height = .3) +
   geom_vline(xintercept = 0, linetype = "dashed") +
   ggthemes::theme_tufte() +
   theme(legend.position = "none", axis.title.y = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.y = element_text(color = c("olivedrab",  "turquoise4", "yellowgreen", "gold", "purple")),
-        axis.text.x = element_text(size = 7)) +
+        axis.text.y = element_text(size = 12, 
+                                   color = c("olivedrab",  "turquoise4", "yellowgreen", "gold", "purple")),
+        axis.text.x = element_text(size = 7.5, color = "black"),
+        strip.text.x = element_text(size = 12)) +
   scale_color_manual(values = c("olivedrab",  "turquoise4", "yellowgreen", "gold", "purple")) -> fig2b
 
 rbind(
@@ -249,21 +263,24 @@ rbind(
                             Embryo = "Embryo:seed",
                             Alone = "Main effect"),
          Moderator = fct_relevel(Moderator, c("Embryo:seed", "Seed mass",  "Generalist spp.", "Strict alpine spp.", "Main effect")),
-         Treatment = recode(Treatment, Tmean = "Temperature", GA3 = "GA[3]"),
-         Treatment = fct_relevel(Treatment, c("Stratification", "GA[3]", "Scarification",  "Temperature", "Alternating", "Light"))) %>%
+         Treatment = recode(Treatment, Tmean = "Temperature", GA3 = "GA3"),
+         Treatment = fct_relevel(Treatment, c("Stratification", "GA3", "Scarification",  "Temperature", "Alternating", "Light"))) %>%
   ggplot(aes(y = Moderator, x = Mean, 
              xmin = Lower, xmax = Upper,
              color = Moderator)) +
-  facet_wrap(~ Treatment, labeller = label_parsed, nrow = 1) +
-  geom_point(size = 1, alpha = 0.7) +
+  facet_wrap(~ Treatment, nrow = 1) +
+  geom_point(size = 2) +
   labs(x = "Effect size", title = "(C) Effect on germination uncertainty") +
+  scale_x_continuous(breaks = c(-.1, 0)) +
   geom_errorbarh(height = .3) +
   geom_vline(xintercept = 0, linetype = "dashed") +
   ggthemes::theme_tufte() +
   theme(legend.position = "none", axis.title.y = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.y = element_text(color = c("olivedrab",  "turquoise4", "yellowgreen", "gold", "purple")),
-        axis.text.x = element_text(size = 7)) +
+        axis.text.y = element_text(size = 12,
+                                   color = c("olivedrab",  "turquoise4", "yellowgreen", "gold", "purple")),
+        axis.text.x = element_text(size = 7.5, color = "black"),
+        strip.text.x = element_text(size = 12)) +
   scale_color_manual(values = c("olivedrab",  "turquoise4", "yellowgreen", "gold", "purple")) -> fig2c
 
 gridExtra::arrangeGrob(fig2a, fig2b, fig2c, ncol = 1) -> fig2
@@ -280,23 +297,26 @@ read.csv("../results/MCMCglmm/proportion/alpR.germ.general.csv") %>%
   mutate(Mean = as.numeric(Mean),
          Lower = as.numeric(Lower),
          Upper = as.numeric(Upper)) %>%
-  mutate(model = recode(model, Tmean = "Temperature", GA3 = "GA[3]"),
-         model = fct_relevel(model, c("Stratification", "GA[3]", "Scarification",  "Temperature", "Alternating", "Light")),
+  mutate(model = recode(model, Tmean = "Temperature", GA3 = "GA3"),
+         model = fct_relevel(model, c("Stratification", "GA3", "Scarification",  "Temperature", "Alternating", "Light")),
          Trait = recode(Trait, Source = "Lab", ID = "Species", Accession = "Seedlot")) %>%
   ggplot(aes(y = Trait, x = Mean, 
              xmin = Lower, xmax = Upper,
              color = Trait)) +
-  facet_wrap(~ model, labeller = label_parsed, nrow = 1) +
-  geom_point(size = 1, alpha = 0.7) +
+  facet_wrap(~ model, nrow = 1) +
+  geom_point(size = 2) +
   labs(x = "Effect size", title = "(A) Effect on final germination proportions") +
+  scale_x_continuous(breaks = c(0, 4)) +
   geom_errorbarh(height = .3) +
   geom_vline(xintercept = 0, linetype = "dashed") +
   ggthemes::theme_tufte() +
   theme(legend.position = "none", axis.title.y = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.y = element_text(color = c("orange",  "gold", "yellowgreen", "forestgreen")),
-        axis.text.x = element_text(size = 7)) +
-  scale_color_manual(values = c("orange",  "gold", "yellowgreen", "forestgreen")) -> fig3a
+        axis.text.y = element_text(size = 12,
+                                   color = c("firebrick3",  "orange", "darkturquoise", "midnightblue")),
+        axis.text.x = element_text(size = 7.5, color = "black"),
+        strip.text.x = element_text(size = 12)) +
+  scale_color_manual(values = c("firebrick3",  "orange", "darkturquoise", "midnightblue")) -> fig3a
 
 read.csv("../results/MCMCglmm/mgt/alpR.MGT.general.csv") %>%
   select(model, ID:Accession) %>%
@@ -308,23 +328,26 @@ read.csv("../results/MCMCglmm/mgt/alpR.MGT.general.csv") %>%
   mutate(Mean = as.numeric(Mean),
          Lower = as.numeric(Lower),
          Upper = as.numeric(Upper)) %>%
-  mutate(model = recode(model, Tmean = "Temperature", GA3 = "GA[3]"),
-         model = fct_relevel(model, c("Stratification", "GA[3]", "Scarification",  "Temperature", "Alternating", "Light")),
+  mutate(model = recode(model, Tmean = "Temperature", GA3 = "GA3"),
+         model = fct_relevel(model, c("Stratification", "GA3", "Scarification",  "Temperature", "Alternating", "Light")),
          Trait = recode(Trait, Source = "Lab", ID = "Species", Accession = "Seedlot")) %>%
   ggplot(aes(y = Trait, x = Mean, 
              xmin = Lower, xmax = Upper,
              color = Trait)) +
-  facet_wrap(~ model, labeller = label_parsed, nrow = 1) +
-  geom_point(size = 1, alpha = 0.7) +
+  facet_wrap(~ model, nrow = 1) +
+  geom_point(size = 2) +
   labs(x = "Effect size", title = "(B) Effect on mean germination time") +
+  scale_x_continuous(breaks = c(0, .6)) +
   geom_errorbarh(height = .3) +
   geom_vline(xintercept = 0, linetype = "dashed") +
   ggthemes::theme_tufte() +
   theme(legend.position = "none", axis.title.y = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.y = element_text(color = c("orange",  "gold", "yellowgreen", "forestgreen")),
-        axis.text.x = element_text(size = 7)) +
-  scale_color_manual(values = c("orange",  "gold", "yellowgreen", "forestgreen")) -> fig3b
+        axis.text.y = element_text(size = 12,
+                                   color = c("firebrick3",  "orange", "darkturquoise", "midnightblue")),
+        axis.text.x = element_text(size = 7.5, color = "black"),
+        strip.text.x = element_text(size = 12)) +
+  scale_color_manual(values = c("firebrick3",  "orange", "darkturquoise", "midnightblue")) -> fig3b
 
 read.csv("../results/MCMCglmm/unc/alpR.UNC.general.csv") %>%
   select(model, ID:Accession) %>%
@@ -336,23 +359,26 @@ read.csv("../results/MCMCglmm/unc/alpR.UNC.general.csv") %>%
   mutate(Mean = as.numeric(Mean),
          Lower = as.numeric(Lower),
          Upper = as.numeric(Upper)) %>%
-  mutate(model = recode(model, Tmean = "Temperature", GA3 = "GA[3]"),
-         model = fct_relevel(model, c("Stratification", "GA[3]", "Scarification",  "Temperature", "Alternating", "Light")),
+  mutate(model = recode(model, Tmean = "Temperature", GA3 = "GA3"),
+         model = fct_relevel(model, c("Stratification", "GA3", "Scarification",  "Temperature", "Alternating", "Light")),
          Trait = recode(Trait, Source = "Lab", ID = "Species", Accession = "Seedlot")) %>%
   ggplot(aes(y = Trait, x = Mean, 
              xmin = Lower, xmax = Upper,
              color = Trait)) +
-  facet_wrap(~ model, labeller = label_parsed, nrow = 1) +
-  geom_point(size = 1, alpha = 0.7) +
+  facet_wrap(~ model, nrow = 1) +
+  geom_point(size = 2) +
   labs(x = "Effect size", title = "(C) Effect on germination uncertainty") +
+  scale_x_continuous(breaks = c(0, 1.5)) +
   geom_errorbarh(height = .3) +
   geom_vline(xintercept = 0, linetype = "dashed") +
   ggthemes::theme_tufte() +
   theme(legend.position = "none", axis.title.y = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.y = element_text(color = c("orange",  "gold", "yellowgreen", "forestgreen")),
-        axis.text.x = element_text(size = 7)) +
-  scale_color_manual(values = c("orange",  "gold", "yellowgreen", "forestgreen")) -> fig3c
+        axis.text.y = element_text(size = 12,
+                                   color = c("firebrick3",  "orange", "darkturquoise", "midnightblue")),
+        axis.text.x = element_text(size = 7.5, color = "black"),
+        strip.text.x = element_text(size = 12)) +
+  scale_color_manual(values = c("firebrick3",  "orange", "darkturquoise", "midnightblue")) -> fig3c
 
 gridExtra::arrangeGrob(fig3a, fig3b, fig3c, ncol = 1) -> fig3
 
@@ -360,7 +386,7 @@ gridExtra::arrangeGrob(fig3a, fig3b, fig3c, ncol = 1) -> fig3
 
 rbind(
 read.csv("../results/MCMCglmm/proportion/alpR.germ.general.csv") %>%
-  mutate(Trait = "Germination\n proportion") %>% 
+  mutate(Trait = "FGP") %>% 
   select(model, Trait, lambda:upper) %>%
   rename(Mean = lambda, Upper = upper, Lower = lower),
 read.csv("../results/MCMCglmm/mgt/alpR.MGT.general.csv") %>%
@@ -371,25 +397,28 @@ read.csv("../results/MCMCglmm/unc/alpR.UNC.general.csv") %>%
   mutate(Trait = "UNC") %>% 
   select(model, Trait, lambda:upper) %>%
   rename(Mean = lambda, Upper = upper, Lower = lower)) %>%
-  mutate(Trait = fct_relevel(Trait, c("UNC", "MGT",  "Germination\n proportion")),
-         model = recode(model, Tmean = "Temperature", GA3 = "GA[3]"),
-         model = fct_relevel(model, c("Stratification", "GA[3]", "Scarification",  "Temperature", "Alternating", "Light"))) %>%
+  mutate(Trait = fct_relevel(Trait, c("UNC", "MGT",  "FGP")),
+         model = recode(model, Tmean = "Temperature", GA3 = "GA3"),
+         model = fct_relevel(model, c("Stratification", "GA3", "Scarification",  "Temperature", "Alternating", "Light"))) %>%
   ggplot(aes(y = Trait, x = Mean, 
              xmin = Lower, xmax = Upper,
              color = Trait)) +
-  facet_wrap(~ model, labeller = label_parsed, nrow = 1) +
-  geom_point(size = 1, alpha = 0.7) +
+  facet_wrap(~ model, nrow = 1) +
+  geom_vline(xintercept = 0.5, linetype = "dashed", color = "black") +
+  geom_point(size = 2) +
   labs(x = "Pagel's lambda") +
+  scale_x_continuous(breaks = c(0, 1)) +
   geom_errorbarh(height = .3) +
   geom_vline(xintercept = 0) +
   geom_vline(xintercept = 1) +
   ggthemes::theme_tufte() +
   theme(legend.position = "none", axis.title.y = element_blank(),
         panel.background = element_rect(color = "grey96", fill = "grey96"),
-        axis.text.y = element_text(color = c("darkorchid", "gold", "red3")),
-        axis.text.x = element_text(size = 7)) +
-  scale_color_manual(values = c("darkorchid", "gold", "red3")) +
-  scale_x_continuous(breaks =  c(0, 0.5, 1)) -> fig4
+        axis.text.y = element_text(size = 12,
+                                   color = c("darkorchid", "gold", "red3")),
+        axis.text.x = element_text(size = 7.5, color = "black"),
+        strip.text.x = element_text(size = 12)) +
+  scale_color_manual(values = c("darkorchid", "gold", "red3")) -> fig4
 
 # Figure 5 - FAMD ordination
 
@@ -419,10 +448,8 @@ dataset %>%
             MGT = min(MGT, na.rm = TRUE),
             UNC = mean(UNC, na.rm = TRUE)) %>%
   merge(read.csv("../data/traits.csv"), by = "TPLName") %>%
-  select(TPLName, Alpine, Plant.category, Lifespan, Dormancy, Seed.mass, Embryo, Temperature:GA3, MGT:UNC) %>%
+  select(TPLName, Alpine, Dormancy, Seed.mass, Embryo, Temperature:GA3, MGT:UNC) %>%
   filter(!is.nan(Temperature)) %>% 
-  mutate(Plant.category = fct_recode(Plant.category, Woody = "Herb, Woody", Woody = "Woody, Subshrub?"),
-         Lifespan = fct_recode(Lifespan, annual = "annual, biennial", annual = "annual, perennial", perennial = "biennial", perennial = "biennial, perennial")) %>%
   filter(! is.nan(MGT) & is.finite(MGT)) -> traits
 
 traits %>% pull(TPLName) %>% unique %>% length -> MSfamdspp
@@ -450,19 +477,17 @@ ggplot(pcaInds, aes(x = Dim.1, y = Dim.2)) +
   geom_point(color = "grey", alpha = 0.5, size = 2.5, shape = 15) +
   ggthemes::theme_tufte() + 
   theme(panel.background = element_rect(color = "grey96", fill = "grey96"),
+        axis.text = element_text(size = 12, color = "black"),
         axis.title = element_blank()) +
   scale_x_continuous(name = paste("Axis 1 (", round(pcaAlpine$eig[1, 2], 0),
                                   "% variance explained)", sep = "")) + 
   scale_y_continuous(name = paste("Axis 2 (", round(pcaAlpine$eig[2, 2], 0), 
                                   "% variance explained)", sep = "")) +
-  geom_segment(data = filter(pcaVars, Variable %in% c("Temperature", "Alternating", "Light",
-                                                      "Scarification", "Stratification", "GA3")), 
-                             aes(x = 0, y = 0, xend = 4.5*Dim.1, yend = 4.5*Dim.2)) +
  geom_label(data = filter(pcaVars, Variable %in% c("Temperature", "Alternating",
                                                                    "Scarification", "GA3",
                                                                    "Stratification", "Light")), 
              aes(x = 4.5*Dim.1, y = 4.5*Dim.2, label = Variable), 
-             size = 3, label.r = unit(0, "lines")) +
+             size = 3) +
   labs(title = "(A) Germination cues") -> fig5a
 
 ggplot(pcaInds, aes(x = Dim.1, y = Dim.2)) +
@@ -471,18 +496,16 @@ ggplot(pcaInds, aes(x = Dim.1, y = Dim.2)) +
   geom_point(color = "grey", alpha = 0.5, size = 2.5, shape = 15) +
   ggthemes::theme_tufte() + 
   theme(panel.background = element_rect(color = "grey96", fill = "grey96"),
+        axis.text = element_text(size = 12, color = "black"),
         axis.title = element_blank()) +
   scale_x_continuous(name = paste("Axis 1 (", round(pcaAlpine$eig[1, 2], 0),
                                   "% variance explained)", sep = "")) + 
   scale_y_continuous(name = paste("Axis 2 (", round(pcaAlpine$eig[2, 2], 0), 
                                   "% variance explained)", sep = "")) +
-  geom_segment(data = filter(pcaVars, ! Variable %in% c("Temperature", "Alternating", "Light",
-                                                      "Scarification", "Stratification", "GA3")), 
-               aes(x = 0, y = 0, xend = 4.5*Dim.1, yend = 4.5*Dim.2)) +
   geom_label(data = filter(pcaVars, ! Variable %in% c("Temperature", "Alternating", "Light",
                                                     "Scarification", "Stratification", "GA3")), 
              aes(x = 5.1*Dim.1, y = 5.1*Dim.2, label = Variable), 
-             size = 3, label.r = unit(0, "lines")) +
+             size = 3) +
   labs(title = "(B) Seed traits") -> fig5b
 
 
@@ -492,6 +515,7 @@ ggplot(pcaInds, aes(x = Dim.1, y = Dim.2)) +
   geom_point(aes(color = Dormancy), alpha = 0.5, size = 2.5, shape = 15, show.legend = FALSE) +
   ggthemes::theme_tufte() + 
   theme(panel.background = element_rect(color = "grey96", fill = "grey96"),
+        axis.text = element_text(size = 12, color = "black"),
         axis.title = element_blank()) +
   scale_x_continuous(name = paste("Axis 1 (", round(pcaAlpine$eig[1, 2], 0),
                                   "% variance explained)", sep = "")) + 
@@ -509,6 +533,7 @@ ggplot(pcaInds, aes(x = Dim.1, y = Dim.2)) +
   geom_point(aes(color = Alpine), alpha = 0.5, size = 2.5, shape = 15, show.legend = FALSE) +
   ggthemes::theme_tufte() + 
   theme(panel.background = element_rect(color = "grey96", fill = "grey96"),
+        axis.text = element_text(size = 12, color = "black"),
         axis.title = element_blank()) +
   scale_x_continuous(name = paste("Axis 1 (", round(pcaAlpine$eig[1, 2], 0),
                                   "% variance explained)", sep = "")) + 
@@ -521,23 +546,25 @@ ggplot(pcaInds, aes(x = Dim.1, y = Dim.2)) +
   labs(title = "(D) Species distribution") -> fig5d
 
 gridExtra::arrangeGrob(fig5a, fig5b, fig5c, fig5d, ncol = 2,
-                       left = grid::textGrob("Second FAMD axis", rot = 90, gp = grid::gpar(fontfamily = "serif")),
-                       bottom = grid::textGrob("First FAMD axis", gp = grid::gpar(fontfamily = "serif"))) -> fig5
+                       left = grid::textGrob("Second FAMD axis", rot = 90, gp = grid::gpar(fontsize = 14,
+                                                                                           fontfamily = "serif")),
+                       bottom = grid::textGrob("First FAMD axis", gp = grid::gpar(fontsize = 14,
+                                                                                  fontfamily = "serif"))) -> fig5
 
 # Save figures
 
-ggsave(fig1, file = "../results/Fig1.tiff", 
-       path = NULL, scale = 1, width = 170, height = 73, units = "mm", dpi = 600)
+ggsave(fig1, file = "../results/Figure_1.tiff", 
+       path = NULL, scale = 1, width = 180, height = 73, units = "mm", dpi = 600)
 
-ggsave(fig2, file = "../results/Fig2.tiff", 
-       path = NULL, scale = 1, width = 170, height = 134, units = "mm", dpi = 600)
+ggsave(fig2, file = "../results/Figure_2.tiff", 
+       path = NULL, scale = 1, width = 180, height = 145, units = "mm", dpi = 600)
 
-ggsave(fig3, file = "../results/Fig3.tiff", 
-       path = NULL, scale = 1, width = 170, height = 120, units = "mm", dpi = 600)
+ggsave(fig3, file = "../results/Figure_3.tiff", 
+       path = NULL, scale = 1, width = 180, height = 135, units = "mm", dpi = 600)
 
-ggsave(fig4, file = "../results/Fig4.tiff", 
-       path = NULL, scale = 1, width = 170, height = 36, units = "mm", dpi = 600)
+ggsave(fig4, file = "../results/Figure_4.tiff", 
+       path = NULL, scale = 1, width = 180, height = 45, units = "mm", dpi = 600)
 
-ggsave(fig5, file = "../results/Fig5.tiff", 
-       path = NULL, scale = 1, width = 170, height = 170, units = "mm", dpi = 600)
+ggsave(fig5, file = "../results/Figure_5.tiff", 
+       path = NULL, scale = 1, width = 180, height = 180, units = "mm", dpi = 600)
 

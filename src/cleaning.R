@@ -14,6 +14,7 @@ read_excel("../#data/lifeforms/data/alpineseeds/Traits_to_complete_PP_20200510.x
 
 ## Read and prepare seed mass
 
+read.csv("../#data/seedmass/results/Alpine_spp_genus_level_values.csv") -> genus.mass
 read.csv("../#data/seedmass/results/seedmass.csv") -> seed.mass
 
 ## Embryo trait (Filip)
@@ -32,7 +33,9 @@ read.csv("../#data/tpl/results/TPLNames.csv") %>%
   merge(seed.mass, all.x = TRUE) %>% # Merge seed mass
   merge(read.csv("../#data/baskin/results/dormancy.csv"), all.x = TRUE) %>%
   merge(filip, all.x = TRUE) %>%
-  select(TPLName, Family, Alpine, `Plant category`, `Lifespan`, Seed.mass, Embryo, Dormancy) -> traits
+  merge(read.csv("../#data/embryos/results/Alpine_spp_genus_level_values.csv")) %>% # Add embryo values rank
+  mutate(Seed.mass.rank = ifelse(TPLName %in% genus.mass$TPLName, "Genus", "Species")) %>% # Add seed mass values rank
+  select(TPLName, Family, Alpine, Seed.mass, Seed.mass.rank, Embryo, Embryo.rank, Dormancy) -> traits
 
 # SAVE CLEAN FILES
 

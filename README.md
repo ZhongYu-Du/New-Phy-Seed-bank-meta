@@ -19,9 +19,15 @@ and storing research projects.
 
 The following materials are available in the folders of this repository:
 
-  - `data` Primary germination data and species traits.
+  - `data` Primary data, including the
+    [germination](https://github.com/efernandezpascual/alpineseeds/blob/master/data/germination.csv)
+    dataset, the species
+    [traits](https://github.com/efernandezpascual/alpineseeds/blob/master/data/traits.csv)
+    and the phylogenetic
+    [tree](https://github.com/efernandezpascual/alpineseeds/blob/master/data/alpine.tree.pdf).
   - `doc` Files to create the manuscript using `Rmarkdown`.
-  - `results` Output of the `R` scripts, including MCMCglmm analysis
+  - `results` Output of the `R` scripts, including [MCMCglmm
+    analysis](https://github.com/efernandezpascual/alpineseeds/tree/master/results/MCMCglmm)
     outputs.
   - `src` Scripts in `R` language used to process data and perform the
     analyses of the manuscript.
