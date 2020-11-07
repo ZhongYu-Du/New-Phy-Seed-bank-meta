@@ -24,7 +24,7 @@ The following materials are available in the folders of this repository:
     dataset, the species
     [traits](https://github.com/efernandezpascual/alpineseeds/blob/master/data/traits.csv)
     and the phylogenetic
-    [tree](https://github.com/efernandezpascual/alpineseeds/blob/master/data/alpine.tree.pdf).
+    [tree](https://github.com/efernandezpascual/alpineseeds/blob/master/data/ALPINE.tree.pdf).
   - `doc` Files to create the manuscript using `Rmarkdown`.
   - `results` Output of the `R` scripts, including [MCMCglmm
     analysis](https://github.com/efernandezpascual/alpineseeds/tree/master/results/MCMCglmm)
