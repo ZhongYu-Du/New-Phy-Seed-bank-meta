@@ -34,5 +34,10 @@ The following materials are available in the folders of this repository:
 
 ## Citation
 
-Please cite this repository as `The seed germination spectrum of alpine
-plants: a global meta-analysis. Manuscript in preparation.`
+Please cite this repository as:
+
+> Fernández-Pascual E, Carta A, Mondoni A, Cavieres L, Rosbakh S, Venn
+> S, Satyanti A, Guja L, Briceño VF, Vandelook F, Mattana E, Saatkamp A,
+> Bu H, Sommerville K, Poschlod P, Liu K, Nicotra A, Jiménez-Alfaro B
+> (2020) The seed germination spectrum of alpine plants: a global
+> meta-analysis. *New Phytologist*.
