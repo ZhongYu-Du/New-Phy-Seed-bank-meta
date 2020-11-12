@@ -552,19 +552,19 @@ gridExtra::arrangeGrob(fig5a, fig5b, fig5c, fig5d, ncol = 2,
                                                                                   fontfamily = "serif"))) -> fig5
 
 # Save figures
-
-ggsave(fig1, file = "../results/Figure_1.tiff", 
-       path = NULL, scale = 1, width = 180, height = 73, units = "mm", dpi = 600)
-
-ggsave(fig2, file = "../results/Figure_2.tiff", 
-       path = NULL, scale = 1, width = 180, height = 145, units = "mm", dpi = 600)
-
-ggsave(fig3, file = "../results/Figure_3.tiff", 
-       path = NULL, scale = 1, width = 180, height = 135, units = "mm", dpi = 600)
-
-ggsave(fig4, file = "../results/Figure_4.tiff", 
-       path = NULL, scale = 1, width = 180, height = 45, units = "mm", dpi = 600)
-
-ggsave(fig5, file = "../results/Figure_5.tiff", 
-       path = NULL, scale = 1, width = 180, height = 180, units = "mm", dpi = 600)
-
+# 
+# ggsave(fig1, file = "../results/Figure_1.tiff", 
+#        path = NULL, scale = 1, width = 180, height = 73, units = "mm", dpi = 600)
+# 
+# ggsave(fig2, file = "../results/Figure_2.tiff", 
+#        path = NULL, scale = 1, width = 180, height = 145, units = "mm", dpi = 600)
+# 
+# ggsave(fig3, file = "../results/Figure_3.tiff", 
+#        path = NULL, scale = 1, width = 180, height = 135, units = "mm", dpi = 600)
+# 
+# ggsave(fig4, file = "../results/Figure_4.tiff", 
+#        path = NULL, scale = 1, width = 180, height = 45, units = "mm", dpi = 600)
+# 
+# ggsave(fig5, file = "../results/Figure_5.tiff", 
+#        path = NULL, scale = 1, width = 180, height = 180, units = "mm", dpi = 600)
+# 

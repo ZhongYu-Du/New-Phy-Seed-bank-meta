@@ -1,9 +1,6 @@
 ---
 title: "The seed germination spectrum of alpine plants: a global meta-analysis"
-output: 
-  bookdown::word_document2:
-    number_sections: false
-    reference_docx: template.docx
+output: github_document
 bibliography: refs.bib
 csl: new-phytologist.csl
 link-citations: yes
@@ -21,7 +18,7 @@ knitr::knit_hooks$set(inline = function(x) {
 ```
 
 ```{r message = FALSE, echo = FALSE, warning = FALSE}
-library(tidyverse); library(flextable)
+library(tidyverse)
 source("../src/manuscript-source.R", encoding = "UTF-8")
 ```
 
@@ -30,8 +27,6 @@ Eduardo Fernández-Pascual^1^ ^+^, Angelino Carta^2^, Andrea Mondoni^3^, Lohengr
 ^1^ Departamento de Biología de Organismos y Sistemas, Universidad de Oviedo, Oviedo/Uviéu, Spain; ^2^ Dipartimento di Biologia, Botany Unit, University of Pisa, Pisa, Italy; ^3^ Department of Earth and Environmental Sciences, University of Pavia, Pavia, Italy; ^4^ Departamento de Botánica, Facultad de Ciencias Naturales y Oceanográficas, Universidad de Concepción, Concepción, Chile; ^5^ Chair of Ecology and Conservation Biology, Institute of Plant Sciences, University of Regensburg, Regensburg, Germany; ^6^ Centre for Integrative Ecology, School of Life and Environmental Sciences, Deakin University, Burwood, Victoria, Australia; ^7^ Division of Ecology & Evolution, Research School of Biology, The Australian National University, Canberra, ACT, Australia; ^8^ Centre for Australian National Biodiversity Research, CSIRO, Canberra, ACT, Australia; ^9^ National Seed Bank, Biodiversity Science Section, Australian National Botanic Gardens, Canberra, ACT, Australia; ^10^ Meise Botanic Garden, Meise, Belgium; ^11^ Natural Capital and Plant Health Department, Royal Botanic Gardens, Kew, Ardingly, UK; ^12^ Aix Marseille Université, Université d'Avignon, CNRS, IRD, IMBE, Marseille, France; ^13^ State Key Laboratory of Grassland and Agro-Ecosystems, Lanzhou University, Lanzhou, PR China; ^14^ The Australian Plant Bank, Royal Botanic Gardens and Domain Trust, Mount Annan, NSW, Australia; ^15^ Research Unit of Biodiversity (CSUC/UO/PA), University of Oviedo, Mieres, Spain
 
 ^+^ Correspondence: Departamento de Biología de Organismos y Sistemas, Universidad de Oviedo, C/ Catedrático Rodrigo Uría, 33006 Oviedo/Uviéu, Spain. Email: efernandezpascual@gmail.com. Telephone: +34985104787.
-
-**Total word count for the main body of the text** 6,837; **Introduction** 1,826; **Materials and Methods** 1,642; **Results** 1,155; **Discussion** 2,214; **Number of figures** 5 in colour; **Tables** 1; **Supporting information** 0
 
 # Summary
 
@@ -64,6 +59,10 @@ In this work, we make a global collection of primary germination data from labor
 
 We conducted a meta-analysis of primary data [@RN4734], which consists of pooling together original data from different local studies to synthesize their conclusions at the global level. All data processing, analysis and manuscript production has been performed in *R* [@RN2315]. The original data, plus R code for the analysis and creation of the manuscript using Rmarkdown, can be accessed at the GitHub repository (see Data Availability Statement). To gather data, we contacted research groups which have performed experiments on seed germination of alpine plants, asking them to provide raw data from laboratory germination experiments. The submitted data had to report the studied species, the germination treatments, the number of seeds sown, and the number of seeds germinated. We received data (Table 1) on species from the Cantabrian Mountains of Spain, the European Alps, the Italian Apennines, the Northern Caucasus, the Qinghai-Tibet Plateau of China, the Chilean Andes, and the Australian Alps. We also received data on European alpine species from *Enscobase*, the database of the European Native Seed Conservation Network (http://enscobase.maich.gr/index.tml).
 
+```{r table1, echo = FALSE}
+Table1 %>% kableExtra::kable(caption = "**Table 1** *Description of the datasets contributing primary data to this meta-analysis. The number of germination records, number of species and number of strict alpine species are given.*", format = "pandoc")
+```
+
 ---
 nocite: |
   @RN2371, @RN4729, @RN3029, @RN4727, @RN4728, @RN4735, @RN3376, @RN3393, @RN4713, @RN4737, @RN4736, @RN3703
@@ -93,35 +92,55 @@ To visualize the seed germination spectrum of alpine plants, we employed a Facto
 
 The final dataset used in our meta-analysis contained `r MSrecords` records (i.e. germination proportions for a given seed lot of a species, recorded in a set of experimental conditions) contributed by `r MSgroups` research groups, representing `r MSfamilies` seed plant families and `r MSspecies` species. From these, `r MSstrict` were categorized as strict alpine species and `r MSgeneral` as generalist. Seed lots were originally sampled in `r MSregions` alpine regions of the world (Table 1), at middle latitudes of both hemispheres.
 
-Most species in the dataset were reported as having dormant seeds (Fig. \@ref(fig:fig1)a), but the frequency of the dormancy classes did not differ between generalist and strict alpine species. Among those species with dormant seeds, physiological dormancy was the most common dormancy class, followed by morphophysiological and then physical. Both strict alpine and generalist species had a similar range of values for seed mass (Fig. \@ref(fig:fig1)b) and embryo:seed ratio (Fig. \@ref(fig:fig1)c). The values of seed mass ranged from `r MSminMass` mg (*`r MSminMassSpp`*) to `r MSmaxMass` mg (*`r MSmaxMassSpp`*), with a median value of `r MSmedianMass` mg. Embryo:seed ratio encompassed the full range of potential values, from endospermic species with very small embryos (`r MSminEmbryo`) to non-endospermic seeds that store nutrients in the cotyledons (`r MSmaxEmbryo`). The median value was `r MSmedianEmbryo`.
+Most species in the dataset were reported as having dormant seeds (**Fig. 1a**), but the frequency of the dormancy classes did not differ between generalist and strict alpine species. Among those species with dormant seeds, physiological dormancy was the most common dormancy class, followed by morphophysiological and then physical. Both strict alpine and generalist species had a similar range of values for seed mass (**Fig. 1b**) and embryo:seed ratio (**Fig. 1c**). The values of seed mass ranged from `r MSminMass` mg (*`r MSminMassSpp`*) to `r MSmaxMass` mg (*`r MSmaxMassSpp`*), with a median value of `r MSmedianMass` mg. Embryo:seed ratio encompassed the full range of potential values, from endospermic species with very small embryos (`r MSminEmbryo`) to non-endospermic seeds that store nutrients in the cotyledons (`r MSmaxEmbryo`). The median value was `r MSmedianEmbryo`.
+
+```{r fig1, message = FALSE, echo = FALSE, warning = FALSE, fig.pos = "H", fig.cap = "**Figure 1** *Seed dormancy classes, seed mass and embryo to seed ratio in the subsets of strict alpine and generalist species analysed in this study. Strict species are restricted to the alpine belt, generalist species can be found in the alpine belt but also below the treeline. Seed dormancy classes are abbreviated as follows: MD (morphological), MPD (morphophysiological), ND (non-dormant), PD (physiological), PY (physical).*", fig.align = "center", fig.width=7, fig.height=3}
+cowplot::ggdraw(fig1)
+```
 
 The total number of seeds used in the experiments was `r MSseeds`. Germination temperatures (i.e. the weighted average of the day and night temperatures, weighted by the duration of each phase) ranged from `r MSminT` to `r MSmaxT` ºC, with `r MSaltY` records of constant temperatures (i.e. experiments that used the same temperature during all their duration) and `r MSaltN` of alternating temperatures (i.e. experiments where different temperatures were applied during the day and the night, in diurnal cycles). Seeds were exposed to light during some part of the diurnal cycle in `r MSlightY` records and kept in total darkness in `r MSlightN` records. The experiments were performed with untreated seeds in `r MSstratN` records, and of the rest, the majority (`r MSstratCold`) went through cold stratification (< 5 ºC, in darkness). Scarification (i.e. an abrasion of the seed coat to allow water imbibition) was performed in `r MSscarY` records, and GA~3~ (a plant hormone that promotes embryo growth and stimulates germination) in `r MSga3` records.
 
 ## Dormancy breaking treatments
 
-In general, stratification significantly increased the final germination proportion (Fig. \@ref(fig:fig2)a), as shown by a credible interval not overlapping zero. This positive effect occurred in both generalist and strict alpine species, although the effect size was larger in the strict alpine group. Stratification slightly reduced the mean germination time (Fig. \@ref(fig:fig2)b), which was evident in the generalist species, but not in the strict alpine species. Further, stratification reduced the germination uncertainty index as a general response (Fig. \@ref(fig:fig2)c), and slightly more so in generalist species. Seed mass did not interact with stratification, but species with larger embryos had a smaller response to stratification in their final germination proportion and reduced less markedly their mean germination time and germination uncertainty index. GA~3~ had similar effects to stratification, with the main difference being that seed mass affected the response to GA~3~, whereas it did not interact with the response to stratification.
+In general, stratification significantly increased the final germination proportion (**Fig. 2a**), as shown by a credible interval not overlapping zero. This positive effect occurred in both generalist and strict alpine species, although the effect size was larger in the strict alpine group. Stratification slightly reduced the mean germination time (**Fig. 2b**), which was evident in the generalist species, but not in the strict alpine species. Further, stratification reduced the germination uncertainty index as a general response (**Fig. 2c**), and slightly more so in generalist species. Seed mass did not interact with stratification, but species with larger embryos had a smaller response to stratification in their final germination proportion and reduced less markedly their mean germination time and germination uncertainty index. GA~3~ had similar effects to stratification, with the main difference being that seed mass affected the response to GA~3~, whereas it did not interact with the response to stratification.
 
-Scarification promoted the germination proportion (Fig. \@ref(fig:fig2)a) and reduced the mean germination time (Fig. \@ref(fig:fig2)b), but it did not affect the germination uncertainty index (Fig. \@ref(fig:fig2)c). Strict alpine species were slightly more responsive to scarification than generalist species. Heavier seeds were more responsive to scarification, while seeds with larger embryos responded less.
+Scarification promoted the germination proportion (**Fig. 2a**) and reduced the mean germination time (**Fig. 2b**), but it did not affect the germination uncertainty index (**Fig. 2c**). Strict alpine species were slightly more responsive to scarification than generalist species. Heavier seeds were more responsive to scarification, while seeds with larger embryos responded less.
+
+```{r fig2, message = FALSE, echo = FALSE, warning = FALSE, fig.pos = "H", fig.cap = "**Figure 2** *Effect of the germination environment on germination, according to the MCMC meta-analysis of primary data. The dots indicate the posterior mean of the effect size, and the brackets its 95 % credible interval. The line of zero effect is shown. When the credible intervals overlap with the zero-effect line, the effect is not significant. Some effects that overlapped with zero (i.e. had no effect) and whose credible intervals were excessively wide are not shown for clarity's sake. The figure shows first the main effect, then the effects for the strict alpine and generalist groups, and then the interaction with seed mass and embryo:seed. A negative interaction (e.g. seed mass and light, in the case of the germination proportion) indicates that, as the interacting factor increases (e.g. seed mass) the response to the germination cue (e.g. light) decreases, in comparison with the main effect.*", fig.align = "center", fig.width=7, fig.height=5.5}
+cowplot::ggdraw(fig2)
+```
 
 ## Germination temperature
 
-Temperature had a positive significant effect on the final germination proportion (Fig. \@ref(fig:fig2)a), indicating a preference for warmer temperatures. Warmer temperatures also significantly decreased mean germination time (Fig. \@ref(fig:fig2)b) and the germination uncertainty index (Fig. \@ref(fig:fig2)c). The effect of warmer temperatures was slightly higher in strict alpine than in generalist species, although the credible intervals of the two groups of species do overlap. Seed mass and embryo:seed had a negative interaction with temperature, reducing the response to temperature. In other words, heavier and less endospermic seeds had a smaller increase in germination proportion and a smaller decrease in mean germination time when germinating in warmer temperatures. The germination uncertainty index did not show an interaction with seed mass or embryo:seed.
+Temperature had a positive significant effect on the final germination proportion (**Fig. 2a**), indicating a preference for warmer temperatures. Warmer temperatures also significantly decreased mean germination time (**Fig. 2b**) and the germination uncertainty index (**Fig. 2c**). The effect of warmer temperatures was slightly higher in strict alpine than in generalist species, although the credible intervals of the two groups of species do overlap. Seed mass and embryo:seed had a negative interaction with temperature, reducing the response to temperature. In other words, heavier and less endospermic seeds had a smaller increase in germination proportion and a smaller decrease in mean germination time when germinating in warmer temperatures. The germination uncertainty index did not show an interaction with seed mass or embryo:seed.
 
 ## Alternating temperatures
 
-Alternating temperatures had a positive effect on the final germination proportion (Fig. \@ref(fig:fig2)a), but not on the mean germination time (Fig. \@ref(fig:fig2)b) or the germination uncertainty index (Fig. \@ref(fig:fig2)c). The positive effect on the germination proportion was slightly higher in the generalist species. As in the case of the mean germination temperature, higher seed mass and embryo:seed values reduced the positive effect of alternating temperatures on the final germination proportion. Alternating temperatures resulted in faster germination (reduced the mean germination time) for seeds with low values of embryo:seed.
+Alternating temperatures had a positive effect on the final germination proportion (**Fig. 2a**), but not on the mean germination time (**Fig. 2b**) or the germination uncertainty index (**Fig. 2c**). The positive effect on the germination proportion was slightly higher in the generalist species. As in the case of the mean germination temperature, higher seed mass and embryo:seed values reduced the positive effect of alternating temperatures on the final germination proportion. Alternating temperatures resulted in faster germination (reduced the mean germination time) for seeds with low values of embryo:seed.
 
 ## Light
 
-Light increased the final germination proportion (Fig. \@ref(fig:fig2)a), with no differences between strict alpine and generalist species. It did not affect the mean germination time (Fig. \@ref(fig:fig2)b), but it did result in more variable germination (increased the germination uncertainty index) of generalist species (Fig. \@ref(fig:fig2)c). Heavier and less endospermic seeds responded less to light.
+Light increased the final germination proportion (**Fig. 2a**), with no differences between strict alpine and generalist species. It did not affect the mean germination time (**Fig. 2b**), but it did result in more variable germination (increased the germination uncertainty index) of generalist species (**Fig. 2c**). Heavier and less endospermic seeds responded less to light.
 
 ## Random effects and phylogenetic signal
 
-Random factors had a significant effect in the MCMCglmm models (Fig. \@ref(fig:fig3)). The final germination proportion and the mean germination time were affected more strongly, on average, by the seed lot and the species identity, suggesting that these traits are subject to intra- and interspecific variability, respectively. Alpine region and lab had a lower average effect and more variability as shown by their credible intervals. The germination uncertainty index showed the opposite pattern, with a stronger effect of lab and alpine region. The phylogenetic signal in the response to all germination parameters (Fig. \@ref(fig:fig4)) was significantly positive for the final germination proportion and the mean germination time. For the germination uncertainty index, it overlapped with zero, indicating a weak effect of phylogeny. The results for the germination uncertainty index indicate that it might have been more sensitive to the frequency of germination scoring, which was different in different labs. Detailed values of phylogenetic signal for all model interactions are available in the results folder of the GitHub repository (see Data Availability Statement).
+Random factors had a significant effect in the MCMCglmm models (**Fig. 3**). The final germination proportion and the mean germination time were affected more strongly, on average, by the seed lot and the species identity, suggesting that these traits are subject to intra- and interspecific variability, respectively. Alpine region and lab had a lower average effect and more variability as shown by their credible intervals. The germination uncertainty index showed the opposite pattern, with a stronger effect of lab and alpine region. The phylogenetic signal in the response to all germination parameters (**Fig. 4**) was significantly positive for the final germination proportion and the mean germination time. For the germination uncertainty index, it overlapped with zero, indicating a weak effect of phylogeny. The results for the germination uncertainty index indicate that it might have been more sensitive to the frequency of germination scoring, which was different in different labs. Detailed values of phylogenetic signal for all model interactions are available in the results folder of the GitHub repository (see Data Availability Statement).
+
+```{r fig3, message = FALSE, echo = FALSE, warning = FALSE, fig.pos = "H", fig.cap = "**Figure 3** *Effect of the random factors on germination, according to the MCMC meta-analysis of primary data. The dots indicate the posterior mean of the effect size, and the brackets its 95 % credible interval. The line of zero effect is shown.*", fig.align = "center", fig.width=7, fig.height=5}
+cowplot::ggdraw(fig3)
+```
+
+```{r fig4, message = FALSE, echo = FALSE, warning = FALSE, fig.pos = "H", fig.cap = "**Figure 4** *Phylogenetic signal in the response to the germination environment. When lambda = 0, related taxa are no more similar than expected by chance; when lambda = 1, the trait is evolving following a constant variance random walk or Brownian motion model. FGP = final germination proportion. MGT = mean germination time. UNC = germination uncertainty index.*", fig.align = "center", fig.width=7, fig.height=1.5}
+cowplot::ggdraw(fig4)
+```
 
 ## FAMD ordination
 
-The first FAMD axis explained `r round(pcaAlpine$eig[1, 2], 0)`% of the variation (Fig. \@ref(fig:fig5)). The quantitative variables with the largest contribution to this first axis were germination temperature, germination uncertainty, GA~3~ and alternating temperatures. Among the qualitative factors, the strict alpine / generalist categories contributed to axis 1. In summary, the horizontal axis separated (i, left) generalist species with a positive response to alternating temperatures and more germination uncertainty from (ii, right) strict alpine species with a preference for warmer temperatures and a positive response to GA~3~. Axis 2 explained `r round(pcaAlpine$eig[2, 2], 0)`% of the variability. The main contributing variables were embryo:seed, mean germination time, seed mass and scarification; and the main categorical factors were physical dormancy and morphophysiological dormancy. This axis separated (iii, bottom) morphophysiologically dormant species with longer mean time to germination from (iv, top) physically dormant species that responded to scarification and had heavier, less endospermic seeds.
+The first FAMD axis explained `r round(pcaAlpine$eig[1, 2], 0)`% of the variation (**Fig. 5**). The quantitative variables with the largest contribution to this first axis were germination temperature, germination uncertainty, GA~3~ and alternating temperatures. Among the qualitative factors, the strict alpine / generalist categories contributed to axis 1. In summary, the horizontal axis separated (i, left) generalist species with a positive response to alternating temperatures and more germination uncertainty from (ii, right) strict alpine species with a preference for warmer temperatures and a positive response to GA~3~. Axis 2 explained `r round(pcaAlpine$eig[2, 2], 0)`% of the variability. The main contributing variables were embryo:seed, mean germination time, seed mass and scarification; and the main categorical factors were physical dormancy and morphophysiological dormancy. This axis separated (iii, bottom) morphophysiologically dormant species with longer mean time to germination from (iv, top) physically dormant species that responded to scarification and had heavier, less endospermic seeds.
+
+```{r fig5, message = FALSE, echo = FALSE, warning = FALSE, fig.pos = "H", fig.cap = "**Figure 5** *FAMD ordination of the alpine seed germination spectrum. Each square is a species. Labels indicate the contribution of the variables to the axes. Panels A and B correspond to quantitative traits; panel C and D to qualitative traits. MGT = mean germination time. UNC = germination uncertainty index. Seed dormancy classes are abbreviated as follows: MD (morphological), MPD (morphophysiological), ND (non-dormant), PD (physiological), PY (physical). Strict species are restricted to the alpine belt, generalist species can be found in the alpine belt but also below the treeline.*", fig.align = "center", fig.width=7, fig.height=7}
+cowplot::ggdraw(fig5)
+```
 
 # Discussion
 
@@ -163,45 +182,17 @@ This study demonstrates how alpine plants from different regions of the world re
 
 # Acknowledgements
 
-EFP received financial support from the Government of Asturias and the FP7 – Marie Curie - COFUND programme of the European Commission (Grant ‘Clarín’ ACB17-19). BJA and EFP were funded by the Spanish Research Agency (PID2019-108636GA/ AEI/ 10.13039/501100011033). EM was supported by the Future Leaders Fellowship - Diversity and Livelihoods, of the Royal Botanic Gardens, Kew. This research was supported by NGSeeds, the Next Generation Seed Ecology, Evolution and Data Science virtual working group.
+EFP received financial support from the Government of Asturias and the FP7 – Marie Curie - COFUND programme of the European Commission (Grant ‘Clarín’ ACB17-19). BJA and EFP were funded by the Spanish Research Agency (PID2019-108636GA/ AEI/ 10.13039/501100011033). EM was supported by the Future Leaders Fellowship - Diversity and Livelihoods, of the Royal Botanic Gardens, Kew. Authors thank Amelia Martyn Yenson for help in experimental work. This research was supported by NGSeeds, the Next Generation Seed Ecology, Evolution and Data Science virtual working group.
 
 # Author Contribution
 
-BJA conceived the original idea. EFP, AC, AM, LC, SR, SV, AnS, LG, VB, FV, HB, KS, PP contributed data. EFP assembled and managed the database. AC and EFP analysed data. EFP led manuscript writing, with contributions from BJA, AC, AM, LC, SR, SV, AnS, LG, VB, FV, EM, ArS. All authors revised the manuscript and approved the final version.
+BJA conceived the original idea. EFP, AC, AM, LC, SR, SV, AnS, LG, VB, FV, HB, KS, PP, KL, AN contributed data. EFP assembled and managed the database. AC and EFP analysed data. EFP led manuscript writing, with contributions from BJA, AC, AM, LC, SR, SV, AnS, LG, VB, FV, EM, ArS. All authors revised the manuscript and approved the final version.
 
 # Data Availability Statement
 
-The original data, R code for the analysis and creation of the manuscript can be accessed at the GitHub repository https://github.com/efernandezpascual/alpineseeds. Upon publication, a version of record of the repository will be deposited in Zenodo.
+The original data, R code for the analysis and creation of the manuscript can be accessed at the GitHub repository https://github.com/efernandezpascual/alpineseeds. A version of record of the repository can be found at https://doi.org/10.5281/zenodo.4270344.
 
 # References
 
 ::: {#refs}
 :::
-
-# Figures
-
-```{r fig1, message = FALSE, echo = FALSE, warning = FALSE, fig.pos = "H", fig.cap = "Seed dormancy classes, seed mass and embryo to seed ratio in the subsets of strict alpine and generalist species analysed in this study. Strict species are restricted to the alpine belt, generalist species can be found in the alpine belt but also below the treeline. Seed dormancy classes are abbreviated as follows: MD (morphological), MPD (morphophysiological), ND (non-dormant), PD (physiological), PY (physical).", fig.align = "center", fig.width=7, fig.height=3}
-cowplot::ggdraw(fig1)
-```
-
-```{r fig2, message = FALSE, echo = FALSE, warning = FALSE, fig.pos = "H", fig.cap = "Effect of the germination environment on germination, according to the MCMC meta-analysis of primary data. The dots indicate the posterior mean of the effect size, and the brackets its 95 % credible interval. The line of zero effect is shown. When the credible intervals overlap with the zero-effect line, the effect is not significant. Some effects that overlapped with zero (i.e. had no effect) and whose credible intervals were excessively wide are not shown for clarity's sake. The figure shows first the main effect, then the effects for the strict alpine and generalist groups, and then the interaction with seed mass and embryo:seed. A negative interaction (e.g. seed mass and light, in the case of the germination proportion) indicates that, as the interacting factor increases (e.g. seed mass) the response to the germination cue (e.g. light) decreases, in comparison with the main effect.", fig.align = "center", fig.width=7, fig.height=5.5}
-cowplot::ggdraw(fig2)
-```
-
-```{r fig3, message = FALSE, echo = FALSE, warning = FALSE, fig.pos = "H", fig.cap = "Effect of the random factors on germination, according to the MCMC meta-analysis of primary data. The dots indicate the posterior mean of the effect size, and the brackets its 95 % credible interval. The line of zero effect is shown.", fig.align = "center", fig.width=7, fig.height=5}
-cowplot::ggdraw(fig3)
-```
-
-```{r fig4, message = FALSE, echo = FALSE, warning = FALSE, fig.pos = "H", fig.cap = "Phylogenetic signal in the response to the germination environment. When lambda = 0, related taxa are no more similar than expected by chance; when lambda = 1, the trait is evolving following a constant variance random walk or Brownian motion model. FGP = final germination proportion. MGT = mean germination time. UNC = germination uncertainty index.", fig.align = "center", fig.width=7, fig.height=1.5}
-cowplot::ggdraw(fig4)
-```
-
-```{r fig5, message = FALSE, echo = FALSE, warning = FALSE, fig.pos = "H", fig.cap = "FAMD ordination of the alpine seed germination spectrum. Each square is a species. Labels indicate the contribution of the variables to the axes. Panels A and B correspond to quantitative traits; panel C and D to qualitative traits. MGT = mean germination time. UNC = germination uncertainty index. Seed dormancy classes are abbreviated as follows: MD (morphological), MPD (morphophysiological), ND (non-dormant), PD (physiological), PY (physical). Strict species are restricted to the alpine belt, generalist species can be found in the alpine belt but also below the treeline.", fig.align = "center", fig.width=7, fig.height=7}
-cowplot::ggdraw(fig5)
-```
-
-# Tables
-
-```{r table1, echo = FALSE}
-flextable(Table1) %>% width(width = c(3.3, 1, 0.8, 0.7, 0.6)) %>% fontsize(size = 8) %>% padding(padding = 0) %>% set_caption("Table 1 Description of the datasets contributing primary data to this meta-analysis. The number of germination records, number of species and number of strict alpine species are given.")
-```

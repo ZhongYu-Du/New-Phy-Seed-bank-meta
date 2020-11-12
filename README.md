@@ -1,6 +1,8 @@
 README.md
 ================
 
+[![DOI](https://zenodo.org/badge/254951190.svg)](https://zenodo.org/badge/latestdoi/254951190)
+
 ![Picos de Europa National Park, Cantabrian Mountains,
 Spain](Picos%20de%20Europa.jpg)
 
@@ -25,7 +27,9 @@ The following materials are available in the folders of this repository:
     [traits](https://github.com/efernandezpascual/alpineseeds/blob/master/data/traits.csv)
     and the phylogenetic
     [tree](https://github.com/efernandezpascual/alpineseeds/blob/master/data/ALPINE.tree.pdf).
-  - `doc` Files to create the manuscript using `Rmarkdown`.
+  - `doc` Files to create the
+    [manuscript](https://github.com/efernandezpascual/alpineseeds/blob/master/doc/manuscript.md)
+    using `Rmarkdown`.
   - `results` Output of the `R` scripts, including [MCMCglmm
     analysis](https://github.com/efernandezpascual/alpineseeds/tree/master/results/MCMCglmm)
     outputs.

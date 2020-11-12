@@ -7,6 +7,8 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+[![DOI](https://zenodo.org/badge/254951190.svg)](https://zenodo.org/badge/latestdoi/254951190)
+
 ![Picos de Europa National Park, Cantabrian Mountains, Spain](Picos de Europa.jpg)
 
 # The seed germination spectrum of alpine plants: a global meta-analysis
@@ -20,7 +22,7 @@ This repository is organised following the advice of [Wilson et al. 2017](https:
 The following materials are available in the folders of this repository:
 
 * `data` Primary data, including the [germination](https://github.com/efernandezpascual/alpineseeds/blob/master/data/germination.csv) dataset, the species [traits](https://github.com/efernandezpascual/alpineseeds/blob/master/data/traits.csv) and the phylogenetic [tree](https://github.com/efernandezpascual/alpineseeds/blob/master/data/ALPINE.tree.pdf).
-* `doc` Files to create the manuscript using `Rmarkdown`.
+* `doc` Files to create the [manuscript](https://github.com/efernandezpascual/alpineseeds/blob/master/doc/manuscript.md) using `Rmarkdown`.
 * `results` Output of the `R` scripts, including [MCMCglmm analysis](https://github.com/efernandezpascual/alpineseeds/tree/master/results/MCMCglmm) outputs.
 * `src` Scripts in `R` language used to process data and perform the analyses of the manuscript.
 
