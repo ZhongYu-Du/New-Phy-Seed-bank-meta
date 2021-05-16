@@ -8,7 +8,7 @@ Spain](Picos%20de%20Europa.jpg)
 
 # The seed germination spectrum of alpine plants: a global meta-analysis
 
-This repository stores all information related to the manuscript *The
+This repository stores all information related to the publication *The
 seed germination spectrum of alpine plants: a global meta-analysis*,
 including raw data, `R` scripts to process and analyse data, and
 `Rmarkdown` files to create the manuscript.
@@ -43,5 +43,6 @@ Please cite this repository as:
 > Fernández-Pascual E, Carta A, Mondoni A, Cavieres L, Rosbakh S, Venn
 > S, Satyanti A, Guja L, Briceño VF, Vandelook F, Mattana E, Saatkamp A,
 > Bu H, Sommerville K, Poschlod P, Liu K, Nicotra A, Jiménez-Alfaro B
-> (2020) The seed germination spectrum of alpine plants: a global
-> meta-analysis. *New Phytologist*.
+> (2020) [The seed germination spectrum of alpine plants: a global
+> meta-analysis.](https://doi.org/10.1111/nph.17086) *New Phytologist*
+> 229, 3573-3586.
