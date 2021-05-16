@@ -1,7 +1,7 @@
 README.md
 ================
 
-[![DOI](https://zenodo.org/badge/254951190.svg)](https://zenodo.org/badge/latestdoi/254951190)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4765602.svg)](https://doi.org/10.5281/zenodo.4270343)
 
 ![Picos de Europa National Park, Cantabrian Mountains,
 Spain](Picos%20de%20Europa.jpg)
