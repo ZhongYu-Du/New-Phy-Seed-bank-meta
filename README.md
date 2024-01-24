@@ -6,7 +6,9 @@ README.md
 ![Picos de Europa National Park, Cantabrian Mountains,
 Spain](Picos%20de%20Europa.jpg)
 
-# The seed germination spectrum of alpine plants: a global meta-analysishttps://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.17086
+# The seed germination spectrum of alpine plants: a global meta-analysis
+
+https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.17086
 
 This repository stores all information related to the publication *The
 seed germination spectrum of alpine plants: a global meta-analysis*,
